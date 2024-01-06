@@ -2,7 +2,7 @@
     <!-- Brand Logo -->
     <div class="brand-link">
       <img src="dist/img/lamsel.png" alt="AdminLTE Logo" class="brand-image elevation-3" style="opacity: .8">
-      <span class="brand-text font-weight-light">Desa Way Kalam</span>
+      <span class="brand-text font-weight-light">Wisata Desa Way Kalam</span>
     </div>
     <!-- Sidebar -->
     <div class="sidebar">
