@@ -37,8 +37,16 @@
           echo menu('lokasi.php', 'Lokasi', 'fas fa-map-marker');
           echo menu('asset.php', 'Asset', 'fas fa-th-list');
           ?>
+          <script>
+            function log() {
+              var jawaban = confirm("Apakah Anda yakin?");
+              if (jawaban) {
+                window.location.href = "logout.php";
+              }
+            }
+          </script>
           <li class="nav-item">
-            <a href="logout.php" class="nav-link">
+            <a onclick="log()" class="nav-link">
               <i class="nav-icon fas fa-power-off"></i>
               <p>
                 Logout      
