@@ -27,7 +27,7 @@
             <form class="card-body cardbody-color p-lg-5" action="login.php" method="POST">
               <!-- Pemetaan pada gambar -->
               <div class="text-center">
-                <img src="dist/img/lamsel.png" class="img-fluid profile-image-pic my-5" width="30%" height="30%" alt="Logo" />
+                <img src="dist/img/logo sementara.png" class="img-fluid profile-image-pic my-5" width="30%" height="30%" alt="Logo" />
               </div>
               <!-- Pemteaan pada kolom email, password dan tombol submit -->
               <div class="mb-3">
