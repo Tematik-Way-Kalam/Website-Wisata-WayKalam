@@ -51,7 +51,7 @@
                         <h1 id="judul">.......................</h1>
                     </div>
                     <div class="carousel-item" data-bs-interval="2000">
-                        <img src="bg/gambar5.png" class="d-block w-100" alt="bg"5>
+                        <img src="bg/gambar5.jpg" class="d-block w-100" alt="bg5">
                         <h1 id="judul">.......................</h1>
                     </div>
                 </div>
