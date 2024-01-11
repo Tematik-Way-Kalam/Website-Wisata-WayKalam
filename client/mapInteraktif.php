@@ -77,67 +77,129 @@
                 </div>
             </div>
 
-            <div class="mt-5">
+            <div class="mt-4">
                 <h2 class="">Wisata</h2>
-                <div class="d-flex gap-3">
-                    <div class="card" style="width: 12rem;">
-                        <div class="w-100 h-100 overflow-hidden">
-                            <img class="card-img-top h-100" src="./bg/gambar1.jpeg" alt="Card image cap">
+                <div class="container-fluid py-2" style="overflow: auto; overflow-x:auto">
+                    <div class="d-flex flex-row flex-nowrap gap-3">
+                        <div class="card" style="min-width: 12rem;">
+                            <div class="w-100 h-100 overflow-hidden">
+                                <img class="card-img-top h-100" src="./bg/gambar1.jpeg" alt="Card image cap">
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">Air Terjun Indukan</p>
+                            </div>
                         </div>
-                        <div class="card-body">
-                            <p class="card-text">Air Terjun Indukan</p>
+                        <div class="card" style="min-width: 12rem;">
+                            <div class="w-100 h-100 overflow-hidden">
+                                <img class="card-img-top h-100" src="./bg/gambar2.jpeg" alt="Card image cap">
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">Air Terjun Indukan</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="card" style="width: 12rem;">
-                        <div class="w-100 h-100 overflow-hidden">
-                            <img class="card-img-top h-100" src="./bg/gambar2.jpeg" alt="Card image cap">
-                        </div>
-                        <div class="card-body">
-                            <p class="card-text">Air Terjun Indukan</p>
+                        <div class="card" style="min-width: 12rem;">
+                            <div class="w-100 h-100 overflow-hidden">
+                                <img class="card-img-top h-100" src="./bg/gambar1.jpeg" alt="Card image cap">
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">Air Terjun Indukan</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="mt-5">
+            <div class="mt-4">
                 <h2 class="">UMKM</h2>
-                <div class="d-flex gap-3">
-                    <div class="card" style="width: 12rem;">
-                        <div class="w-100 h-100 overflow-hidden">
-                            <img class="card-img-top h-100" src="./bg/gambar1.jpeg" alt="Card image cap">
+                <div class="container-fluid py-2" style="overflow: auto; overflow-x:auto">
+                    <div class="d-flex flex-row flex-nowrap gap-3">
+                        <div class="card" style="min-width: 12rem;">
+                            <div class="w-100 h-100 overflow-hidden">
+                                <img class="card-img-top h-100" src="./bg/gambar1.jpeg" alt="Card image cap">
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">Air Terjun Indukan</p>
+                            </div>
                         </div>
-                        <div class="card-body">
-                            <p class="card-text">Air Terjun Indukan</p>
+                        <div class="card" style="min-width: 12rem;">
+                            <div class="w-100 h-100 overflow-hidden">
+                                <img class="card-img-top h-100" src="./bg/gambar2.jpeg" alt="Card image cap">
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">Air Terjun Indukan</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="card" style="width: 12rem;">
-                        <div class="w-100 h-100 overflow-hidden">
-                            <img class="card-img-top h-100" src="./bg/gambar2.jpeg" alt="Card image cap">
-                        </div>
-                        <div class="card-body">
-                            <p class="card-text">Air Terjun Indukan</p>
+                        <div class="card" style="min-width: 12rem;">
+                            <div class="w-100 h-100 overflow-hidden">
+                                <img class="card-img-top h-100" src="./bg/gambar1.jpeg" alt="Card image cap">
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">Air Terjun Indukan</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="mt-5">
+            <div class="mt-4">
                 <h2 class="">Homestay</h2>
-                <div class="d-flex gap-3">
-                    <div class="card" style="width: 12rem;">
-                        <div class="w-100 h-100 overflow-hidden">
-                            <img class="card-img-top h-100" src="./bg/gambar1.jpeg" alt="Card image cap">
+                <div class="container-fluid py-2" style="overflow: auto; overflow-x:auto">
+                    <div class="d-flex flex-row flex-nowrap gap-3">
+                        <div class="card" style="min-width: 12rem;">
+                            <div class="w-100 h-100 overflow-hidden">
+                                <img class="card-img-top h-100" src="./bg/gambar1.jpeg" alt="Card image cap">
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">Air Terjun Indukan</p>
+                            </div>
                         </div>
-                        <div class="card-body">
-                            <p class="card-text">Air Terjun Indukan</p>
+                        <div class="card" style="min-width: 12rem;">
+                            <div class="w-100 h-100 overflow-hidden">
+                                <img class="card-img-top h-100" src="./bg/gambar2.jpeg" alt="Card image cap">
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">Air Terjun Indukan</p>
+                            </div>
+                        </div>
+                        <div class="card" style="min-width: 12rem;">
+                            <div class="w-100 h-100 overflow-hidden">
+                                <img class="card-img-top h-100" src="./bg/gambar1.jpeg" alt="Card image cap">
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">Air Terjun Indukan</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="card" style="width: 12rem;">
-                        <div class="w-100 h-100 overflow-hidden">
-                            <img class="card-img-top h-100" src="./bg/gambar2.jpeg" alt="Card image cap">
+                </div>
+            </div>
+
+            <div class="mt-4">
+                <h2 class="">Warung/Toko</h2>
+                <div class="container-fluid py-2" style="overflow: auto; overflow-x:auto">
+                    <div class="d-flex flex-row flex-nowrap gap-3">
+                        <div class="card" style="min-width: 12rem;">
+                            <div class="w-100 h-100 overflow-hidden">
+                                <img class="card-img-top h-100" src="./bg/gambar1.jpeg" alt="Card image cap">
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">Air Terjun Indukan</p>
+                            </div>
                         </div>
-                        <div class="card-body">
-                            <p class="card-text">Air Terjun Indukan</p>
+                        <div class="card" style="min-width: 12rem;">
+                            <div class="w-100 h-100 overflow-hidden">
+                                <img class="card-img-top h-100" src="./bg/gambar2.jpeg" alt="Card image cap">
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">Air Terjun Indukan</p>
+                            </div>
+                        </div>
+                        <div class="card" style="min-width: 12rem;">
+                            <div class="w-100 h-100 overflow-hidden">
+                                <img class="card-img-top h-100" src="./bg/gambar1.jpeg" alt="Card image cap">
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">Air Terjun Indukan</p>
+                            </div>
                         </div>
                     </div>
                 </div>

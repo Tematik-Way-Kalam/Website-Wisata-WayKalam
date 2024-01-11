@@ -138,7 +138,7 @@
                 <p> TEMUKAN LOKASI YANG KAMU <br> MAU DENGAN MUDAH</p>
             </div>
             <div class="button-map">
-                <a type="button" class = "nav-link" href="#section5">Map Interaktif <i class="fa-solid fa-map" aria-hidden="true"></i>
+                <a type="button" class = "nav-link" href="./mapInteraktif.php">Map Interaktif <i class="fa-solid fa-map" aria-hidden="true"></i>
                 </a>
             </div>
         </div>  
