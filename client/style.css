@@ -12,6 +12,10 @@ header {
     z-index: 1000;
 }
 
+.carousel-indicators {
+    float: left;
+}
+
 #latar {
     position: absolute;
     top: 0;
@@ -59,6 +63,15 @@ header {
     margin: 0;
 }
 
+#section1{
+    height: 700px;
+    padding-bottom: 20px;
+}
+
+.table1 td{
+    padding-bottom: 20px;
+}
+
 .td1 {
     width: 30%;
     padding-left: 50px;
@@ -66,13 +79,52 @@ header {
     justify-content: center;
 }
 
-.td2{
-    width: 70%;
-    margin: 10px;
+.td2 p{
+    width: 90%;
     text-align: justify;
-    padding-right: 50px;
+    padding-left: 20px;
 }
 
 .td2 a{
-    padding-left: 0;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    text-align: justify;
+    margin-left: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: aqua;
+}
+
+.table2{
+    width: 100%;
+    position: absolute;
+    background-color: #fff;
+}
+
+.table2 td{
+    padding-bottom: 20px;
+}
+
+.td3 {
+    width: 62%;
+    padding-left: 70px;
+    padding-top: 20px;
+    justify-content: center;
+}
+
+.td3 video {
+    float:right;
+    margin-right: 30px;
+    border-radius: 20px;
+}
+
+.td4{
+    padding-top: 20px;
+}
+
+.td4 img{
+    margin-left: 10px;
+    border-radius: 20px;
 }
