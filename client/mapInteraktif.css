@@ -2,8 +2,17 @@ body {
   background: #eee;
 }
 
+.navbar-nav {
+  text-align: right;
+}
+.navbar .navbar-nav .nav-link {
+  padding-right: 1em;
+  color: #000;
+  font-size: 1.1em;
+}
+
 #side_nav {
-  background: #000;
+  background: #ace5ff;
   min-width: 250px;
   max-width: 250px;
   transition: all 0.3s;
