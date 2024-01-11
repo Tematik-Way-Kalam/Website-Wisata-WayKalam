@@ -52,15 +52,102 @@
                     </button>
                 </div>
             </div>
+            <div class="bg-white p-3 mt-3 rounded-2">
+                <div class="row mt-3">
+                    <div class="col-sm p-2">
+                        <a href="" class="text-decoration-none d-flex justify-content-center flex-column align-items-center gap-3 text-black"><i class="fa-solid fa-border-all fa-2xl" style="color: rgba(19,39,88,1);"></i>Semua</a>
+                    </div>
+                    <div class="col-sm p-2">
+                        <a href="" class="text-decoration-none d-flex justify-content-center flex-column align-items-center gap-3 text-black"><i class="fa-solid fa-plane-departure fa-2xl" style="color: rgba(19,39,88,1);"></i>Wisata</a>
+                    </div>
+                    <div class="col-sm p-2">
+                        <a href="" class="text-decoration-none d-flex justify-content-center flex-column align-items-center gap-3 text-black"><i class="fa-solid fa-store fa-2xl" style="color: rgba(19,39,88,1);"></i>UMKM</a>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-sm p-2">
+                        <a href="" class="text-decoration-none d-flex justify-content-center flex-column align-items-center gap-3 text-black"><i class="fa-solid fa-bed fa-2xl" style="color: rgba(19,39,88,1);"></i>Homestay</a>
+                    </div>
+                    <div class="col-sm p-2">
+                        <a href="" class="text-decoration-none d-flex justify-content-center flex-column align-items-center gap-3 text-black"><i class="fa-solid fa-wheat-awn fa-2xl" style="color: rgba(19,39,88,1);"></i>Peternakan</a>
+                    </div>
+                    <div class="col-sm p-2">
+                        <a href="" class="text-decoration-none d-flex justify-content-center flex-column align-items-center gap-3 text-black"><i class="fa-solid fa-shop fa-2xl" style="color: rgba(19,39,88,1);"></i>Warung</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-5">
+                <h2 class="">Wisata</h2>
+                <div class="d-flex gap-3">
+                    <div class="card" style="width: 12rem;">
+                        <div class="w-100 h-100 overflow-hidden">
+                            <img class="card-img-top h-100" src="./bg/gambar1.jpeg" alt="Card image cap">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Air Terjun Indukan</p>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 12rem;">
+                        <div class="w-100 h-100 overflow-hidden">
+                            <img class="card-img-top h-100" src="./bg/gambar2.jpeg" alt="Card image cap">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Air Terjun Indukan</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-5">
+                <h2 class="">UMKM</h2>
+                <div class="d-flex gap-3">
+                    <div class="card" style="width: 12rem;">
+                        <div class="w-100 h-100 overflow-hidden">
+                            <img class="card-img-top h-100" src="./bg/gambar1.jpeg" alt="Card image cap">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Air Terjun Indukan</p>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 12rem;">
+                        <div class="w-100 h-100 overflow-hidden">
+                            <img class="card-img-top h-100" src="./bg/gambar2.jpeg" alt="Card image cap">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Air Terjun Indukan</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-5">
+                <h2 class="">Homestay</h2>
+                <div class="d-flex gap-3">
+                    <div class="card" style="width: 12rem;">
+                        <div class="w-100 h-100 overflow-hidden">
+                            <img class="card-img-top h-100" src="./bg/gambar1.jpeg" alt="Card image cap">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Air Terjun Indukan</p>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 12rem;">
+                        <div class="w-100 h-100 overflow-hidden">
+                            <img class="card-img-top h-100" src="./bg/gambar2.jpeg" alt="Card image cap">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Air Terjun Indukan</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <div class="content">
 
-            <div class="dashboard-content px-3 pt-4">
-                <h2 class="fs-5"> Dashboard</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, totam? Sequi alias eveniet ut quas
-                    ullam delectus et quasi incidunt rem deserunt asperiores reiciendis assumenda doloremque provident,
-                    dolores aspernatur neque.</p>
+            <div class="w-100">
+                <img src="./bg/map.png" class="img-fluid vw-100 overflow-x-hidden" alt="...">
             </div>
         </div>
     </div>
