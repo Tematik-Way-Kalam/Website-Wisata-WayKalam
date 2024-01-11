@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="./bg/Logo.svg" type="image/x-icon">
+    <link rel="icon" href="./bg/favicon.svg" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
 
     <!-- BOOTSRAP -->
