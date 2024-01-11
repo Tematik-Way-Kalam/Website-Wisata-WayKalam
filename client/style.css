@@ -1,0 +1,78 @@
+header {
+    position: relative;
+    height: 430px; 
+}
+
+.d-flex {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: transparent !important;
+    padding: 10px;
+    z-index: 1000;
+}
+
+#latar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+
+#logo {
+    display: inline;
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    margin-left: 100px;
+    top: 10px;
+    left: 10px; 
+}
+
+#judul{
+    position: absolute;
+    margin-top: 155px;
+    margin-left: 55px ;
+    top: 10px;
+    left: 10px; 
+    color: #fff;
+}
+
+.text-header {
+    position: absolute;
+    margin-top: 220px;
+    margin-right: 20px;
+    text-align: justify;
+    top: 10px;
+    right: 10px;
+    background-color: transparent !important;
+    width: 500px;
+    padding: 10px;
+    z-index: 1000;
+    font-size: 16px;
+    color: #fff;
+}
+
+.text-header p{
+    margin: 0;
+}
+
+.td1 {
+    width: 30%;
+    padding-left: 50px;
+    padding-bottom: 70px;
+    justify-content: center;
+}
+
+.td2{
+    width: 70%;
+    margin: 10px;
+    text-align: justify;
+    padding-right: 50px;
+}
+
+.td2 a{
+    padding-left: 0;
+}
