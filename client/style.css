@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100;200;300;400;500;600;700;800;900&display=swap");
-@import url("https://fonts.googleapis.com/css2? family= Plus+Jakarta+Sans:wght@400;500;600;700;800 & display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800 & display=swap");
 
 * {
   font-family: "Plus Jakarta Sans", sans-serif !important;
@@ -175,7 +175,6 @@ header {
   border-radius: 20px;
 }
 
-<<<<<<< HEAD
 /*FOOTER*/
 footer {
     margin: 10px;
@@ -255,7 +254,7 @@ background-clip: text;
     flex-direction: row;
     gap: 10px;
 }
-=======
+
 /* Section 2 (Model) */
 #section2 {
   background-color: blue;
@@ -413,9 +412,3 @@ background-clip: text;
   font-weight: 400;
   line-height: normal;
 }
-<<<<<<< HEAD
-
-
->>>>>>> 8dcd29bf3709bdd86ef6ed836e1e503fcd38d3c1
-=======
->>>>>>> 234b6e1e1bd45696091706c7e8e11e287948610e
