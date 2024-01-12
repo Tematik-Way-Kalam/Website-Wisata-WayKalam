@@ -1,10 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800 & display=swap");
 
-* {
-  /* font-family: "Plus Jakarta Sans", sans-serif !important; */
-}
-
 header {
   height: 500px;
 }
@@ -80,6 +76,29 @@ header {
 
 .text-header p {
   margin: 0;
+}
+
+/* class untuk main-heading dan sub-heading */
+.main-heading {
+  font-size: 32px;
+  font-family: Big Shoulders Display;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  /* style */
+  background: var(--tp, linear-gradient(125deg, #00A693 4.14%, #132758 110.26%, #132758 110.26%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.sub-heading {
+  color: var(--secondary, #132758);
+  font-family: Big Shoulders Display;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 70px; /* 109.375% */
 }
 
 #section1 {
@@ -256,7 +275,7 @@ footer {
 
 .teks-wisata  {
   /* typography of teks wisata way kalam */
-  font-size: 35px;
+  font-size: 32px;
   font-family: Big Shoulders Display;
   font-style: normal;
   font-weight: 900;
@@ -279,7 +298,7 @@ footer {
 }
 
 .wisata .ex2 {
-  font-family: "Plus Jakarta Sans", sans-serif;
+  font-family: 'Plus Jakarta Sans', sans-serif;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -291,7 +310,7 @@ footer {
 .teks-desc {
   /* typography teks-desc */
   color: var(--secondary, #132758);
-  font-family: Plus Jakarta Sans, sans-serif;
+  font-family: 'Plus Jakarta Sans', sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -320,6 +339,12 @@ footer {
   padding-left: 71px;
   padding-top: 210px;
   padding-bottom: 161px;
+}
+
+.direction {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .teks-produk {
@@ -358,27 +383,47 @@ footer {
 
 #section3 {
   /* padding: 40px; */
-  background-color: green;
-  padding: 40px;
-  display: inline-flex;
-  flex-direction: column;
+  background-color: #FFF;
+  padding: 230px 105px 170px 105px;
 }
 
 .layer1 {
-  display: inline-block;
+  /* display: inline-block; */
+  display: flex;
+  flex-direction: row;
   gap: 140px;
+  margin-bottom: 200px;
 }
 
 .layer2 {
-  display: inline-block;
+  display: flex;
+  flex-direction: row;
   gap: 140px;
 }
 
 .banner {
-  height: 5px;
-  width: 5px;
+  width: 528.303px;
+  height: 360.004px;
+  flex-shrink: 0;
+  img {
+    border-radius: 5px;
+  }
 }
 
+.explain {
+  display: flex;
+  flex-direction: column;
+  gap: 20px 30px;
+}
+
+.explain-text {
+  color: var(--secondary, #132758);
+  font-family: 'Plus Jakarta Sans',sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+}
 .moreopt {
   background-color: darkblue;
   color: white;
@@ -429,12 +474,37 @@ footer {
 /* Section 4 */
 
 #section4 {
-  background-color: grey;
+  background: #EBFAFD;
   margin-bottom: 97px;
+  flex-shrink: 0;
 }
 
 .judultest {
   padding: 171px 492.5px 616px 494.5px;
+}
+
+.text-testimonial {
+  /* typography of teks wisata way kalam */
+  font-size: 35px;
+  font-family: Big Shoulders Display;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  /* style */
+  background: var(--tp, linear-gradient(125deg, #00A693 4.14%, #132758 110.26%, #132758 110.26%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-katamereka {
+  /* typography teks-explore */
+  color: var(--secondary, #132758);
+  font-family: Big Shoulders Display;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 70px; /* 109.375% */
 }
 
 /* section 5 */
@@ -503,7 +573,7 @@ footer {
   background: var(--p2, linear-gradient(137deg, #fff 24.22%, #7cdbf0 105.58%));
 
   /* Font family */
-  font-family: "Plus Jakarta Sans", sans-serif;
+  font-family: 'Plus Jakarta Sans', sans-serif;
 
   /* font */
   color: var(--secondary, #132758);
