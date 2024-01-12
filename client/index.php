@@ -5,18 +5,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="./bg/favicon.svg" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
 
     <!-- BOOTSRAP -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <script src="js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="style.css">
 
     <!-- FONT -->
     <link rel="stylesheet" href="font-awesome/css/all.css">
     <title>Way Kalam | Beranda</title>
 </head>
 
-<body>
+<body style="font-family: 'Plus Jakarta Sans', sans-serif;">
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #fff;">
             <div class="container d-flex justify-content-between">
@@ -75,7 +76,7 @@
                         <h1 id="judul">.......................</h1>
                     </div>
                     <div class="carousel-item" data-bs-interval="2000">
-                        <img src="bg/gambar5.png" class="d-block w-100" alt="bg"  style="background-size: cover; background-repeat: no-repeat;"5>
+                        <img src="bg/gambar5.png" class="d-block w-100" alt="bg" style="background-size: cover; background-repeat: no-repeat;" 5>
                         <h1 id="judul">.......................</h1>
                     </div>
                 </div>
@@ -97,18 +98,32 @@
                 <h2>Tentang</h2>
             </td>
             <td class="td2">
-                <p>Desa Wisata Way Kalam adalah salah satu dari sekian banyak desa wisata yang berkembang di wilayah Kabupaten Lampung Selatan. Berlokasi di kawasan lereng gunung Rajabasa (salah satu gunung yang terkenal di Kabupaten Lampung Selatan)  Desa Wisata Way Kalam adalah salah satu dari sekian banyak desa wisata yang berkembang di wilayah Kabupaten Lampung Selatan. Berlokasi di kawasan lereng gunung Rajabasa (salah satu gunung yang terkenal di Kabupaten Lampung Selatan) </p>
-                <a  type="button" class="nav-link btn btn-primary p-2" href="#" style="background: rgb(19,39,88); background: linear-gradient(313deg, rgba(19,39,88,1) 0%, rgba(0,166,147,1) 100%); color:white;">
-                    Lihat Selengkapnya <svg xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 25" fill="none"> <path d="M12 22.4594C17.5228 22.4594 22 17.9822 22 12.4594C22 6.9365 17.5228 2.45935 12 2.45935C6.47715 2.45935 2 6.9365 2 12.4594C2 17.9822 6.47715 22.4594 12 22.4594Z" stroke="#F9FAFB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> <path d="M12 16.4594L16 12.4594L12 8.45935" stroke="#F9FAFB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> <path d="M8 12.4594H16" stroke="#F9FAFB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                <p>Desa Wisata Way Kalam adalah salah satu dari sekian banyak desa wisata yang berkembang di wilayah Kabupaten Lampung Selatan. Berlokasi di kawasan lereng gunung Rajabasa (salah satu gunung yang terkenal di Kabupaten Lampung Selatan) Desa Wisata Way Kalam adalah salah satu dari sekian banyak desa wisata yang berkembang di wilayah Kabupaten Lampung Selatan. Berlokasi di kawasan lereng gunung Rajabasa (salah satu gunung yang terkenal di Kabupaten Lampung Selatan) </p>
+                <a type="button" class="nav-link btn btn-primary p-2" href="#" style="background: rgb(19,39,88); background: linear-gradient(313deg, rgba(19,39,88,1) 0%, rgba(0,166,147,1) 100%); color:white;">
+                    Lihat Selengkapnya <svg xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 25" fill="none">
+                        <path d="M12 22.4594C17.5228 22.4594 22 17.9822 22 12.4594C22 6.9365 17.5228 2.45935 12 2.45935C6.47715 2.45935 2 6.9365 2 12.4594C2 17.9822 6.47715 22.4594 12 22.4594Z" stroke="#F9FAFB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M12 16.4594L16 12.4594L12 8.45935" stroke="#F9FAFB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M8 12.4594H16" stroke="#F9FAFB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
             </td>
         </table>
-        <table class="table2">
-            <td class="td3">
-                <video src="bg/JJ.mp4" width="810" height="457" controls></video>
-            </td>
-            <td class="td4">
-                <img src="bg/visit.jpg" width="457" height="457" alt="visitor">
-            </td>
+        <table class="table2 d-flex justify-content-center align-items-center">
+            <tr class="d-flex align-items-center">
+                <td class="td3">
+                    <video src="bg/JJ.mp4" class="rounded-5" width="810" height="457" controls></video>
+                </td>
+                <td id="visitor" class="td4 text-white d-flex flex-column justify-content-center align-items-center rounded-5" style="background-color: #132758; min-width: 457px; min-height: 457px;">
+                    <!-- <img src="bg/visit.jpg" width="457" height="457" alt="visitor"> -->
+                    <div class="d-flex justify-content-center flex-column align-items-center">
+                        <p style="font-size: 64px; font-family: 'Big Shoulders Display', sans-serif; font-weight: 900; background: var(--p2, linear-gradient(137deg, #fff 24.22%, #7cdbf0 105.58%)); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent;">2000+</p>
+                        <p style="font-size: 20px;">Pengunjung Air Terjun</p>
+                    </div>
+                    <div class="d-flex justify-content-center flex-column align-items-center">
+                        <p style="font-size: 64px; font-family: 'Big Shoulders Display', sans-serif; font-weight: 900; background: var(--p2, linear-gradient(137deg, #fff 24.22%, #7cdbf0 105.58%)); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent;">22+</p>
+                        <p style="font-size: 20px;">Homestay</p>
+                    </div>
+                </td>
+            </tr>
         </table>
     </section>
 
@@ -131,17 +146,17 @@
     </section>
 
     <!--  Penghargaan -->
-    <section id="section5" class = "archive">
+    <section id="section5" class="archive">
         <div id="inner-section5">
             <div align="center" class="teks-map">
-                <p class = fs-2> MAP INTERAKTIF</p>
+                <p class=fs-2> MAP INTERAKTIF</p>
                 <p> TEMUKAN LOKASI YANG KAMU <br> MAU DENGAN MUDAH</p>
             </div>
             <div class="button-map">
-                <a type="button" class = "nav-link" href="./mapInteraktif.php">Map Interaktif <i class="fa-solid fa-map" aria-hidden="true"></i>
+                <a type="button" class="nav-link" href="./mapInteraktif.php">Map Interaktif <i class="fa-solid fa-map" aria-hidden="true"></i>
                 </a>
             </div>
-        </div>  
+        </div>
     </section>
 
     <footer>
