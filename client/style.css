@@ -1,26 +1,30 @@
 @import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100;200;300;400;500;600;700;800;900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2? family= Plus+Jakarta+Sans:wght@400;500;600;700;800 & display=swap");
+
+* {
+  font-family: "Plus Jakarta Sans", sans-serif !important;
+}
 
 header {
   height: 500px;
 }
 
 .d-flex {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    background-color: transparent !important;
-    padding: 10px;
-    z-index: 1000;
-    margin-right: 10px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: transparent !important;
+  padding: 10px;
+  z-index: 1000;
+  margin-right: 10px;
 }
 
 .carousel-indicators {
-    display: inline-flex;
-    padding: 10px;
-    align-items: flex-start;
-    right: none;
-    margin-left: 0%;
+  display: inline-flex;
+  padding: 10px;
+  align-items: flex-start;
+  right: none;
+  margin-left: 0%;
 }
 
 .navbar {
@@ -51,22 +55,22 @@ header {
 }
 
 #logo {
-    display: inline;
-    width: 110px;
-    height: 110px;
-    position: absolute;
-    margin-left: 100px;
-    top: 10px;
-    left: 10px; 
+  display: inline;
+  width: 110px;
+  height: 110px;
+  position: absolute;
+  margin-left: 100px;
+  top: 10px;
+  left: 10px;
 }
 
-#judul{
-    position: absolute;
-    margin-top: 155px;
-    margin-left: 55px ;
-    top: 10px;
-    left: 120px; 
-    color: #fff;
+#judul {
+  position: absolute;
+  margin-top: 155px;
+  margin-left: 55px;
+  top: 10px;
+  left: 120px;
+  color: #fff;
 }
 
 #judul {
@@ -141,6 +145,14 @@ header {
   padding-bottom: 20px;
 }
 
+#visitor p {
+  /* layout */
+  background: var(--p2, linear-gradient(137deg, #fff 24.22%, #7cdbf0 105.58%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .td3 {
   width: 62%;
   padding-left: 70px;
@@ -164,88 +176,84 @@ header {
 }
 
 /* Section 2 (Model) */
-#section2{
+#section2 {
   background-color: blue;
 }
 
-.wisata{
+.wisata {
   display: flex;
-  padding : 20px;
+  padding: 20px;
   background-color: red;
-  
 }
 
-.cardboard{
+.cardboard {
   display: flex;
-  padding : 20px;
-  gap : 40px;
+  padding: 20px;
+  gap: 40px;
 }
 
-
-.umkm{
+.umkm {
   display: flex;
   /* flex-direction: column; */
 }
 
-.cardukm{
-  padding : 40px;
-  display : flex;
-  gap : 1em;
-
+.cardukm {
+  padding: 40px;
+  display: flex;
+  gap: 1em;
 }
 
-.cardukm .card{
-  padding : 0.5em;
+.cardukm .card {
+  padding: 0.5em;
 }
 
-#section3{
+#section3 {
   /* padding: 40px; */
   background-color: green;
-  padding : 40px; 
+  padding: 40px;
   display: inline-flex;
   flex-direction: column;
 }
 
-.layer1{ 
+.layer1 {
   display: inline-block;
-  gap : 140px; 
+  gap: 140px;
 }
 
-.layer2{
+.layer2 {
   display: inline-block;
-  gap : 140px;
+  gap: 140px;
 }
 
-.banner{
+.banner {
   height: 5px;
   width: 5px;
 }
 
-.moreopt{
+.moreopt {
   background-color: darkblue;
-  color : white;
+  color: white;
   display: flex;
-  gap : 25px;
+  gap: 25px;
 }
 
-.exp3{
-  padding : 80px 25px 80px 75px;
+.exp3 {
+  padding: 80px 25px 80px 75px;
 }
 
-.exp4{
-  padding : 85px 58px 85.5px;
-
+.exp4 {
+  padding: 85px 58px 85.5px;
 }
 
 /* Section 4 */
 
-#section4{
+#section4 {
   background-color: grey;
   margin-bottom: 97px;
 }
 
-.judultest{
-  padding : 171px 492.5px 616px 494.5px;
+.judultest {
+  padding: 171px 492.5px 616px 494.5px;
 }
 
 /* section 5 */
@@ -253,7 +261,7 @@ header {
   position: relative;
   margin-right: 10%;
   margin-left: 10%;
-  margin-bottom : 75px; 
+  margin-bottom: 75px;
 }
 
 #inner-section5 {
@@ -264,7 +272,6 @@ header {
   height: 25rem;
   flex-direction: column;
   gap: 20px;
-  border-radius: 10px;
   /* 0,166,147 */
   background-image: linear-gradient(
       135deg,
@@ -325,5 +332,3 @@ header {
   font-weight: 400;
   line-height: normal;
 }
-
-

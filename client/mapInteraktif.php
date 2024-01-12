@@ -43,7 +43,7 @@
     </nav>
 
     <div class="main-container d-flex">
-        <div class="sidebar" id="side_nav" style="background-color: #ace5ff; padding: 1rem;">
+        <div class="sidebar" id="side_nav" style="background-color: #D6F2FF; padding: 1rem;">
             <div class="input-group d-flex justify-content-center align-items-center bg-white p-2 rounded-2">
                 <input type="text" class="form-control border-0" placeholder="Cari Tujuan">
                 <div class="input-group-append">
@@ -79,7 +79,7 @@
 
             <div class="mt-4">
                 <h2 class="">Wisata</h2>
-                <div class="container-fluid py-2" style="overflow: auto; overflow-x:auto">
+                <div class="container-fluid py-2" style="overflow: auto; overflow-x:auto;">
                     <div class="d-flex flex-row flex-nowrap gap-3">
                         <div class="card" style="min-width: 12rem;">
                             <div class="w-100 h-100 overflow-hidden">
