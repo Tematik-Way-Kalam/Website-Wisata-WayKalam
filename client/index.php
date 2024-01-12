@@ -203,22 +203,23 @@
     <section id="section3">
             <div class="layer1">
                 <div class="banner">
-                    <!-- <img src="https://www.dictio.id/uploads/db3342/original/3X/e/7/e7e2c7dd5988a4b9ec84ef42defb3d9fe2420009.jpg" alt="Gambar Anjing"> -->
+                    <img src="../client/bg/piagam1.jpeg" alt="contoh gambar"> 
                 </div>
                 <div class="explain">
-                    <h4>PENGHARGAAN</h4>
-                    <h2>MASUK KEDALAM 300 DESA WISATA TERBAIK DI INDONESIA</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo beatae voluptatem quis rerum iste ratione quo perferendis vitae cumque officiis neque reiciendis sapiente aperiam, doloremque laboriosam iure, magnam facere? Accusamus!</p>
+                    <p class="main-heading">PENGHARGAAN</p>
+                    <p class="sub-heading">MASUK KEDALAM 300 DESA WISATA TERBAIK DI INDONESIA</p>
+                    <p class="explain-text">Desa Wisata Way Kalam adalah salah satu dari sekian banyak desa wisata yang berkembang di wilayah Kabupaten Lampung Selatan.  Berlokasi di kawasan lereng gunung Rajabasa.</p>
                 </div>
             </div>
 
             <div class="layer2">
                 <div class="explain">
-                    <h2>PENGHARGAAN</h2>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam similique doloribus et reprehenderit expedita repellendus necessitatibus amet assumenda consequatur optio.</p>
+                    <p class="main-heading">PENGHARGAAN</p>
+                    <p class="sub-heading">MASUK KEDALAM 300 DESA WISATA TERBAIK DI INDONESIA</p>
+                    <p class="explain-text">Desa Wisata Way Kalam adalah salah satu dari sekian banyak desa wisata yang berkembang di wilayah Kabupaten Lampung Selatan.  Berlokasi di kawasan lereng gunung Rajabasa.</p>
                 </div>
                 <div class="banner">
-                    <!-- <img src="https://www.dictio.id/uploads/db3342/original/3X/e/7/e7e2c7dd5988a4b9ec84ef42defb3d9fe2420009.jpg" alt="" /> -->
+                    <img src="../client/bg/piagam2.jpeg" alt="piagam 2" />
                 </div>
             </div>
 
@@ -239,8 +240,8 @@
     <!-- Section 4 (Testimonial) -->
     <section id="section4">
         <div class="judultest" align= "center">
-            <h3>TESTIMONIAL</h3>
-            <h2>APA KATA MEREKA ?</h2>
+            <p class="text-testimonial">TESTIMONIAL</p>
+            <p class="text-katamereka">APA KATA MEREKA?</p>
         </div>
         <div class="cardtest">
 
