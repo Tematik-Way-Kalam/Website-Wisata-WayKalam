@@ -109,7 +109,6 @@
                 </div>
             </div>
 
-
             <div class="mt-4">
                 <h2 class="">UMKM</h2>
                 <div class="container-fluid py-2" style="overflow: auto; overflow-x:auto;">
