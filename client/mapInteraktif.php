@@ -12,7 +12,7 @@
     <title>Way Kalam | Map Interaktif</title>
 </head>
 
-<body>
+<body style="font-family: 'Plus Jakarta Sans', sans-serif;">
     <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #fff;">
         <div class="container d-flex justify-content-between">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
