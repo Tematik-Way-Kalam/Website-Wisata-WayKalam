@@ -98,13 +98,9 @@
                 <h2>Tentang</h2>
             </td>
             <td class="td2">
-                <p>Desa Wisata Way Kalam adalah salah satu dari sekian banyak desa wisata yang berkembang di wilayah Kabupaten Lampung Selatan. Berlokasi di kawasan lereng gunung Rajabasa (salah satu gunung yang terkenal di Kabupaten Lampung Selatan) Desa Wisata Way Kalam adalah salah satu dari sekian banyak desa wisata yang berkembang di wilayah Kabupaten Lampung Selatan. Berlokasi di kawasan lereng gunung Rajabasa (salah satu gunung yang terkenal di Kabupaten Lampung Selatan) </p>
-                <a type="button" class="nav-link btn btn-primary p-2" href="#" style="background: rgb(19,39,88); background: linear-gradient(313deg, rgba(19,39,88,1) 0%, rgba(0,166,147,1) 100%); color:white;">
-                    Lihat Selengkapnya <svg xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 25" fill="none">
-                        <path d="M12 22.4594C17.5228 22.4594 22 17.9822 22 12.4594C22 6.9365 17.5228 2.45935 12 2.45935C6.47715 2.45935 2 6.9365 2 12.4594C2 17.9822 6.47715 22.4594 12 22.4594Z" stroke="#F9FAFB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                        <path d="M12 16.4594L16 12.4594L12 8.45935" stroke="#F9FAFB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                        <path d="M8 12.4594H16" stroke="#F9FAFB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                    </svg>
+                <p>Desa Wisata Way Kalam adalah salah satu dari sekian banyak desa wisata yang berkembang di wilayah Kabupaten Lampung Selatan. Berlokasi di kawasan lereng gunung Rajabasa (salah satu gunung yang terkenal di Kabupaten Lampung Selatan)  Desa Wisata Way Kalam adalah salah satu dari sekian banyak desa wisata yang berkembang di wilayah Kabupaten Lampung Selatan. Berlokasi di kawasan lereng gunung Rajabasa (salah satu gunung yang terkenal di Kabupaten Lampung Selatan) </p>
+                <a  type="button" class="nav-link btn btn-primary p-2" href="#" style="background: rgb(19,39,88); background: linear-gradient(313deg, rgba(19,39,88,1) 0%, rgba(0,166,147,1) 100%); color:white;">
+                    Lihat Selengkapnya <svg xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 25" fill="none"> <path d="M12 22.4594C17.5228 22.4594 22 17.9822 22 12.4594C22 6.9365 17.5228 2.45935 12 2.45935C6.47715 2.45935 2 6.9365 2 12.4594C2 17.9822 6.47715 22.4594 12 22.4594Z" stroke="#F9FAFB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> <path d="M12 16.4594L16 12.4594L12 8.45935" stroke="#F9FAFB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> <path d="M8 12.4594H16" stroke="#F9FAFB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg> </a>
             </td>
         </table>
         <table class="table2 d-flex justify-content-center align-items-center">
@@ -127,26 +123,120 @@
         </table>
     </section>
 
-    <section id="section2">
-        <h2>Wisata</h2>
-        <p>Isi dari section 2</p>
+    <!-- section 2 -->
+    <section id = "section2">
+        <div class="wisata">
+            <div class="ex1">
+                <h2>Wisata Way Kalam</h6>
+                <h4>EXPLORE THE VILLAGE AND PRECISION BEHIND OUR HELING AND ENJOY</h4>
+            </div>
+            <div class="ex2">
+                <p>Desa Wisata Way Kalam adalah salah satu dari sekian banyak desa wisata yang berkembang di wilayah Kabupaten Lampung Selatan. Berlokasi di kawasan lereng gunung Rajabasa</p>
+                <a type="button" class="nav-link btn btn-primary p-2" href="#" style="background: rgb(19,39,88); background: linear-gradient(313deg, rgba(19,39,88,1) 0%, rgba(0,166,147,1) 100%); color:white;">
+                Lihat Selengkapnya </a> 
+            </div>
+        </div>
 
-        <h2>UMKM</h2>
-        <p>Isi dari section 2</p>
+        <div class="cardboard">
+            <!-- Card 1 -->
+        <div class="card" id = "wisata" style="width: 18rem;">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Red_Kitten_01.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Air Terjun Way Kalam (Induk)</h5>
+                <p class="card-text">Infokan animasi yang bagus</p>
+            <a href="#" class="btn btn-primary">Disini ya!</a>
+            </div>
+        </div>
+        <!-- Card 2 -->
+        <div class="card" id = "wisata" style="width: 18rem;">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Red_Kitten_01.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Air Terjun Way Kalam (Induk)</h5>
+                <p class="card-text">Infokan animasi yang bagus</p>
+            <a href="#" class="btn btn-primary">Disini ya!</a>
+            </div>
+        </div>
+        <!-- Card 3 -->
+        <div class="card" id = "wisata" style="width: 18rem;">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Red_Kitten_01.jpg" alt="...">
+            <h5 class="cardTitle">Air Terjun Way Kalam (Induk)</h5>
+            <p class="cardText">Infokan animasi yang bagus</p>
+            <a href="#" class="btn btn-primary">Disini ya!</a>
+        </div>
+
+        </div>
+
+        <div class="umkm">
+            <div class="direction">
+                <h2>PRODUK UKM DESA</h2>
+                <h4>DUKUNG UMKM DESA WISATA WAY KALAM</h4>
+                <a href="marketplace" class = "btn btn-primary">Baca Selengkapnya</a>
+            </div>
+            <div class="cardukm">
+                <div class="card">
+                    <img src="" alt="">
+                    <h4>KOPI WAY KALAM</h4>
+                </div>
+                <div class="card">
+                    <img src="" alt="Aneka Camilan Pisang">
+                    <h4>ANEKA CAMILAN PISANG</h4>
+                </div>
+                <div class="card">
+                    <img src="" alt="Produk Madu Kelulut">
+                    <h4>PRODUKSI MADU KELULUT</h4>
+                </div>
+            </div>
+        </div> 
     </section>
 
     <section id="section3">
-        <h2>Penghargaan</h2>
-        <p>Isi dari section 3</p>
-    </section>
+            <div class="layer1">
+                <div class="banner">
+                    <!-- <img src="https://www.dictio.id/uploads/db3342/original/3X/e/7/e7e2c7dd5988a4b9ec84ef42defb3d9fe2420009.jpg" alt="Gambar Anjing"> -->
+                </div>
+                <div class="explain">
+                    <h4>PENGHARGAAN</h4>
+                    <h2>MASUK KEDALAM 300 DESA WISATA TERBAIK DI INDONESIA</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo beatae voluptatem quis rerum iste ratione quo perferendis vitae cumque officiis neque reiciendis sapiente aperiam, doloremque laboriosam iure, magnam facere? Accusamus!</p>
+                </div>
+            </div>
 
+            <div class="layer2">
+                <div class="explain">
+                    <h2>PENGHARGAAN</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam similique doloribus et reprehenderit expedita repellendus necessitatibus amet assumenda consequatur optio.</p>
+                </div>
+                <div class="banner">
+                    <!-- <img src="https://www.dictio.id/uploads/db3342/original/3X/e/7/e7e2c7dd5988a4b9ec84ef42defb3d9fe2420009.jpg" alt="" /> -->
+                </div>
+            </div>
+
+        </section>
+        <section class = "added">
+            <div class="moreopt">
+                <div class="exp3">
+                    <h2>LIHAT PENGHARGAAN DESA WAY KALAM LEBIH BANYAK</h2>
+                </div>
+                <div class="exp4">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam porro sunt suscipit aliquam iste sapiente vel sequi id dolore nobis?</p>
+                    <a href="" class = "btn btn-primary">Hore udah kelar</a>
+                </div>
+            </div>
+        </section>
+
+    <!-- Section 4 (Testimonial) -->
     <section id="section4">
-        <h2>Testimonial</h2>
-        <p>Isi dari section 4</p>
+        <div class="judultest" align= "center">
+            <h3>TESTIMONIAL</h3>
+            <h2>APA KATA MEREKA ?</h2>
+        </div>
+        <div class="cardtest">
+
+        </div>
     </section>
 
-    <!--  Penghargaan -->
-    <section id="section5" class="archive">
+    <!--  Section 5 (Penghargaan) -->
+    <section id="section5" class = "archive">
         <div id="inner-section5">
             <div align="center" class="teks-map">
                 <p class=fs-2> MAP INTERAKTIF</p>
@@ -159,10 +249,30 @@
         </div>
     </section>
 
-    <footer>
-        <h4>CONTACT US</h4>
-        <p>KUNJUNGI DAN RASAKAN <br>KEINDAHAN ALAM</p>
-    </footer>
+    <!-- <footer>
+        <div class="controlfoot">
+            <div class="footernotes">
+                <h4>CONTACT US</h4>
+                <p>KUNJUNGI DAN RASAKAN <br>KEINDAHAN ALAM</p>
+            </div>
+            <div class="contact">
+                <p>Way Kalam, Kec. Penengahan, Kabupaten Lampung Selatan, Lampung, 35592</p>
+                 <!-- tambahin icon -->
+            <!-- </div>
+        </div>
+
+        <hr> 
+
+        <div class="traceback">
+            <div class="copyright">
+                <p>2023 Connect Us</p>
+            </div>
+    
+            <div class="linkgrab">
+    
+            </div>
+        </div>
+    </footer>  -->
 </body>
 
 </html>

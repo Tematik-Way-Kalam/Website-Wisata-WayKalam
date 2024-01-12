@@ -9,6 +9,24 @@ header {
   height: 500px;
 }
 
+.d-flex {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: transparent !important;
+  padding: 10px;
+  z-index: 1000;
+  margin-right: 10px;
+}
+
+.carousel-indicators {
+  display: inline-flex;
+  padding: 10px;
+  align-items: flex-start;
+  right: none;
+  margin-left: 0%;
+}
+
 .navbar {
   z-index: 1000;
   background-color: transparent !important;
@@ -34,6 +52,25 @@ header {
   width: 100%;
   height: 400px;
   overflow: hidden;
+}
+
+#logo {
+  display: inline;
+  width: 110px;
+  height: 110px;
+  position: absolute;
+  margin-left: 100px;
+  top: 10px;
+  left: 10px;
+}
+
+#judul {
+  position: absolute;
+  margin-top: 155px;
+  margin-left: 55px;
+  top: 10px;
+  left: 120px;
+  color: #fff;
 }
 
 #judul {
@@ -138,10 +175,93 @@ header {
   border-radius: 20px;
 }
 
+/* Section 2 (Model) */
+#section2 {
+  background-color: blue;
+}
+
+.wisata {
+  display: flex;
+  padding: 20px;
+  background-color: red;
+}
+
+.cardboard {
+  display: flex;
+  padding: 20px;
+  gap: 40px;
+}
+
+.umkm {
+  display: flex;
+  /* flex-direction: column; */
+}
+
+.cardukm {
+  padding: 40px;
+  display: flex;
+  gap: 1em;
+}
+
+.cardukm .card {
+  padding: 0.5em;
+}
+
+#section3 {
+  /* padding: 40px; */
+  background-color: green;
+  padding: 40px;
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.layer1 {
+  display: inline-block;
+  gap: 140px;
+}
+
+.layer2 {
+  display: inline-block;
+  gap: 140px;
+}
+
+.banner {
+  height: 5px;
+  width: 5px;
+}
+
+.moreopt {
+  background-color: darkblue;
+  color: white;
+  display: flex;
+  gap: 25px;
+}
+
+.exp3 {
+  padding: 80px 25px 80px 75px;
+}
+
+.exp4 {
+  padding: 85px 58px 85.5px;
+}
+
+/* Section 4 */
+
+#section4 {
+  background-color: grey;
+  margin-bottom: 97px;
+}
+
+.judultest {
+  padding: 171px 492.5px 616px 494.5px;
+}
+
+/* section 5 */
 #section5 {
   position: relative;
   margin-right: 10%;
   margin-left: 10%;
+  margin-bottom: 75px;
 }
 
 #inner-section5 {
