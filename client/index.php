@@ -13,8 +13,13 @@
     <link rel="stylesheet" href="style.css">
 
     <!-- FONT -->
+
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <title>Landing Page</title>
+
     <link rel="stylesheet" href="font-awesome/css/all.css">
     <title>Way Kalam | Beranda</title>
+
 </head>
 
 <body style="font-family: 'Plus Jakarta Sans', sans-serif;">
@@ -90,14 +95,42 @@
                 </div>
             </div>
         </div>
+
+        <img id="logo" src="bg/logo sementara.png" alt="LOGO">
+
+        <div class="d-flex justify-content-between align-items-center">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav text-white">
+                            <a class="nav-link active" aria-current="page" href="#">Beranda</a>
+                            <a type="button" class="nav-link btn btn-info" href="#section1">Tentang</a>
+                            <a type="button" class="nav-link btn btn-info" href="#section2">Wisata</a>
+                            <a type="button" class="nav-link btn btn-info" href="#section2">UMKM</a>
+                            <a  type="button" class="nav-link btn btn-info" href="#section5">
+                                Map Interaktif <i class="fa fa-map" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
     </header>
 
     <section id="section1">
-        <table class="table1">
+        <table>
             <td class="td1">
                 <h2>Tentang</h2>
             </td>
             <td class="td2">
+                <p>Desa Wisata Way Kalam adalah salah satu dari sekian banyak desa wisata yang berkembang di wilayah Kabupaten Lampung Selatan.  Berlokasi di kawasan lereng gunung Rajabasa (salah satu gunung yang terkenal di Kabupaten Lampung Selatan)  Desa Wisata Way Kalam adalah salah satu dari sekian banyak desa wisata yang berkembang di wilayah Kabupaten Lampung Selatan.  Berlokasi di kawasan lereng gunung Rajabasa (salah satu gunung yang terkenal di Kabupaten Lampung Selatan) </p>
+                <a  type="button" class="nav-link btn btn-primary" href="#">
+                    Lihat Selengkapnya <i class="far fa-arrow-alt-circle-right"></i>
+                </a>
                 <p>Desa Wisata Way Kalam adalah salah satu dari sekian banyak desa wisata yang berkembang di wilayah Kabupaten Lampung Selatan. Berlokasi di kawasan lereng gunung Rajabasa (salah satu gunung yang terkenal di Kabupaten Lampung Selatan)  Desa Wisata Way Kalam adalah salah satu dari sekian banyak desa wisata yang berkembang di wilayah Kabupaten Lampung Selatan. Berlokasi di kawasan lereng gunung Rajabasa (salah satu gunung yang terkenal di Kabupaten Lampung Selatan) </p>
                 <a  type="button" class="nav-link btn btn-primary p-2" href="#" style="background: rgb(19,39,88); background: linear-gradient(313deg, rgba(19,39,88,1) 0%, rgba(0,166,147,1) 100%); color:white;">
                     Lihat Selengkapnya <svg xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 25" fill="none"> <path d="M12 22.4594C17.5228 22.4594 22 17.9822 22 12.4594C22 6.9365 17.5228 2.45935 12 2.45935C6.47715 2.45935 2 6.9365 2 12.4594C2 17.9822 6.47715 22.4594 12 22.4594Z" stroke="#F9FAFB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> <path d="M12 16.4594L16 12.4594L12 8.45935" stroke="#F9FAFB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> <path d="M8 12.4594H16" stroke="#F9FAFB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg> </a>
@@ -249,22 +282,18 @@
         </div>
     </section>
 
-
-
-    <!-- Footer -->
     <footer>
         <div class="banner">
             <div class="container">
-                <div class="contact">
+                <div class="contact-us">
                     <h4>CONTACT US</h4>
-                    <p class="persuade">KUNJUNGI DAN RASAKAN <br>KEINDAHAN ALAM</p>
+                    <p class="kunjungi-dan-rasakan">KUNJUNGI DAN RASAKAN <br>KEINDAHAN ALAM</p>
                 </div>
             </div>
-            <!-- contact info -->
+            
             <div class="contact-info">
                 <p>Way Kalam, Kec. Penengahan, Kabupaten Lampung Selatan, Lampung 35592</p>
                 <p>083773473484</p>
-                <!-- tambahin icon -->
             </div>
         </div>
 
@@ -288,6 +317,9 @@
     </footer>
 
 
+
+
+    <!-- Footer -->
     <footer>
         <div class="banner">
             <div class="footernotes">
