@@ -55,5 +55,21 @@
                 </div>
             </div>
         </header>
+
+        <section id="section-about">
+            <div class="div1">
+                <h3></h3>
+            </div>
+            <div class="div2"></div>
+            <div class="div3"></div>
+            <div class="div4"></div>
+            <div class="div5"></div>
+            <div class="div6"></div>
+        </section>
+
+        <section class="section-penghargaan">
+            <div class="card1"></div>
+            <div class="card2"></div>
+        </section>
     </body>
 </html>
