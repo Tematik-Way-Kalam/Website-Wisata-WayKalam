@@ -10,7 +10,7 @@
     <script src="js/bootstrap.bundle.min.js"></script>
 
     <!-- FONT -->
-    <link rel="stylesheet" href="font-awesome/css/all.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
     <title>Landing Page</title>
 </head>
 <body>
@@ -89,7 +89,7 @@
                             <a type="button" class="nav-link btn btn-info" href="#section2">Wisata</a>
                             <a type="button" class="nav-link btn btn-info" href="#section2">UMKM</a>
                             <a  type="button" class="nav-link btn btn-info" href="#section5">
-                                Map Interaktif <i class="fa-solid fa-map" aria-hidden="true"></i>
+                                Map Interaktif <i class="fa fa-map" aria-hidden="true"></i>
                             </a>
                         </div>
                     </div>
@@ -99,22 +99,15 @@
     </header>
 
     <section id="section1">
-        <table class="table1">
+        <table>
             <td class="td1">
                 <h2>Tentang</h2>
             </td>
             <td class="td2">
                 <p>Desa Wisata Way Kalam adalah salah satu dari sekian banyak desa wisata yang berkembang di wilayah Kabupaten Lampung Selatan.  Berlokasi di kawasan lereng gunung Rajabasa (salah satu gunung yang terkenal di Kabupaten Lampung Selatan)  Desa Wisata Way Kalam adalah salah satu dari sekian banyak desa wisata yang berkembang di wilayah Kabupaten Lampung Selatan.  Berlokasi di kawasan lereng gunung Rajabasa (salah satu gunung yang terkenal di Kabupaten Lampung Selatan) </p>
                 <a  type="button" class="nav-link btn btn-primary" href="#">
-                    Lihat Selengkapnya <i class="fa-solid fa-circle-arrow-right"></i>
-            </td>
-        </table>
-        <table class="table2">
-            <td class="td3">
-                <video src="bg/JJ.mp4" width="810" height="457" controls></video>
-            </td>
-            <td class="td4">
-                <img src="bg/visit.jpg"width="457" height="457" alt="visitor">
+                    Lihat Selengkapnya <i class="far fa-arrow-alt-circle-right"></i>
+                </a>
             </td>
         </table>
     </section>
@@ -143,8 +136,38 @@
     </section>
 
     <footer>
-        <h4>CONTACT US</h4>
-        <p>KUNJUNGI DAN RASAKAN <br>KEINDAHAN ALAM</p>
+        <div class="banner">
+            <div class="container">
+                <div class="contact-us">
+                    <h4>CONTACT US</h4>
+                    <p class="kunjungi-dan-rasakan">KUNJUNGI DAN RASAKAN <br>KEINDAHAN ALAM</p>
+                </div>
+            </div>
+            
+            <div class="contact-info">
+                <p>Way Kalam, Kec. Penengahan, Kabupaten Lampung Selatan, Lampung 35592</p>
+                <p>083773473484</p>
+            </div>
+        </div>
+
+        <div>
+            <div class="down">
+                <div class="connect">
+                    <div class="reserved">
+                        <p>C 2023 CONNECTH US ALL RIGHT RESERVED</p>
+                    </div>
+                </div>
+
+                <div class="menuItems">
+                    <li><a href='#' data-item='Home'>Home</a></li>
+                    <li><a href='#' data-item='Wisata'>Wisata</a></li>
+                    <li><a href='#' data-item='UMKM'>UMKM</a></li>
+                    <li><a href='#' data-item='Contact Us'>Contact Us</a></li>
+                    <li><a href='#' data-item='Testimonial'>Testimonial</a></li>
+                </div>
+            </div>
+        </div>
     </footer>
-</body>
-</html>
+
+
+
