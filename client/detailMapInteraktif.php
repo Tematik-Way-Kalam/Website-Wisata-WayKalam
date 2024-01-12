@@ -89,12 +89,52 @@
             <div class="mt-4">
                 <h2 class="">Fasilitas</h2>
                 <ul>
-                    <li class="list-unstyled gap-2"><i class="fa-brands fa-instagram"></i>Instagram</li>
-                    <li class="list-unstyled gap-2"><i class="fa-brands fa-instagram"></i>Instagram</li>
-                    <li class="list-unstyled gap-2"><i class="fa-brands fa-instagram"></i>Instagram</li>
-                    <li class="list-unstyled gap-2"><i class="fa-brands fa-instagram"></i>Instagram</li>
-                    <li class="list-unstyled gap-2"><i class="fa-brands fa-instagram"></i>Instagram</li>
+                    <li class="list-unstyled"><i class="fa-brands fa-instagram"></i>Instagram</li>
+                    <li class="list-unstyled"><i class="fa-brands fa-instagram"></i>Instagram</li>
+                    <li class="list-unstyled"><i class="fa-brands fa-instagram"></i>Instagram</li>
+                    <li class="list-unstyled"><i class="fa-brands fa-instagram"></i>Instagram</li>
+                    <li class="list-unstyled"><i class="fa-brands fa-instagram"></i>Instagram</li>
                 </ul>
+            </div>
+
+            <div class="mt-4">
+                <h2 class="">Kontak</h2>
+                <ul>
+                    <li class="list-unstyled"><i class="fa-brands fa-instagram"></i>Instagram</li>
+                    <li class="list-unstyled"><i class="fa-brands fa-instagram"></i>Instagram</li>
+                </ul>
+            </div>
+
+            <div class="mt-4">
+                <h2 class="">Wisata</h2>
+                <div class="container-fluid py-2" style="overflow: auto; overflow-x:auto;">
+                    <div class="d-flex flex-row flex-nowrap gap-3">
+                        <div class="card" style="min-width: 12rem; min-height: 12rem;">
+                            <div class="h-100 overflow-hidden">
+                                <img class="card-img-top h-100" src="./bg/gambar1.jpeg" alt="Card image cap" style="object-fit: cover;">
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">Air Terjun Indukan</p>
+                            </div>
+                        </div>
+                        <div class="card" style="min-width: 12rem; min-height: 12rem;">
+                            <div class="h-100 overflow-hidden">
+                                <img class="card-img-top h-100" src="./bg/gambar2.jpeg" alt="Card image cap" style="object-fit: cover;">
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">Air Terjun Indukan</p>
+                            </div>
+                        </div>
+                        <div class="card" style="min-width: 12rem; min-height: 12rem;">
+                            <div class="h-100 overflow-hidden">
+                                <img class="card-img-top h-100" src="./bg/gambar1.jpeg" alt="Card image cap" style="object-fit: cover;">
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">Air Terjun Indukan</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
