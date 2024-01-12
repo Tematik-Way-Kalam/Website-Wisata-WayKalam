@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100;200;300;400;500;600;700;800;900&display=swap");
-@import url("https://fonts.googleapis.com/css2? family= Plus+Jakarta+Sans:wght@400;500;600;700;800 & display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800 & display=swap");
 
 * {
   font-family: "Plus Jakarta Sans", sans-serif !important;
@@ -236,6 +236,7 @@ footer {
   gap: 10px;
 }
 
+/* Section 2 (Model) */
 #section2 {
   background-color: blue;
 }
