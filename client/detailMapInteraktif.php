@@ -85,6 +85,17 @@
                 <h2 class="">Wisata</h2>
                 <p>Desa Wisata Way Kalam adalah salah satu dari sekian banyak desa wisata yang berkembang di wilayah Kabupaten Lampung Selatan.  Berlokasi di kawasan lereng gunung Rajabasa (salah satu gunung yang terkenal di Kabupaten Lampung Selatan)  Desa Wisata Way Kalam adalah salah satu dari sekian banyak desa wisata yang berkembang di wilayah Kabupaten Lampung Selatan.  Berlokasi di kawasan lereng gunung Rajabasa (salah satu gunung yang terkenal di Kabupaten Lampung Selatan).</p>
             </div>
+
+            <div class="mt-4">
+                <h2 class="">Fasilitas</h2>
+                <ul>
+                    <li class="list-unstyled gap-2"><i class="fa-brands fa-instagram"></i>Instagram</li>
+                    <li class="list-unstyled gap-2"><i class="fa-brands fa-instagram"></i>Instagram</li>
+                    <li class="list-unstyled gap-2"><i class="fa-brands fa-instagram"></i>Instagram</li>
+                    <li class="list-unstyled gap-2"><i class="fa-brands fa-instagram"></i>Instagram</li>
+                    <li class="list-unstyled gap-2"><i class="fa-brands fa-instagram"></i>Instagram</li>
+                </ul>
+            </div>
         </div>
 
         <div class="content">
