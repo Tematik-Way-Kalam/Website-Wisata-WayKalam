@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="tentang.css">
 
-        <!-- BOOTSRAP -->
+        <!-- BOOTSTRAP -->
         <link href="css/bootstrap.min.css" rel="stylesheet" >
         <script src="js/bootstrap.bundle.min.js"></script>
 
