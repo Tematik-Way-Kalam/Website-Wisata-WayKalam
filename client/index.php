@@ -94,30 +94,6 @@
                 </div>
             </div>
         </div>
-
-        <img id="logo" src="bg/logo sementara.png" alt="LOGO">
-
-        <div class="d-flex justify-content-between align-items-center">
-            <nav class="navbar navbar-expand-lg navbar-dark">
-                <div class="container-fluid">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                        <div class="navbar-nav text-white">
-                            <a class="nav-link active" aria-current="page" href="#">Beranda</a>
-                            <a type="button" class="nav-link btn btn-info" href="#section1">Tentang</a>
-                            <a type="button" class="nav-link btn btn-info" href="#section2">Wisata</a>
-                            <a type="button" class="nav-link btn btn-info" href="#section2">UMKM</a>
-                            <a  type="button" class="nav-link btn btn-info" href="#section5">
-                                Map Interaktif <i class="fa fa-map" aria-hidden="true"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </nav>
-        </div>
-
     </header>
 
     <section id="section1">
@@ -141,7 +117,6 @@
                     <video src="bg/JJ.mp4" class="rounded-5" width="810" height="457" controls></video>
                 </td>
                 <td id="visitor" class="td4 text-white d-flex flex-column justify-content-center align-items-center rounded-5" style="background-color: #132758; min-width: 457px; min-height: 457px;">
-                    <!-- <img src="bg/visit.jpg" width="457" height="457" alt="visitor"> -->
                     <div class="d-flex justify-content-center flex-column align-items-center">
                         <p style="font-size: 64px; font-family: 'Big Shoulders Display', sans-serif; font-weight: 900; background: var(--p2, linear-gradient(137deg, #fff 24.22%, #7cdbf0 105.58%)); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent;">2000+</p>
                         <p style="font-size: 20px;">Pengunjung Air Terjun</p>
