@@ -1,6 +1,41 @@
+/* Font Import Google API's */
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap");
+
+/* * {
+  font-family: "Plus Jakarta Sans", sans-serif;
+} */
+
+/* Header */
 header {
-    position: relative;
-    height: 500vh; 
+    height: 90vh; 
+}
+
+/* Navigation Item */
+.nav-item{
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.container{
+    padding-top: 75px;
+    padding-left: 35px;
+    display: flex;
+    gap: 5%;
+    font-size: 12px;
+    color: white;
+}
+
+.tahun{
+    width: 30%;
+    padding-left: 30px;
+    font-family: "Big Shoulders Display", sans-serif;
+    font-size: 32px;
+    font-weight: 900;
+    word-wrap: break-word;
+    background-image: -webkit-linear-gradient(360deg,#00A693,#132758);
+    background-size: 100%;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .d-flex {
@@ -48,6 +83,15 @@ header {
     left: 120px; 
     color: #fff;
 }
+#judul1{
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 55px ;
+    font-size: 200px;
+    top: 10px;
+    left: 120px; 
+    color: #fff;
+}
 
 .text-header {
     position: absolute;
@@ -68,38 +112,29 @@ header {
     margin: 0;
 }
 
-#section1{
-    height: 700px;
-    padding-bottom: 20px;
+#section-about{
+    margin-top : 20px;
 }
 
-.table1 td{
-    padding-bottom: 20px;
-}
 
-.td1 {
-    width: 30%;
-    padding-left: 50px;
-    padding-bottom: 70px;
-    justify-content: center;
-}
-
-.td2 p{
-    width: 90%;
+.articles {
+    color: #132758;
+    font-size: 16px;
+    font-family: Plus Jakarta Sans;
+    font-weight: 400;
+    line-height: 38px;
+    word-wrap: break-word;
+    width: 100%;
     text-align: justify;
-    padding-left: 20px;
-}
-
-.td2 a{
-    display: inline-block;
-    cursor: pointer;
-    text-align: center;
-    text-decoration: none;
-    text-align: justify;
-    margin-left: 15px;
     padding-left: 10px;
-    padding-right: 10px;
-    background-color: aqua;
+    padding-right: 90px;
+}
+  
+/* .td1 {
+width: 30%;
+padding-left: 50px;
+padding-bottom: 70px;
+justify-content: center;
 }
 
 .table2{
@@ -117,19 +152,4 @@ header {
     padding-left: 70px;
     padding-top: 20px;
     justify-content: center;
-}
-
-.td3 video {
-    float:right;
-    margin-right: 30px;
-    border-radius: 20px;
-}
-
-.td4{
-    padding-top: 20px;
-}
-
-.td4 img{
-    margin-left: 10px;
-    border-radius: 20px;
-}
+} */

@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100;200;300;400;500;600;700;800;900&display=swap");
-@import url("https://fonts.googleapis.com/css2? family= Plus+Jakarta+Sans:wght@400;500;600;700;800 & display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800 & display=swap");
 
 * {
   /* font-family: "Plus Jakarta Sans", sans-serif !important; */
@@ -54,31 +54,12 @@ header {
   overflow: hidden;
 }
 
-#logo {
-  display: inline;
-  width: 110px;
-  height: 110px;
-  position: absolute;
-  margin-left: 100px;
-  top: 10px;
-  left: 10px;
-}
-
 #judul {
   position: absolute;
   margin-top: 155px;
   margin-left: 55px;
   top: 10px;
   left: 120px;
-  color: #fff;
-}
-
-#judul {
-  position: absolute;
-  margin-top: 155px;
-  margin-left: 55px;
-  top: 10px;
-  left: 10px;
   color: #fff;
 }
 
@@ -173,6 +154,86 @@ header {
 .td4 img {
   margin-left: 10px;
   border-radius: 20px;
+}
+
+/*FOOTER*/
+footer {
+  margin: 10px;
+  padding: 20px 30px;
+  background: #132758;
+  color: #fff;
+}
+
+.banner {
+  display: flex;
+}
+
+.container {
+  width: 100%;
+  /* max-width: 1200px; */
+  margin: 0 auto;
+  display: inline;
+}
+
+.contact-us {
+  /* display: inline-block; */
+  /* margin-right: 100px; */
+
+  font-family: "Big Shoulders Display", sans-serif;
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: left;
+  background-color: #0000;
+  background: var(--p2, linear-gradient(137deg, #fff 24.22%, #7cdbf0 105.58%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #fff;
+}
+
+.kunjungi-dan-rasakan {
+  /* display: inline-block; */
+
+  font-family: "Poppins", sans-serif;
+  font-size: 64px;
+  font-weight: 900;
+  font-style: normal;
+  line-height: normal;
+  /* letter-spacing: 0.05em; */
+  text-align: left;
+  font-variant: all-small-caps;
+  color: linear-gradient(136.79deg, #ffffff 24.22%, #7cdbf0 105.58%);
+}
+
+.contact-info {
+  /* margin-right: 100px; */
+  color: #fff;
+
+  p {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    text-align: right;
+    margin-bottom: 10px;
+  }
+}
+
+.down {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin: 10px;
+}
+
+.menuItems {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
 }
 
 /* Section 2 (Model) */
