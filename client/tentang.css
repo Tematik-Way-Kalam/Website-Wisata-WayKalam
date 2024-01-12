@@ -129,6 +129,28 @@ header {
     padding-left: 10px;
     padding-right: 90px;
 }
+
+.section-penghargaan{
+    margin-top: 300px;
+}
+
+.penghargaan{
+    color: #00A693;
+    font-size: 32px;
+    font-family: Big Shoulders Display;
+    font-weight: 900;
+    word-wrap: break-word;
+    text-align: center;
+}
+
+.penghargaan1{
+    color: #132758;
+    font-size: 64px;
+    font-family: Big Shoulders Display;
+    font-weight: 900;
+    word-wrap: break-word;
+    text-align: center;
+}
   
 /* .td1 {
 width: 30%;

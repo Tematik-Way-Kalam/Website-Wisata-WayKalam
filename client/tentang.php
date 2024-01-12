@@ -137,8 +137,8 @@
         </section>
 
         <section class="section-penghargaan">
-            <div class="Penghargaan">PENGHARGAAN</div>
-            <div class="Penghargaan1">APRESIASI DAN PELATIHAN SERTA KUNJUNGAN TAMU DARI BERBAGAI INSTANSI/LEMBAGA DAN DARI BERBAGAI PIHAK, BAIK BERUPA MATERI MAUPUN PENGAKUAN ADMINISTRATIF</div>
+            <div class="penghargaan"><p>PENGHARGAAN</p></div>
+            <div class="penghargaan1"><p>APRESIASI DAN PELATIHAN SERTA KUNJUNGAN <br> TAMU DARI BERBAGAI INSTANSI/LEMBAGA DAN DARI <br> BERBAGAI PIHAK, BAIK BERUPA MATERI MAUPUN <br> PENGAKUAN ADMINISTRATIF</p></div>
             <div class="card1"></div>
             <div class="card2"></div>
         </section>

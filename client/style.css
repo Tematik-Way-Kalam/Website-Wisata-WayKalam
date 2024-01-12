@@ -257,7 +257,7 @@ footer {
 
 /* Section 2 (Model) */
 #section2 {
-  background-color: #E2F6FF;
+  background-color: #e2f6ff;
 }
 
 #section2 .wisata {
@@ -273,7 +273,7 @@ footer {
   gap: 2px;
 }
 
-.teks-wisata  {
+.teks-wisata {
   /* typography of teks wisata way kalam */
   font-size: 32px;
   font-family: Big Shoulders Display;
@@ -281,7 +281,10 @@ footer {
   font-weight: 900;
   line-height: normal;
   /* style */
-  background: var(--tp, linear-gradient(125deg, #00A693 4.14%, #132758 110.26%, #132758 110.26%));
+  background: var(
+    --tp,
+    linear-gradient(125deg, #00a693 4.14%, #132758 110.26%, #132758 110.26%)
+  );
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -324,7 +327,7 @@ footer {
   display: flex;
   padding: 20px;
   gap: 50px;
-  background-color: #E2F6FF;
+  background-color: #e2f6ff;
 }
 
 .cardboard {
@@ -355,7 +358,10 @@ footer {
   font-weight: 900;
   line-height: normal;
   /* style */
-  background: var(--tp, linear-gradient(125deg, #00A693 4.14%, #132758 110.26%, #132758 110.26%));
+  background: var(
+    --tp,
+    linear-gradient(125deg, #00a693 4.14%, #132758 110.26%, #132758 110.26%)
+  );
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -442,7 +448,7 @@ footer {
   align-items: flex-start;
 }
 
-.teks-penghargaan  {
+.teks-penghargaan {
   /* typography */
   font-family: Big Shoulders Display;
   font-size: 64px;
@@ -452,7 +458,7 @@ footer {
   font-variant: all-small-caps;
 
   /* style */
-  background: var(--p2, linear-gradient(110deg, #FFF 24.22%, #4AC4EC 105.58%));
+  background: var(--p2, linear-gradient(110deg, #fff 24.22%, #4ac4ec 105.58%));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -460,7 +466,7 @@ footer {
 
 .teks-moreopt {
   /* typography */
-  color: #FFF;
+  color: #fff;
   font-family: Plus Jakarta Sans, sans-serif;
   font-size: 20px;
   font-style: normal;
@@ -584,47 +590,46 @@ footer {
   line-height: normal;
 }
 
-footer{
+footer {
   background-color: darkblue;
-  padding : 20px;
+  padding: 20px;
 }
 
-.container-footer{
+.container-footer {
   display: flex;
-  gap : 50%;
+  gap: 50%;
 }
 
-.related{
-  color : white; 
+.related {
+  color: white;
 }
 
-.footernotes{
-  color : white;
-
+.footernotes {
+  color: white;
 }
 
-.banner{
+.banner {
   display: flex;
-  color : white;
-  padding : 40px;
+  color: white;
+  padding: 40px;
 }
 
-hr{
+hr {
   color: white;
   height: 50%;
 }
 
 .unit {
-  margin-top : 100px; 
+  margin-top: 100px;
   background-color: white;
   display: flex;
   flex-direction: row;
-  gap : 30%;
+  gap: 30%;
   padding: 20px 0px 0px 20px;
   opacity: 1;
 }
 
 .menuItems {
-    display: inline-flex;
-    gap: 50px;
+  display: inline-flex;
+  gap: 50px;
 }
