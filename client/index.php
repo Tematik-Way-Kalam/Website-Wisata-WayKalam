@@ -254,42 +254,6 @@
     <!-- Footer -->
     <footer>
         <div class="banner">
-            <div class="container">
-                <div class="contact">
-                    <h4>CONTACT US</h4>
-                    <p class="persuade">KUNJUNGI DAN RASAKAN <br>KEINDAHAN ALAM</p>
-                </div>
-            </div>
-            <!-- contact info -->
-            <div class="contact-info">
-                <p>Way Kalam, Kec. Penengahan, Kabupaten Lampung Selatan, Lampung 35592</p>
-                <p>083773473484</p>
-                <!-- tambahin icon -->
-            </div>
-        </div>
-
-        <div>
-            <div class="down">
-                <div class="connect">
-                    <div class="reserved">
-                        <p>C 2023 CONNECTH US ALL RIGHT RESERVED</p>
-                    </div>
-                </div>
-
-                <div class="menuItems">
-                    <li><a href='#' data-item='Home'>Home</a></li>
-                    <li><a href='#' data-item='Wisata'>Wisata</a></li>
-                    <li><a href='#' data-item='UMKM'>UMKM</a></li>
-                    <li><a href='#' data-item='Contact Us'>Contact Us</a></li>
-                    <li><a href='#' data-item='Testimonial'>Testimonial</a></li>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-
-    <footer>
-        <div class="banner">
             <div class="footernotes">
                 <h4>CONTACT US</h4>
                 <h4>KUNJUNGI KEINDAHAN <br> DAN RASAKAN</h4>
