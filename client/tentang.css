@@ -68,23 +68,41 @@ header {
     margin: 0;
 }
 
-#section1{
-    height: 700px;
-    padding-bottom: 20px;
+h2 {
+    font-size: 32px;
+    font-family: Big Shoulders Display;
+    font-weight: 900;
+    word-wrap: break-word;
+    font-family: 'Big Shoulders Display';
+    background-image:linear-gradient(25deg,#00A693,#132758);
+    background-size: 100%;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
-.table1 td{
+#section1 {
+    height: 300px;
     padding-bottom: 20px;
-}
-
-.td1 {
+  }
+  
+  .table1 td {
+    padding-bottom: 20px;
+  }
+  
+  .td1 {
     width: 30%;
     padding-left: 50px;
     padding-bottom: 70px;
     justify-content: center;
-}
+  }
 
 .td2 p{
+    color: #132758;
+    font-size: 20px;
+    font-family: Plus Jakarta Sans;
+    font-weight: 400;
+    line-height: 38px;
+    word-wrap: break-word;
     width: 90%;
     text-align: justify;
     padding-left: 20px;
