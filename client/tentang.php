@@ -20,6 +20,7 @@
         <!-- Navbar Option -->
         <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #fff;">
             <div class="container d-flex justify-content-between" style="padding: 0;">
+                <!-- Logo Way Kalam -->
                 <a class="navbar-brand" href="#"><img src="./bg/Logo.svg" alt="logo-way-kalam" height="60"></a>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto gap-3 d-flex align-items-center">
@@ -44,6 +45,7 @@
             </div>
         </nav>
 
+        <!-- Background Header -->
         <div id="latar" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
             <div id="latar" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
@@ -57,6 +59,7 @@
         </div>
     </header>
 
+    <!-- Section Sejarah -->
     <section id="section-about">
         <div class="container">
             <div class="tahun">
@@ -135,6 +138,7 @@
         </div>
     </section>
 
+    <!-- Section Penghargaan -->
     <section class="section-penghargaan">
         <div class="penghargaan">
             <p>PENGHARGAAN</p>
@@ -168,5 +172,4 @@
         </div>
     </section>
 </body>
-
 </html>
