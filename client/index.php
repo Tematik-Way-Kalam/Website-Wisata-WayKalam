@@ -23,7 +23,7 @@
 
 <body style="font-family: 'Plus Jakarta Sans', sans-serif;">
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #fff;">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #fff;">
             <div class="container d-flex justify-content-between">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -80,7 +80,7 @@
                         <h1 id="judul">.......................</h1>
                     </div>
                     <div class="carousel-item" data-bs-interval="2000">
-                        <img src="bg/gambar5.png" class="d-block w-100" alt="bg" style="background-size: cover; background-repeat: no-repeat;" 5>
+                        <img src="bg/gambar5.jpg" class="d-block w-100" alt="bg" style="background-size: cover; background-repeat: no-repeat;" 5>
                         <h1 id="judul">.......................</h1>
                     </div>
                 </div>
@@ -234,7 +234,7 @@
 
     </section>
     <section class="added">
-        <div class="moreopt">
+        <div class="moreopt" style="background-color: #132758; background-image: url(./bg/moreopt.png); background-size: cover; background-repeat: no-repeat;">
             <div class="exp3">
                 <p class="teks-penghargaan">LIHAT PENGHARGAAN DESA WAY KALAM LEBIH BANYAK</p>
             </div>
