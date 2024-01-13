@@ -332,9 +332,9 @@
             </div>
         </div>
         
-        <svg xmlns="http://www.w3.org/2000/svg" width="fit-content" align-items="center" height="2" viewBox="0 0 1290 2" fill="none"><path d="M0 0.911133H1290" stroke="white"/></svg>
-        <!-- <hr class = "border-tebal"> -->
-
+        <hr>
+        <!-- <svg xmlns="http://www.w3.org/2000/svg" width="fit-content" align-items="center" height="2" viewBox="0 0 1290 2" fill="none"><path d="M0 0.911133H1290" stroke="white"/></svg>
+        <hr class = "border-tebal"> -->
         <div>
             <div class="down">
                 <div class="connect">

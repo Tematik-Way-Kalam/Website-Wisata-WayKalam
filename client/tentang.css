@@ -159,9 +159,9 @@ header {
 }
 
 .card {
-    width: 300px;
-    height: 400px;
-    margin: 80px;
+    width: 400px;
+    height: 700px;
+    margin: 40px;
     border: 1px solid black;
     background-color: white;
     border-radius: 10px;

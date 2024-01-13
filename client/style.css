@@ -187,7 +187,7 @@ footer {
 .kunjungi-dan-rasakan {
   /* display: inline-block; */
 
-  font-family: "Poppins", sans-serif;
+  font-family: "Big Shoulders Display", sans-serif;
   font-size: 64px;
   font-weight: 900;
   font-style: normal;
@@ -206,7 +206,7 @@ footer {
   align-items: flex;
 }
 .contact-info p {
-  font-family: "Poppins", sans-serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -597,8 +597,16 @@ hr.border-tebal {
 }
 
 footer {
-  background-color: darkblue;
+  background: var(--secondary, #132758);
   padding: 20px;
+  margin : 170px 0px 0px 0px;
+
+  /* Backgroud vector attachment */
+  background-image: url("../client/bg/footerVector.png");
+  background-position: left 85% bottom -70%;/* Center the background image */
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+
 }
 
 footer .banner {
@@ -609,6 +617,9 @@ footer .banner {
   display: flex;
   color: white;
   padding: 40px;
+  /* background-image: url("../client/bg/footerVector.png");
+  background-position: 50% 0%; Center the background image */
+
 }
 
 .icons {
@@ -632,8 +643,7 @@ footer .banner {
 }
 
 hr {
-  color: white;
-  height: 50%;
+  border : 3px solid white;
 }
 
 /* .unit {
@@ -649,4 +659,12 @@ hr {
 .menuItems {
   display: inline-flex;
   gap: 50px;
+  justify-content: space-beetween;
+}
+
+.menuItems > li > a {
+  text-decoration: none;
+  color : white;
+  font-family : "Plus Jakarta Sans", sans-serif; 
+  font-weight: 400;
 }
