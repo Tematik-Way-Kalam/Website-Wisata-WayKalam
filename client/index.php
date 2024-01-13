@@ -262,14 +262,22 @@
             <div class="contact-info">
                 <p>Way Kalam, Kec. Penengahan, Kabupaten Lampung Selatan, Lampung 35592</p>
                 <p>083773473484</p>
+                <!-- icon ig, icon facebook, icon website -->
+                <div class="icons">
+                    <li><img src="../client/bg/instagram.svg" alt=""></li>
+                    <li> <img src="../client/bg/facebook.svg" alt=""></li>
+                    <li> <img src="../client/bg/globe.svg" alt=""></li>
+                </div>
             </div>
         </div>
+
+        <hr class = "border-tebal">
 
         <div>
             <div class="down">
                 <div class="connect">
                     <div class="reserved">
-                        <p>C 2023 CONNECTH US ALL RIGHT RESERVED</p>
+                        <p>&copy; 2023 CONNECTH US ALL RIGHT RESERVED</p>
                     </div>
                 </div>
 
