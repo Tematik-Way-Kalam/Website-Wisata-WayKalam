@@ -121,7 +121,7 @@
                     <div class="d-flex justify-content-center flex-column align-items-center">
                         <p style="font-size: 64px; font-family: 'Big Shoulders Display', sans-serif; font-weight: 900; background: var(--p2, linear-gradient(137deg, #fff 24.22%, #7cdbf0 105.58%)); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent;">2000+</p>
                         <p style="font-size: 20px;">Pengunjung Air Terjun</p>
-                    </div>
+                     </div>
                     <div class="d-flex justify-content-center flex-column align-items-center">
                         <p style="font-size: 64px; font-family: 'Big Shoulders Display', sans-serif; font-weight: 900; background: var(--p2, linear-gradient(137deg, #fff 24.22%, #7cdbf0 105.58%)); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent;">22+</p>
                         <p style="font-size: 20px;">Homestay</p>
