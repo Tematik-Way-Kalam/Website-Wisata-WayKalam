@@ -206,7 +206,7 @@ footer {
   align-items: flex;
 }
 .contact-info p {
-  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -365,6 +365,11 @@ footer {
   /* padding: 40px; */
   background-color: #fff;
   padding: 230px 105px 170px 105px;
+  /* Piagam Background */
+  background: url("../client/bg/back.png") no-repeat;
+  background-position: right -3% bottom 10%;
+  background-position: relative;
+  background-size: 35% 35% 40% 100%;
 }
 
 .layer1 {
@@ -515,7 +520,7 @@ hr.border-tebal {
 .profile-info {
   display: flex;
   flex-direction: column;
-  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 .profile-info > p {
@@ -528,7 +533,7 @@ hr.border-tebal {
 
 .card-text {
   color: var(--secondary, #132758);
-  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -536,9 +541,6 @@ hr.border-tebal {
   opacity: 0.7;
 }
 
-.profile-info > span .rating > i {
-   /*   */
-}
 .card-profile {
   width: 5em;
   height: 5em;
@@ -629,14 +631,13 @@ hr.border-tebal {
 footer {
   background: var(--secondary, #132758);
   padding: 20px;
-  margin : 170px 0px 0px 0px;
+  margin: 170px 0px 0px 0px;
 
   /* Backgroud vector attachment */
   background-image: url("../client/bg/footerVector.png");
-  background-position: left 85% bottom -70%;/* Center the background image */
+  background-position: left 85% bottom -70%; /* Center the background image */
   background-attachment: fixed;
   background-repeat: no-repeat;
-
 }
 
 footer .banner {
@@ -649,7 +650,6 @@ footer .banner {
   padding: 40px;
   /* background-image: url("../client/bg/footerVector.png");
   background-position: 50% 0%; Center the background image */
-
 }
 
 .icons {
@@ -673,7 +673,7 @@ footer .banner {
 }
 
 hr {
-  border : 3px solid white;
+  border: 3px solid white;
 }
 
 /* .unit {
@@ -694,7 +694,6 @@ hr {
 
 .menuItems > li > a {
   text-decoration: none;
-  color : white;
-  font-family : "Plus Jakarta Sans", sans-serif; 
+  color: white;
   font-weight: 400;
 }

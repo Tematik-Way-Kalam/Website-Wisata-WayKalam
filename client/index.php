@@ -121,7 +121,7 @@
                     <div class="d-flex justify-content-center flex-column align-items-center">
                         <p style="font-size: 64px; font-family: 'Big Shoulders Display', sans-serif; font-weight: 900; background: var(--p2, linear-gradient(137deg, #fff 24.22%, #7cdbf0 105.58%)); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent;">2000+</p>
                         <p style="font-size: 20px;">Pengunjung Air Terjun</p>
-                    </div>
+                     </div>
                     <div class="d-flex justify-content-center flex-column align-items-center">
                         <p style="font-size: 64px; font-family: 'Big Shoulders Display', sans-serif; font-weight: 900; background: var(--p2, linear-gradient(137deg, #fff 24.22%, #7cdbf0 105.58%)); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent;">22+</p>
                         <p style="font-size: 20px;">Homestay</p>
@@ -133,7 +133,7 @@
 
     <!-- section 2 -->
     <section id="section2">
-        <div class="wisata">
+        <div class="wisata" id="wisata">
             <div class="ex1">
                 <p class="teks-wisata">Wisata</p>
                 <p class="teks-explore">EXPLORE THE VILLAGE AND PRECISION BEHIND OUR HEALING AND ENJOY</p>
@@ -178,7 +178,7 @@
 
         </div>
 
-        <div class="umkm">
+        <div class="umkm" id="umkm">
             <div class="direction">
                 <p class="teks-produk">PRODUK UKM DESA</p>
                 <p class="teks-dukungUMKM">DUKUNG UMKM DESA WISATA WAY KALAM</p>
@@ -311,7 +311,7 @@
     </section>
 
     <footer>
-        <div class="banner">
+        <div class="banner" id="contact">
             <div class="container">
                 <div class="contact-us">
                     <h4>CONTACT US</h4>

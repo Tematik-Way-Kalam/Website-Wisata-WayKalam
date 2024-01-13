@@ -1,3 +1,5 @@
+<?php include "navbar.php" ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -13,51 +15,32 @@
 
     <link rel="stylesheet" href="font-awesome/css/all.css">
     <title>Way Kalam | Tentang</title>
+
+    <style>
+        nav {
+            font-family: "Plus Jakarta Sans", sans-serif;
+            background: transparent !important;
+        }
+
+        nav a {
+            color: #fff !important;
+        }
+    </style>
 </head>
 
 <body style="font-family: 'Plus Jakarta Sans', sans-serif;">
-    <header>
-        <!-- Navbar Option -->
-        <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="color: #fff;">
-            <div class="container d-flex justify-content-between" style="padding: 0;">
-                <!-- Logo Way Kalam -->
-                <a class="navbar-brand" href="#"><img src="./bg/Logo.svg" alt="logo-way-kalam" height="60"></a>
-                <div class="collapse navbar-collapse fs-6" id="navbarNav">
-                    <ul class="navbar-nav ms-auto gap-3 d-flex align-items-center">
-                        <li class="nav-item">
-                            <a class="nav-link active text-white" aria-current="page" href="#">Beranda</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white" href="#">Tentang Kami</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white" href="#">Wisata</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white">UMKM</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white">Kontak Kami</a>
-                        </li>
-                        <button class="border-0 p-3 rounded-3" style="background: rgb(19,39,88); background: linear-gradient(313deg, rgba(19,39,88,1) 0%, rgba(0,166,147,1) 100%); color:white;">Map Interaktif<i class="fa-regular fa-map ps-3" style="color: #ffffff;"></i></button>
-                    </ul>
-                </div>
-            </div>
-        </nav>
 
-        <!-- Background Header -->
-        <div id="latar" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
-            <div id="latar" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active" data-bs-interval="2000">
-                        <img src="bg/gambar1.jpeg" class="d-block w-100" alt="bg1" style="background-size: cover; background-repeat: no-repeat;">
-                        <p id="judul" style="font-family: Big Shoulders Display, sans-serif; font-weight: 900;">DESA WISATA</p><br>
-                        <p id="judul1" style="font-family: Big Shoulders Display, sans-serif; font-weight: 900;">WAY KALAM</p>
-                    </div>
-                </div>
+
+    <!-- Background Header -->
+    <div id="latar">
+        <div id="latar">
+            <img src="bg/gambar1.jpeg" class="d-block w-100" alt="bg1" style="background-size: cover; background-repeat: no-repeat;">
+            <div class="d-flex justify-content-center">
+                <p id="judul" style="font-family: Big Shoulders Display, sans-serif; font-weight: 900;">DESA WISATA</p><br>
+                <p id="judul1" style="font-family: Big Shoulders Display, sans-serif; font-weight: 900;">WAY KALAM</p>
             </div>
         </div>
-    </header>
+    </div>
 
     <!-- Section Sejarah -->
     <section id="section-about">
@@ -170,8 +153,87 @@
                 <p>Detail</p>
             </div>
         </div>
+        <div class="card-row">
+            <div class="card">
+                <img src="bg/gambar2.jpeg" alt="card1">
+                <h2>Nama Penghargaan</h2>
+                <p>Detail</p>
+            </div>
+            <div class="card">
+                <img src="bg/gambar2.jpeg" alt="card1">
+                <h2>Nama Penghargaan</h2>
+                <p>Detail</p>
+            </div>
+        </div>
+        <div class="card-row">
+            <div class="card">
+                <img src="bg/gambar2.jpeg" alt="card1">
+                <h2>Nama Penghargaan</h2>
+                <p>Detail</p>
+            </div>
+            <div class="card">
+                <img src="bg/gambar2.jpeg" alt="card1">
+                <h2>Nama Penghargaan</h2>
+                <p>Detail</p>
+            </div>
+        </div>
+        <div class="card-row">
+            <div class="card">
+                <img src="bg/gambar2.jpeg" alt="card1">
+                <h2>Nama Penghargaan</h2>
+                <p>Detail</p>
+            </div>
+            <div class="card">
+                <img src="bg/gambar2.jpeg" alt="card1">
+                <h2>Nama Penghargaan</h2>
+                <p>Detail</p>
+            </div>
+        </div>
     </section>
 
     <!-- Footer -->
+    <footer>
+        <div class="banner">
+            <div class="container" style="padding: 0px">
+                <div class="contact-us">
+                    <h4>CONTACT US</h4>
+                    <p class="kunjungi-dan-rasakan">KUNJUNGI DAN RASAKAN <br>KEINDAHAN ALAM</p>
+                </div>
+            </div>
+
+            <div class="contact-info">
+                <p>Way Kalam, Kec. Penengahan, Kabupaten Lampung Selatan, Lampung 35592</p>
+                <p>083773473484</p>
+                <!-- icon ig, icon facebook, icon website -->
+                <div class="icons">
+                    <li><img src="../client/bg/instagram.svg" alt=""></li>
+                    <li> <img src="../client/bg/facebook.svg" alt=""></li>
+                    <li> <img src="../client/bg/globe.svg" alt=""></li>
+                </div>
+            </div>
+        </div>
+
+        <hr style="color: #fff;">
+        <!-- <svg xmlns="http://www.w3.org/2000/svg" width="fit-content" align-items="center" height="2" viewBox="0 0 1290 2" fill="none"><path d="M0 0.911133H1290" stroke="white"/></svg>
+        <hr class = "border-tebal"> -->
+        <div>
+            <div class="down">
+                <div class="connect">
+                    <div class="reserved">
+                        <p>&copy; 2023 CONNECTH US ALL RIGHT RESERVED</p>
+                    </div>
+                </div>
+
+                <div class="menuItems">
+                    <li><a href='#' data-item='Home'>Home</a></li>
+                    <li><a href='#' data-item='Wisata'>Wisata</a></li>
+                    <li><a href='#' data-item='UMKM'>UMKM</a></li>
+                    <li><a href='#' data-item='Contact Us'>Contact Us</a></li>
+                    <li><a href='#' data-item='Testimonial'>Testimonial</a></li>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
+
 </html>
