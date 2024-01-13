@@ -1,9 +1,9 @@
 /* Font Import Google API's */
-@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wHari ini jam 11:00 pagi sampai dengan pukul 22:00  mengimplementasikan UI Design yang sudah dibuat ke dalam kode untuk tampilan website.ght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap");
 
 /* Header */
-header{
+header {
   height: 80vh;
 }
 
@@ -57,9 +57,9 @@ nav {
 #section-about {
   position: relative;
   background: url("../client/bg/Vector.png") no-repeat;
-  background-position: left  40%;
+  background-position: left 40%;
 }
-  
+
 .container {
   margin: 0;
   padding-top: 75px;
