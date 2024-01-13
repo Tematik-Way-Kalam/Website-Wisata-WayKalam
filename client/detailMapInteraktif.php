@@ -23,7 +23,7 @@
 </head>
 
 <body style="font-family: 'Plus Jakarta Sans', sans-serif;">
-    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #fff;">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #fff;">
         <div class="container d-flex justify-content-between">
             <a class="navbar-brand" href="#"><img src="./bg/Logo.svg" alt="logo-way-kalam" height="60"></a>
             <div class="collapse navbar-collapse" id="navbarNav">
@@ -49,7 +49,7 @@
         </div>
     </nav>
 
-    <div class="main-container d-flex">
+    <div class="main-container d-flex" style="padding-top: 6.5rem;">
         <div class="sidebar" id="side_nav" style="background-color: #D6F2FF; padding: 1rem;">
             <div class="input-group d-flex justify-content-center align-items-center bg-white p-2 rounded-2">
                 <input type="text" class="form-control border-0" placeholder="Cari Tujuan">
