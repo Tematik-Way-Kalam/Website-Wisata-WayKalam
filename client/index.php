@@ -96,37 +96,25 @@
         </div>
     </header>
 
+    <!-- About us -->
     <section id="section1">
-        <table>
+        <table class="table1">
             <td class="td1">
                 <h2>Tentang</h2>
             </td>
             <td class="td2">
-                <p>Desa Wisata Way Kalam adalah salah satu dari sekian banyak desa wisata yang berkembang di wilayah Kabupaten Lampung Selatan.  Berlokasi di kawasan lereng gunung Rajabasa (salah satu gunung yang terkenal di Kabupaten Lampung Selatan)  Desa Wisata Way Kalam adalah salah satu dari sekian banyak desa wisata yang berkembang di wilayah Kabupaten Lampung Selatan.  Berlokasi di kawasan lereng gunung Rajabasa (salah satu gunung yang terkenal di Kabupaten Lampung Selatan) </p>
-                <a  type="button" class="nav-link btn btn-primary" href="#">
-                    Lihat Selengkapnya <i class="far fa-arrow-alt-circle-right"></i>
-                </a>
                 <p>Desa Wisata Way Kalam adalah salah satu dari sekian banyak desa wisata yang berkembang di wilayah Kabupaten Lampung Selatan. Berlokasi di kawasan lereng gunung Rajabasa (salah satu gunung yang terkenal di Kabupaten Lampung Selatan)  Desa Wisata Way Kalam adalah salah satu dari sekian banyak desa wisata yang berkembang di wilayah Kabupaten Lampung Selatan. Berlokasi di kawasan lereng gunung Rajabasa (salah satu gunung yang terkenal di Kabupaten Lampung Selatan) </p>
-                <a  type="button" class="nav-link btn btn-primary p-2" href="#" style="background: var(--pu2, #00A693);; color:white;">
-                    Lihat Selengkapnya <svg xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 25" fill="none"> <path d="M12 22.4594C17.5228 22.4594 22 17.9822 22 12.4594C22 6.9365 17.5228 2.45935 12 2.45935C6.47715 2.45935 2 6.9365 2 12.4594C2 17.9822 6.47715 22.4594 12 22.4594Z" stroke="#F9FAFB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> <path d="M12 16.4594L16 12.4594L12 8.45935" stroke="#F9FAFB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> <path d="M8 12.4594H16" stroke="#F9FAFB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg> </a>
+                <a type="button" class="nav-link btn btn-primary p-2" href="#" style="background: rgb(19,39,88); background: linear-gradient(313deg, rgba(19,39,88,1) 0%, rgba(0,166,147,1) 100%); color:white;">
+                Lihat Selengkapnya <svg xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 25" fill="none"> <path d="M12 22.4594C17.5228 22.4594 22 17.9822 22 12.4594C22 6.9365 17.5228 2.45935 12 2.45935C6.47715 2.45935 2 6.9365 2 12.4594C2 17.9822 6.47715 22.4594 12 22.4594Z" stroke="#F9FAFB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> <path d="M12 16.4594L16 12.4594L12 8.45935" stroke="#F9FAFB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> <path d="M8 12.4594H16" stroke="#F9FAFB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
             </td>
         </table>
-        <table class="table2 d-flex justify-content-center align-items-center">
-            <tr class="d-flex align-items-center">
-                <td class="td3">
-                    <video src="bg/JJ.mp4" class="rounded-5" width="810" height="457" controls></video>
-                </td>
-                <td id="visitor" class="td4 text-white d-flex flex-column justify-content-center align-items-center rounded-5" style="background-color: #132758; min-width: 457px; min-height: 457px;">
-                    <div class="d-flex justify-content-center flex-column align-items-center">
-                        <p style="font-size: 64px; font-family: 'Big Shoulders Display', sans-serif; font-weight: 900; background: var(--p2, linear-gradient(137deg, #fff 24.22%, #7cdbf0 105.58%)); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent;">2000+</p>
-                        <p style="font-size: 20px;">Pengunjung Air Terjun</p>
-                    </div>
-                    <div class="d-flex justify-content-center flex-column align-items-center">
-                        <p style="font-size: 64px; font-family: 'Big Shoulders Display', sans-serif; font-weight: 900; background: var(--p2, linear-gradient(137deg, #fff 24.22%, #7cdbf0 105.58%)); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent;">22+</p>
-                        <p style="font-size: 20px;">Homestay</p>
-                    </div>
-                </td>
-            </tr>
+        <table class="table2">
+            <td class="td3">
+                <video src="bg/JJ.mp4" width="810" height="457" controls></video>
+            </td>
+            <td class="td4">
+                <img src="bg/visit.jpg" width="457" height="457" alt="visitor">
+            </td>
         </table>
     </section>
 
@@ -296,39 +284,6 @@
         </div>
     </footer>
 
-
-
-    <!-- Footer -->
-    <footer>
-        <div class="container-footer">
-            <div class="footernotes">
-                <h4>CONTACT US</h4>
-                <h4>KUNJUNGI KEINDAHAN <br> DAN RASAKAN</h4>
-            </div>
-            <div class="related">
-                <p>Way Kalam, Kec. Penengahan, Kabupaten Lampung Selatan, Lampung, 35592</p>
-                <p>083773473484</p>
-                <div class="itemicon">
-        
-                </div>
-            </div>
-        </div>
-
-        <hr>
-        </div>
-        <div class = "unit">
-            <div class="copyright"> 
-                <p>	&copy; 2023 CONNECTH US ALL RIGHT RESERVED</p>
-            </div>
-            <div class="menuItems">
-                    <li><a href='#' data-item='Home'>Home</a></li>
-                    <li><a href='#' data-item='Wisata'>Wisata</a></li>
-                    <li><a href='#' data-item='UMKM'>UMKM</a></li>
-                    <li><a href='#' data-item='Contact Us'>Contact Us</a></li>
-                    <li><a href='#' data-item='Testimonial'>Testimonial</a></li>
-            </div> 
-        </div>
-    </footer>
 </body>
 
 </html>

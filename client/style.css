@@ -117,6 +117,77 @@ header {
   justify-content: center;
 }
 
+.td1 h2{
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 900;
+}
+
+.td2 p {
+  width: 90%;
+  text-align: justify;
+  padding-left: 20px;
+}
+
+.td2 a {
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  text-align: justify;
+  margin-left: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: aqua;
+}
+
+.table2 {
+  width: 100%;
+  position: absolute;
+  background-color: #fff;
+}
+
+.table2 td {
+  padding-bottom: 20px;
+}
+
+.td3 {
+  width: 62%;
+  padding-left: 70px;
+  padding-top: 20px;
+  justify-content: center;
+}
+
+.td3 video {
+  float: right;
+  margin-right: 30px;
+  border-radius: 20px;
+}
+
+.td4 {
+  padding-top: 20px;
+}
+
+.td4 img {
+  margin-left: 10px;
+  border-radius: 20px;
+}
+
+/* #section1 {
+  height: 700px;
+  padding-bottom: 20px;
+}
+
+.table1 td {
+  padding-bottom: 20px;
+}
+
+.td1 {
+  width: 30%;
+  padding-left: 50px;
+  padding-bottom: 70px;
+  justify-content: center;
+}
+
 .td2 p {
   width: 90%;
   text-align: justify;
@@ -146,7 +217,6 @@ header {
 }
 
 #visitor p {
-  /* layout */
   background: var(--p2, linear-gradient(137deg, #fff 24.22%, #7cdbf0 105.58%));
   background-clip: text;
   -webkit-background-clip: text;
@@ -173,7 +243,7 @@ header {
 .td4 img {
   margin-left: 10px;
   border-radius: 20px;
-}
+} */
 
 /*FOOTER*/
 footer {
