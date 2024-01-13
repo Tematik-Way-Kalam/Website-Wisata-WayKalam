@@ -244,7 +244,7 @@ footer {
 .down {
   display: flex;
   justify-content: space-between;
-  padding: 0;
+  padding: 45px 40px 32px 40px;
   margin: 10px;
 }
 
@@ -407,7 +407,7 @@ footer {
   gap: 140px;
 }
 
-.banner {
+#section3 .banner {
   width: 528.303px;
   height: 360.004px;
   flex-shrink: 0;
@@ -490,7 +490,7 @@ hr.border-tebal{
 }
 
 .judultest {
-  padding: 171px 492.5px 616px 494.5px;
+  padding: 171px 492.5px 40px 492.5px;
 }
 
 .text-testimonial {
@@ -517,6 +517,29 @@ hr.border-tebal{
   line-height: 70px; /* 109.375% */
 }
 
+.cardTestimoni {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.cardTestimoni .card {
+  width: 35em;
+}
+
+.card-header {
+  display: flex;
+  flex-direction: row;
+}
+
+.card-profile {
+  width: 5em;
+  height: 5em;
+  margin-right: 1em;
+  background-color: red;
+}
+
 /* section 5 */
 #section5 {
   position: relative;
@@ -535,12 +558,14 @@ hr.border-tebal{
   gap: 20px;
   /* 0,166,147 */
   background-image: linear-gradient(
-      135deg,
+      90deg,
       rgba(0, 166, 147, 0.7),
       rgba(19, 39, 88, 0.9)
     ),
     url("../client/bg/section5bg.png");
-
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
   /* border-radius: 10px;
     position: relative;
     background: url("../client/bg/section5bg.png"); */
@@ -604,6 +629,9 @@ footer .banner {
   flex-direction: row;
   align-items: flex-end;
   width: 100%;
+  display: flex;
+  color: white;
+  padding: 40px;
 }
 
 .icons {
@@ -626,18 +654,12 @@ footer .banner {
   color: white;
 }
 
-.banner {
-  display: flex;
-  color: white;
-  padding: 40px;
-}
-
 hr {
   color: white;
   height: 50%;
 }
 
-.unit {
+/* .unit {
   margin-top: 100px;
   background-color: white;
   display: flex;
@@ -645,7 +667,7 @@ hr {
   gap: 30%;
   padding: 20px 0px 0px 20px;
   opacity: 1;
-}
+} */
 
 .menuItems {
   display: inline-flex;

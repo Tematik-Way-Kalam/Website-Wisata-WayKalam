@@ -231,9 +231,45 @@
             <p class="text-testimonial">TESTIMONIAL</p>
             <p class="text-katamereka">APA KATA MEREKA?</p>
         </div>
-        <div class="cardtest">
-
+        <div class="cardTestimoni">
+            <div class="card">
+                <div class="card-header">
+                    <div class="card-profile">
+                        <!-- profile picture -->
+                    </div>
+                    <div class="profile-info">
+                        <p>Moera Ramadhan</p>
+                        <p>Mahasiswa</p>
+                        <p>masukkan rating bintang</p>
+                        <!-- rating star -->
+                    </div>
+                </div>
+                <div class="card-body">
+                    <p class="card-text">Desa Wisata Way Kalam adalah salah satu dari sekian banyak desa wisata yang berkembang di wilayah Kabupaten Lampung Selatan. Berlokasi di kawasan lereng gunung Rajabasa.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <div class="card-profile">
+                        <!-- profile picture -->
+                    </div>
+                    <div class="profile-info">
+                        <p>Moera Ramadhan</p>
+                        <p>Mahasiswa</p>
+                        <p>masukkan rating bintang</p>
+                        <!-- rating star -->
+                    </div>
+                </div>
+                <div class="card-body">
+                    <p class="card-text">Desa Wisata Way Kalam adalah salah satu dari sekian banyak desa wisata yang berkembang di wilayah Kabupaten Lampung Selatan. Berlokasi di kawasan lereng gunung Rajabasa.</p>
+                </div>
+            </div>
         </div>
+        
+        <div style="display: flex; justify-content: center; align-items: center; padding: 43px 0px 148px 0px">
+            <svg xmlns="http://www.w3.org/2000/svg" width="74" height="14" viewBox="0 0 74 14" fill="none"> <circle cx="7.33304" cy="7.11722" r="6.83304" fill="#132758"/> <circle opacity="0.2" cx="37" cy="7.11722" r="6.83304" fill="#132758"/><circle opacity="0.2" cx="66.667" cy="7.11722" r="6.83304" fill="#132758"/></svg>
+        </div>
+        
     </section>
 
     <!--  Section 5 (Penghargaan) -->
@@ -270,8 +306,9 @@
                 </div>
             </div>
         </div>
-
-        <hr class = "border-tebal">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" width="fit-content" align-items="center" height="2" viewBox="0 0 1290 2" fill="none"><path d="M0 0.911133H1290" stroke="white"/></svg>
+        <!-- <hr class = "border-tebal"> -->
 
         <div>
             <div class="down">
