@@ -30,9 +30,23 @@ header {
 }
 
 /* Navigation Item */
-.nav-item{
-    font-family: "Plus Jakarta Sans", sans-serif;
+.navbar {
+    z-index: 1000;
+    background-color: transparent !important;
 }
+
+.navbar-nav {
+    text-align: right;
+}
+/* .nav-item{
+    font-family: "Plus Jakarta Sans", sans-serif;
+} */
+
+.navbar .navbar-nav .nav-link {
+    padding-right: 1em;
+    color: #000;
+    font-size: 1.1em;
+  }
 
 /* Background Header */
 #latar {
@@ -90,6 +104,7 @@ header {
     -webkit-text-fill-color: transparent;
 }
 
+/* Artikel */
 .articles {
     color: #132758;
     font-size: 16px;

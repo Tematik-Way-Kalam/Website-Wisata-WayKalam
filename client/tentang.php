@@ -2,18 +2,19 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content= "width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href = "tentang.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="tentang.css">
 
         <!-- BOOTSTRAP -->
         <link href="css/bootstrap.min.css" rel="stylesheet" >
         <script src="js/bootstrap.bundle.min.js"></script>
 
+        <!-- FONT -->
         <link rel="stylesheet" href="font-awesome/css/all.css">
         <title>Tentang</title>
     </head>
 
-    <body>
+    <body style="font-family: 'Plus Jakarta Sans', sans-serif;">
         <header>
             <!-- Navbar Option -->
             <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #fff;">
@@ -52,8 +53,8 @@
                     <div class="carousel-inner">
                         <div class="carousel-item active" data-bs-interval="2000">
                             <img src="bg/gambar1.jpeg" class="d-block w-100" alt="bg1" style="background-size: cover; background-repeat: no-repeat;">
-                            <p id="judul">DESA WISATA</p><br>
-                            <p id="judul1">WAY KALAM</p>
+                            <p id="judul" style="font-family: Big Shoulders Display, sans-serif; font-weight: 900;">DESA WISATA</p><br>
+                            <p id="judul1" style="font-family: Big Shoulders Display, sans-serif; font-weight: 900;">WAY KALAM</p>
                         </div>
                     </div>
                 </div>
