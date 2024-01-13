@@ -12,7 +12,6 @@
     <script src="js/bootstrap.bundle.min.js"></script>
 
     <!-- FONT -->
-
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
     <title>Landing Page</title>
 
@@ -132,7 +131,7 @@
     </section>
 
     <!-- section 2 -->
-    <section id="section2">
+    <section id = "section2">
         <div class="wisata">
             <div class="ex1">
                 <p class="teks-wisata">Wisata</p>
@@ -141,72 +140,59 @@
             <div class="ex2">
                 <p class="teks-desc">Desa Wisata Way Kalam adalah salah satu dari sekian banyak desa wisata yang berkembang di wilayah Kabupaten Lampung Selatan. Berlokasi di kawasan lereng gunung Rajabasa</p>
                 <a type="button" class="nav-link btn btn-primary p-2" href="#" style="background: var(--pu2, #00A693); color:white;">
-                    Lihat Selengkapnya<svg xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 25" fill="none">
-                        <path d="M12 22.4594C17.5228 22.4594 22 17.9822 22 12.4594C22 6.9365 17.5228 2.45935 12 2.45935C6.47715 2.45935 2 6.9365 2 12.4594C2 17.9822 6.47715 22.4594 12 22.4594Z" stroke="#F9FAFB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                        <path d="M12 16.4594L16 12.4594L12 8.45935" stroke="#F9FAFB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                        <path d="M8 12.4594H16" stroke="#F9FAFB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                    </svg> </a>
+                Lihat Selengkapnya<svg xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 25" fill="none"> <path d="M12 22.4594C17.5228 22.4594 22 17.9822 22 12.4594C22 6.9365 17.5228 2.45935 12 2.45935C6.47715 2.45935 2 6.9365 2 12.4594C2 17.9822 6.47715 22.4594 12 22.4594Z" stroke="#F9FAFB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> <path d="M12 16.4594L16 12.4594L12 8.45935" stroke="#F9FAFB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> <path d="M8 12.4594H16" stroke="#F9FAFB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg> </a> 
             </div>
         </div>
 
         <div class="cardboard">
             <!-- Card 1 -->
-            <div class="card" id="wisata" style="width: 18rem;">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Red_Kitten_01.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Air Terjun Way Kalam (Induk)</h5>
+            <div class="card1 active" id = "wisata1">
+                <div class="teksWisata2">
+                    <h5 class="card-title">Air Terjun Way Indukan Way Kalam</h5>
                     <p class="card-text">Infokan animasi yang bagus</p>
-                    <a href="#" class="btn btn-primary">Disini ya!</a>
+                    <a href="#" class="btn buttonColor">Disini ya!</a>
                 </div>
             </div>
             <!-- Card 2 -->
-            <div class="card" id="wisata" style="width: 18rem;">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Red_Kitten_01.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Air Terjun Way Kalam (Induk)</h5>
+            <div class="card1" id = "wisata2">
+                <div class="teksWisata2">
+                    <h5 class="card-title">Air Terjun Way Anakan Way Kalam</h5>
                     <p class="card-text">Infokan animasi yang bagus</p>
-                    <a href="#" class="btn btn-primary">Disini ya!</a>
+                    <a href="#" class="btn buttonColor">Disini ya!</a>
                 </div>
             </div>
             <!-- Card 3 -->
-            <div class="card" id="wisata" style="width: 18rem;">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Red_Kitten_01.jpg" alt="...">
-                <h5 class="cardTitle">Air Terjun Way Kalam (Induk)</h5>
-                <p class="cardText">Infokan animasi yang bagus</p>
-                <a href="#" class="btn btn-primary">Disini ya!</a>
+            <div class="card1" id = "wisata3">
+                <div class="teksWisata2">
+                    <h5 class="card-title">Camping Ground Air Terjun Way Kalam</h5>
+                    <p class="card-text">Infokan animasi yang bagus</p>
+                    <a href="#" class="btn buttonColor">Disini ya!</a>
+                </div>
             </div>
-
         </div>
 
         <div class="umkm">
             <div class="direction">
                 <p class="teks-produk">PRODUK UKM DESA</p>
-                <p class="teks-dukungUMKM">DUKUNG UMKM DESA WISATA WAY KALAM</p>
-                <div>
-                    <a type="button" class="nav-link btn btn-primary p-2" href="#" style="background: var(--pu2, #00A693); color:white;">
-                        Lihat Selengkapnya<svg xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 25" fill="none">
-                            <path d="M12 22.4594C17.5228 22.4594 22 17.9822 22 12.4594C22 6.9365 17.5228 2.45935 12 2.45935C6.47715 2.45935 2 6.9365 2 12.4594C2 17.9822 6.47715 22.4594 12 22.4594Z" stroke="#F9FAFB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                            <path d="M12 16.4594L16 12.4594L12 8.45935" stroke="#F9FAFB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                            <path d="M8 12.4594H16" stroke="#F9FAFB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                        </svg> </a>
+                <p class="teks-dukungUMKM">DUKUNG UMKM <br> DESA WISATA <br> WAY KALAM</p>
+                <div style="">
+                <a type="button" class="nav-link btn btn-primary p-2" href="#" style="background: var(--pu2, #00A693); color:white;">
+                Lihat Selengkapnya<svg xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 25" fill="none"> <path d="M12 22.4594C17.5228 22.4594 22 17.9822 22 12.4594C22 6.9365 17.5228 2.45935 12 2.45935C6.47715 2.45935 2 6.9365 2 12.4594C2 17.9822 6.47715 22.4594 12 22.4594Z" stroke="#F9FAFB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> <path d="M12 16.4594L16 12.4594L12 8.45935" stroke="#F9FAFB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> <path d="M8 12.4594H16" stroke="#F9FAFB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg> </a> 
                 </div>
-
+                
             </div>
-            <div class="cardukm">
-                <div class="card">
-                    <img src="" alt="">
+            <div class="cardumkm">
+                <div class="card2" id="satu">
                     <h4>KOPI WAY KALAM</h4>
                 </div>
-                <div class="card">
-                    <img src="" alt="Aneka Camilan Pisang">
+                <div class="card2" id="dua">
                     <h4>ANEKA CAMILAN PISANG</h4>
                 </div>
-                <div class="card">
-                    <img src="" alt="Produk Madu Kelulut">
+                <div class="card2" id="tiga">
                     <h4>PRODUKSI MADU KELULUT</h4>
                 </div>
             </div>
-        </div>
+        </div> 
     </section>
 
     <section id="section3">
@@ -352,7 +338,28 @@
             </div>
         </div>
     </footer>
+    <script>
+        activeslideimg();
+        function activeslideimg(activeSlide = 0){
+            const slides = document.querySelectorAll(".card1");
 
+            slides[activeSlide].classList.add("active");
+
+            for(const slide of slides){
+                slide.addEventListener("click", () => {
+                    clearActiveClasses();
+
+                    slide.classList.add("active");
+                });
+            }
+
+            function clearActiveClasses(){
+                slides.forEach((slide) => {
+                    slide.classList.remove("active");
+                })
+            }
+        }
+    </script>
 </body>
 
 </html>

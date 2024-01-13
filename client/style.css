@@ -167,7 +167,7 @@ footer {
 }
 
 .contact-us {
-  /* display: inline-block; */
+  /* displazzy: inline-block; */
   /* margin-right: 100px; */
 
   font-family: "Big Shoulders Display", sans-serif;
@@ -230,7 +230,15 @@ footer {
 }
 
 /* Section 2 (Model) */
+/* Section 2 (Model) */
 #section2 {
+  background-color: #e2f6ff;
+}
+
+.wisata {
+  display: flex;
+  padding: 20px;
+  gap: 50px;
   background-color: #e2f6ff;
 }
 
@@ -275,7 +283,7 @@ footer {
 }
 
 .wisata .ex2 {
-  font-family: "Plus Jakarta Sans", sans-serif;
+  font-family: 'Plus Jakarta Sans', sans-serif;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -287,7 +295,7 @@ footer {
 .teks-desc {
   /* typography teks-desc */
   color: var(--secondary, #132758);
-  font-family: "Plus Jakarta Sans", sans-serif;
+  font-family: 'Plus Jakarta Sans', sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -297,22 +305,80 @@ footer {
   opacity: 0.5;
 }
 
-.wisata {
+.cardboard{
+  margin-top: 50px;
+  transition: all 0.3s;
   display: flex;
-  padding: 20px;
-  gap: 50px;
-  background-color: #e2f6ff;
+  justify-content: center;
 }
 
-.cardboard {
-  display: flex;
-  padding: 20px;
-  gap: 40px;
+.card1{
+  margin: 10px;
+  cursor: pointer;
+  color: #fff;
+  background-size: cover;
+  border-radius: 20px;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  transition: all 0.5s ease-in-out; 
+  width: 100%;
+  width: 50vh;
+  height: 60vh;
+  filter: blur(3px);
+}
+
+.card1.active{
+  width: 100%;
+  width: 80vh;
+  flex: 10;
+  filter: blur(0px);
+}
+
+.card1.active .teksWisata2{
+  opacity: 1;
+  transition: opacity 0.3s ease-in 0.4s;
+}
+
+.card1:hover{
+  transform: scale(1.1);
+}
+
+#wisata1{
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/a/a5/Red_Kitten_01.jpg');
+}
+#wisata2{
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/a/a5/Red_Kitten_01.jpg');
+}
+#wisata3{
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/a/a5/Red_Kitten_01.jpg');
+}
+
+.teksWisata2{
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  opacity: 0;
+  margin: 0;
+}
+
+.teksWisata2 .buttonColor{
+  background-color: transparent;
+  border: 2px solid #000; /* Warna border, dapat disesuaikan */
+  color: #000; /* Warna teks, dapat disesuaikan */
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+}
+
+.teksWisata2 .buttonColor:hover{
+  background-color: #00A693;
+  border-color: #00A693;
+  color: #fff;
 }
 
 .umkm {
   display: flex;
-  /* flex-direction: column; */
   padding-left: 71px;
   padding-top: 210px;
   padding-bottom: 161px;
@@ -346,19 +412,37 @@ footer {
   color: var(--secondary, #132758);
   font-family: Big Shoulders Display;
   font-size: 64px;
+  width: 100%;
   font-style: normal;
   font-weight: 900;
   line-height: 70px; /* 109.375% */
 }
 
-.cardukm {
+.cardumkm {
   padding: 40px;
   display: flex;
   gap: 1em;
 }
 
-.cardukm .card {
-  padding: 0.5em;
+.card2{
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  width: 20 rem;
+  height: 40vh;
+  border-radius: 10px;
+}
+
+#satu{
+  background-image: url('bg/kopi.png');
+}
+#dua{
+  background-image: url('bg/pisang.png');
+}
+#tiga{
+  background-image: url('bg/madu.png');
 }
 
 #section3 {
