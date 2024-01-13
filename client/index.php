@@ -133,7 +133,7 @@
 
     <!-- section 2 -->
     <section id="section2">
-        <div class="wisata">
+        <div class="wisata" id="wisata">
             <div class="ex1">
                 <p class="teks-wisata">Wisata</p>
                 <p class="teks-explore">EXPLORE THE VILLAGE AND PRECISION BEHIND OUR HEALING AND ENJOY</p>
@@ -178,7 +178,7 @@
 
         </div>
 
-        <div class="umkm">
+        <div class="umkm" id="umkm">
             <div class="direction">
                 <p class="teks-produk">PRODUK UKM DESA</p>
                 <p class="teks-dukungUMKM">DUKUNG UMKM DESA WISATA WAY KALAM</p>
@@ -311,7 +311,7 @@
     </section>
 
     <footer>
-        <div class="banner">
+        <div class="banner" id="contact">
             <div class="container">
                 <div class="contact-us">
                     <h4>CONTACT US</h4>

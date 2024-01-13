@@ -15,18 +15,29 @@
 
     <link rel="stylesheet" href="font-awesome/css/all.css">
     <title>Way Kalam | Tentang</title>
+
+    <style>
+        nav {
+            font-family: "Plus Jakarta Sans", sans-serif;
+            background: transparent !important;
+        }
+
+        nav a {
+            color: #fff !important;
+        }
+    </style>
 </head>
 
 <body style="font-family: 'Plus Jakarta Sans', sans-serif;">
-    
+
 
     <!-- Background Header -->
     <div id="latar">
         <div id="latar">
             <img src="bg/gambar1.jpeg" class="d-block w-100" alt="bg1" style="background-size: cover; background-repeat: no-repeat;">
             <div class="d-flex justify-content-center">
-            <p id="judul" style="font-family: Big Shoulders Display, sans-serif; font-weight: 900;">DESA WISATA</p><br>
-            <p id="judul1" style="font-family: Big Shoulders Display, sans-serif; font-weight: 900;">WAY KALAM</p>
+                <p id="judul" style="font-family: Big Shoulders Display, sans-serif; font-weight: 900;">DESA WISATA</p><br>
+                <p id="judul1" style="font-family: Big Shoulders Display, sans-serif; font-weight: 900;">WAY KALAM</p>
             </div>
         </div>
     </div>
@@ -201,7 +212,7 @@
                 </div>
             </div>
         </div>
-        
+
         <hr style="color: #fff;">
         <!-- <svg xmlns="http://www.w3.org/2000/svg" width="fit-content" align-items="center" height="2" viewBox="0 0 1290 2" fill="none"><path d="M0 0.911133H1290" stroke="white"/></svg>
         <hr class = "border-tebal"> -->

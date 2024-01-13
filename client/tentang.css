@@ -5,6 +5,7 @@
 /* Navigation Item */
 nav {
   font-family: "Plus Jakarta Sans", sans-serif;
+  background: transparent !important;
 }
 
 /* Logo Header */
@@ -38,7 +39,6 @@ nav {
   color: #fff;
   font-size: 48px;
 }
-
 
 #judul1 {
   position: absolute;
@@ -159,14 +159,13 @@ nav {
 footer {
   background: var(--secondary, #132758);
   padding: 20px;
-  margin : 170px 0px 0px 0px;
+  margin: 170px 0px 0px 0px;
 
   /* Backgroud vector attachment */
   background-image: url("../client/bg/footerVector.png");
-  background-position: left 85% bottom -70%;/* Center the background image */
+  background-position: left 85% bottom -70%; /* Center the background image */
   background-attachment: fixed;
   background-repeat: no-repeat;
-
 }
 
 footer .banner {
@@ -179,7 +178,6 @@ footer .banner {
   padding: 40px;
   /* background-image: url("../client/bg/footerVector.png");
   background-position: 50% 0%; Center the background image */
-
 }
 
 .icons {
@@ -203,7 +201,7 @@ footer .banner {
 }
 
 hr {
-  border : 3px solid white;
+  border: 3px solid white;
 }
 
 /* .unit {
@@ -216,11 +214,10 @@ hr {
   opacity: 1;
 } */
 
-
 .contact-us {
   /* display: inline-block; */
   /* margin-right: 100px; */
-  
+
   font-family: "Big Shoulders Display", sans-serif;
   font-size: 32px;
   font-weight: 900;
@@ -237,7 +234,7 @@ hr {
 
 .kunjungi-dan-rasakan {
   /* display: inline-block; */
-  
+
   font-family: "Big Shoulders Display", sans-serif;
   font-size: 64px;
   font-weight: 900;
@@ -257,7 +254,7 @@ hr {
   align-items: flex;
 }
 .contact-info p {
-  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -292,8 +289,8 @@ hr {
 
 .menuItems > li > a {
   text-decoration: none;
-  color : white;
-  font-family : "Plus Jakarta Sans", sans-serif; 
+  color: white;
+  font-family: "Plus Jakarta Sans", sans-serif;
   font-weight: 400;
 }
 .button-map {
