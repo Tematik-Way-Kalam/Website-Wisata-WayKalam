@@ -405,7 +405,7 @@ footer {
   line-height: 32px; /* 160% */
 }
 .moreopt {
-  background-color: darkblue;
+  background-color: #132758;
   color: white;
   display: flex;
   gap: 25px;
