@@ -103,11 +103,14 @@ nav {
 }
 
 .penghargaan {
-  color: #00a693;
+  font-family: "Big Shoulders Display", sans-serif;
   font-size: 32px;
-  font-family: Big Shoulders Display;
   font-weight: 900;
   word-wrap: break-word;
+  background-image: -webkit-linear-gradient(360deg, #00a693, #132758);
+  background-size: 100%;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
   text-align: center;
 }
 
