@@ -155,3 +155,169 @@ nav {
   color: gray;
   text-align: left;
 }
+
+footer {
+  background: var(--secondary, #132758);
+  padding: 20px;
+  margin : 170px 0px 0px 0px;
+
+  /* Backgroud vector attachment */
+  background-image: url("../client/bg/footerVector.png");
+  background-position: left 85% bottom -70%;/* Center the background image */
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+
+}
+
+footer .banner {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  width: 100%;
+  display: flex;
+  color: white;
+  padding: 40px;
+  /* background-image: url("../client/bg/footerVector.png");
+  background-position: 50% 0%; Center the background image */
+
+}
+
+.icons {
+  display: inline-flex;
+  gap: 10px;
+  list-style-type: none;
+  align-items: flex-end;
+}
+
+.container-footer {
+  display: flex;
+  gap: 50%;
+}
+
+.related {
+  color: white;
+}
+
+.footernotes {
+  color: white;
+}
+
+hr {
+  border : 3px solid white;
+}
+
+/* .unit {
+  margin-top: 100px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  gap: 30%;
+  padding: 20px 0px 0px 20px;
+  opacity: 1;
+} */
+
+
+.contact-us {
+  /* display: inline-block; */
+  /* margin-right: 100px; */
+  
+  font-family: "Big Shoulders Display", sans-serif;
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: left;
+  background-color: #0000;
+  background: var(--p2, linear-gradient(137deg, #fff 24.22%, #7cdbf0 105.58%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #fff;
+}
+
+.kunjungi-dan-rasakan {
+  /* display: inline-block; */
+  
+  font-family: "Big Shoulders Display", sans-serif;
+  font-size: 64px;
+  font-weight: 900;
+  font-style: normal;
+  line-height: normal;
+  /* letter-spacing: 0.05em; */
+  text-align: left;
+  font-variant: all-small-caps;
+  color: linear-gradient(136.79deg, #ffffff 24.22%, #7cdbf0 105.58%);
+}
+
+.contact-info {
+  /* margin-right: 100px; */
+  color: #fff;
+  display: flex-start;
+  /* flex-direction: column; */
+  align-items: flex;
+}
+.contact-info p {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  text-align: right;
+  margin-bottom: 10px;
+}
+
+.down {
+  display: flex;
+  justify-content: space-between;
+  padding: 45px 40px 32px 40px;
+  margin: 10px;
+}
+
+.down p {
+  color: #fff;
+}
+
+.menuItems {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.menuItems {
+  display: inline-flex;
+  gap: 50px;
+  justify-content: space-beetween;
+}
+
+.menuItems > li > a {
+  text-decoration: none;
+  color : white;
+  font-family : "Plus Jakarta Sans", sans-serif; 
+  font-weight: 400;
+}
+.button-map {
+  /* Position */
+  display: flex;
+  margin-left: 31em;
+  margin-right: 31em;
+  padding: 15px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+  /*  style button */
+  border-radius: 5px;
+  background: var(--p2, linear-gradient(137deg, #fff 24.22%, #7cdbf0 105.58%));
+
+  /* Font family */
+  font-family: "Plus Jakarta Sans", sans-serif;
+
+  /* font */
+  color: var(--secondary, #132758);
+  font-family: Plus Jakarta Sans, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

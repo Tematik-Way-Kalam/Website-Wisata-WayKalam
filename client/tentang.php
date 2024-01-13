@@ -168,9 +168,87 @@
                 <p>Detail</p>
             </div>
         </div>
+        <div class="card-row">
+            <div class="card">
+                <img src="bg/gambar2.jpeg" alt="card1">
+                <h2>Nama Penghargaan</h2>
+                <p>Detail</p>
+            </div>
+            <div class="card">
+                <img src="bg/gambar2.jpeg" alt="card1">
+                <h2>Nama Penghargaan</h2>
+                <p>Detail</p>
+            </div>
+        </div>
+        <div class="card-row">
+            <div class="card">
+                <img src="bg/gambar2.jpeg" alt="card1">
+                <h2>Nama Penghargaan</h2>
+                <p>Detail</p>
+            </div>
+            <div class="card">
+                <img src="bg/gambar2.jpeg" alt="card1">
+                <h2>Nama Penghargaan</h2>
+                <p>Detail</p>
+            </div>
+        </div>
+        <div class="card-row">
+            <div class="card">
+                <img src="bg/gambar2.jpeg" alt="card1">
+                <h2>Nama Penghargaan</h2>
+                <p>Detail</p>
+            </div>
+            <div class="card">
+                <img src="bg/gambar2.jpeg" alt="card1">
+                <h2>Nama Penghargaan</h2>
+                <p>Detail</p>
+            </div>
+        </div>
     </section>
 
     <!-- Footer -->
+    <footer>
+        <div class="banner">
+            <div class="container" style="padding: 0px">
+                <div class="contact-us">
+                    <h4>CONTACT US</h4>
+                    <p class="kunjungi-dan-rasakan">KUNJUNGI DAN RASAKAN <br>KEINDAHAN ALAM</p>
+                </div>
+            </div>
+
+            <div class="contact-info">
+                <p>Way Kalam, Kec. Penengahan, Kabupaten Lampung Selatan, Lampung 35592</p>
+                <p>083773473484</p>
+                <!-- icon ig, icon facebook, icon website -->
+                <div class="icons">
+                    <li><img src="../client/bg/instagram.svg" alt=""></li>
+                    <li> <img src="../client/bg/facebook.svg" alt=""></li>
+                    <li> <img src="../client/bg/globe.svg" alt=""></li>
+                </div>
+            </div>
+        </div>
+        
+        <hr style="color: #fff;">
+        <!-- <svg xmlns="http://www.w3.org/2000/svg" width="fit-content" align-items="center" height="2" viewBox="0 0 1290 2" fill="none"><path d="M0 0.911133H1290" stroke="white"/></svg>
+        <hr class = "border-tebal"> -->
+        <div>
+            <div class="down">
+                <div class="connect">
+                    <div class="reserved">
+                        <p>&copy; 2023 CONNECTH US ALL RIGHT RESERVED</p>
+                    </div>
+                </div>
+
+                <div class="menuItems">
+                    <li><a href='#' data-item='Home'>Home</a></li>
+                    <li><a href='#' data-item='Wisata'>Wisata</a></li>
+                    <li><a href='#' data-item='UMKM'>UMKM</a></li>
+                    <li><a href='#' data-item='Contact Us'>Contact Us</a></li>
+                    <li><a href='#' data-item='Testimonial'>Testimonial</a></li>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
