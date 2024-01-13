@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap");
 
 /* Navigation Item */
-.nav-item {
+nav {
   font-family: "Plus Jakarta Sans", sans-serif;
 }
 
@@ -53,10 +53,14 @@
 
 /* Section Sejarah */
 #section-about {
-  margin-top: 20px;
+  /* margin : 0px;
+  padding : 0px; */
+  background: url("../client/bg/Vector.png") no-repeat;
+  background-position: left 100%;
 }
 
 .container {
+    margin : 0;
     padding-top: 75px;
     padding-left: 35px;
     display: flex;
