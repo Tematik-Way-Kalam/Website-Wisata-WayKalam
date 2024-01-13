@@ -1,10 +1,16 @@
 /* Font Import Google API's */
-@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wHari ini jam 11:00 pagi sampai dengan pukul 22:00  mengimplementasikan UI Design yang sudah dibuat ke dalam kode untuk tampilan website.ght@100;200;300;400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap");
+
+/* Header */
+header{
+  height: 80vh;
+}
 
 /* Navigation Item */
 nav {
   font-family: "Plus Jakarta Sans", sans-serif;
+  background: transparent !important;
 }
 
 /* Logo Header */
@@ -39,7 +45,6 @@ nav {
   font-size: 48px;
 }
 
-
 #judul1 {
   position: absolute;
   margin-top: 200px;
@@ -50,12 +55,11 @@ nav {
 
 /* Section Sejarah */
 #section-about {
-  /* margin : 0px;
-  padding : 0px; */
+  position: relative;
   background: url("../client/bg/Vector.png") no-repeat;
-  background-position: left 100%;
+  background-position: left  40%;
 }
-
+  
 .container {
   margin: 0;
   padding-top: 75px;
@@ -159,14 +163,13 @@ nav {
 footer {
   background: var(--secondary, #132758);
   padding: 20px;
-  margin : 170px 0px 0px 0px;
+  margin: 170px 0px 0px 0px;
 
   /* Backgroud vector attachment */
   background-image: url("../client/bg/footerVector.png");
-  background-position: left 85% bottom -70%;/* Center the background image */
+  background-position: left 85% bottom -70%; /* Center the background image */
   background-attachment: fixed;
   background-repeat: no-repeat;
-
 }
 
 footer .banner {
@@ -179,7 +182,6 @@ footer .banner {
   padding: 40px;
   /* background-image: url("../client/bg/footerVector.png");
   background-position: 50% 0%; Center the background image */
-
 }
 
 .icons {
@@ -203,7 +205,7 @@ footer .banner {
 }
 
 hr {
-  border : 3px solid white;
+  border: 3px solid white;
 }
 
 /* .unit {
@@ -216,11 +218,10 @@ hr {
   opacity: 1;
 } */
 
-
 .contact-us {
   /* display: inline-block; */
   /* margin-right: 100px; */
-  
+
   font-family: "Big Shoulders Display", sans-serif;
   font-size: 32px;
   font-weight: 900;
@@ -237,7 +238,7 @@ hr {
 
 .kunjungi-dan-rasakan {
   /* display: inline-block; */
-  
+
   font-family: "Big Shoulders Display", sans-serif;
   font-size: 64px;
   font-weight: 900;
@@ -257,7 +258,7 @@ hr {
   align-items: flex;
 }
 .contact-info p {
-  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -292,8 +293,8 @@ hr {
 
 .menuItems > li > a {
   text-decoration: none;
-  color : white;
-  font-family : "Plus Jakarta Sans", sans-serif; 
+  color: white;
+  font-family: "Plus Jakarta Sans", sans-serif;
   font-weight: 400;
 }
 .button-map {

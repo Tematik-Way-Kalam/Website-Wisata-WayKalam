@@ -114,7 +114,7 @@
         <table class="table2 d-flex justify-content-center align-items-center py-5">
             <tr class="d-flex align-items-center gap-5 mt-5">
                 <td class="d-flex align-items-center">
-                    <video src="bg/JJ.mp4" width="810" height="457" controls class="mr-5 rounded-5"></video>
+                <iframe src="https://drive.google.com/file/d/1AVUQN7lWLPwGtA1c-EjdJjRkD_9u4etG/preview" width="810" height="457" allow="autoplay" class="rounded-5"></iframe>
                 </td>
                 <td id="visitor" class="text-white d-flex flex-column justify-content-center align-items-center rounded-5" style="background-color: #132758; background-image: url(./bg/visit.png); background-repeat: no-repeat; background-size: cover; min-width: 457px; min-height: 457px;">
                     <div class="d-flex justify-content-center flex-column align-items-center">
@@ -131,8 +131,8 @@
     </section>
 
     <!-- section 2 -->
-    <section id = "section2">
-        <div class="wisata">
+    <section id="section2">
+        <div class="wisata" id="wisata">
             <div class="ex1">
                 <p class="teks-wisata">Wisata</p>
                 <p class="teks-explore">EXPLORE THE VILLAGE AND PRECISION BEHIND OUR HEALING AND ENJOY</p>
@@ -171,7 +171,7 @@
             </div>
         </div>
 
-        <div class="umkm">
+        <div class="umkm" id="umkm">
             <div class="direction">
                 <p class="teks-produk">PRODUK UKM DESA</p>
                 <p class="teks-dukungUMKM">DUKUNG UMKM <br> DESA WISATA <br> WAY KALAM</p>
@@ -297,7 +297,7 @@
     </section>
 
     <footer>
-        <div class="banner">
+        <div class="banner" id="contact">
             <div class="container">
                 <div class="contact-us">
                     <h4>CONTACT US</h4>
