@@ -245,7 +245,6 @@
                         <path d="M12 16.4594L16 12.4594L12 8.45935" stroke="#F9FAFB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                         <path d="M8 12.4594H16" stroke="#F9FAFB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                     </svg> </a>
-                <!-- <a href="" class = "btn btn-primary">Hore udah kelar</a> -->
             </div>
         </div>
     </section>
@@ -256,16 +255,16 @@
             <p class="text-testimonial">TESTIMONIAL</p>
             <p class="text-katamereka">APA KATA MEREKA?</p>
         </div>
-        <div class="cardTestimoni">
+        <div class="cardTestimoni custom-card">
             <div class="card">
-                <div class="card-header">
+                <div class="card-header" style="background-color: #fff;">
                     <div class="card-profile">
-                        <!-- profile picture -->
+                        <img src="../client/bg/MoeraRamadhan.jpeg" class="card-img-top" alt="">
                     </div>
                     <div class="profile-info">
                         <p>Moera Ramadhan</p>
-                        <p>Mahasiswa</p>
-                        <p>masukkan rating bintang</p>
+                        <span class = "">Mahasiswa</span>
+                        <span><i class="fa-solid fa-star" style="color: #D3E564;"></i><i class="fa-solid fa-star" style="color: #D3E564;"></i><i class="fa-solid fa-star" style="color: #D3E564;"></i><i class="fa-solid fa-star" style="color: #D3E564;"></i></span>
                         <!-- rating star -->
                     </div>
                 </div>
@@ -274,14 +273,14 @@
                 </div>
             </div>
             <div class="card">
-                <div class="card-header">
+                <div class="card-header" style="background-color: #fff;">
                     <div class="card-profile">
-                        <!-- profile picture -->
+                        <img src="../client/bg/MiftahulPutri.jpeg" class="card-img-top" alt="">
                     </div>
                     <div class="profile-info">
-                        <p>Moera Ramadhan</p>
-                        <p>Mahasiswa</p>
-                        <p>masukkan rating bintang</p>
+                        <p>Miftahul Putri</p>
+                        <span class = "">Mahasiswa</span>
+                        <span><i class="fa-solid fa-star" style="color: #D3E564;"></i><i class="fa-solid fa-star" style="color: #D3E564;"></i><i class="fa-solid fa-star" style="color: #D3E564;"></i><i class="fa-solid fa-star" style="color: #D3E564;"></i><i class="fa-solid fa-star" style="color: #D3E564;"></i></span>
                         <!-- rating star -->
                     </div>
                 </div>
@@ -301,7 +300,7 @@
     <section id="section5" class="archive">
         <div id="inner-section5">
             <div align="center" class="teks-map">
-                <p class=fs-2> MAP INTERAKTIF</p>
+                <p class=fs-> MAP INTERAKTIF</p>
                 <p> TEMUKAN LOKASI YANG KAMU <br> MAU DENGAN MUDAH</p>
             </div>
             <div class="button-map">

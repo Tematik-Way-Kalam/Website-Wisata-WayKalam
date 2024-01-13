@@ -206,7 +206,7 @@ footer {
   align-items: flex;
 }
 .contact-info p {
-  font-family: "Plus Jakarta Sans", sans-serif;
+  font-family: 'Plus Jakarta Sans', sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -499,10 +499,12 @@ hr.border-tebal {
   justify-content: center;
   align-items: center;
   gap: 30px;
+  border: none;
 }
 
-.cardTestimoni .card {
+.cardTestimoni > .card {
   width: 35em;
+  padding: 51px 35px 15px 35px;
 }
 
 .card-header {
@@ -510,11 +512,39 @@ hr.border-tebal {
   flex-direction: row;
 }
 
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.profile-info > p {
+  color: var(--secondary, #132758);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.card-text {
+  color: var(--secondary, #132758);
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px; /* 160% */
+  opacity: 0.7;
+}
+
+.profile-info > span .rating > i {
+   /*   */
+}
 .card-profile {
   width: 5em;
   height: 5em;
   margin-right: 1em;
   background-color: red;
+  border-radius: 5px;
 }
 
 /* section 5 */
