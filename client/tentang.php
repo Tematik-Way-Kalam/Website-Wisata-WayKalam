@@ -138,31 +138,45 @@
 
         <section class="section-penghargaan">
             <div class="penghargaan"><p>PENGHARGAAN</p></div>
-            <div class="penghargaan1"><p>APRESIASI DAN PELATIHAN SERTA KUNJUNGAN <br> TAMU DARI BERBAGAI INSTANSI/LEMBAGA DAN DARI <br> BERBAGAI PIHAK, BAIK BERUPA MATERI MAUPUN <br> PENGAKUAN ADMINISTRATIF</p></div>
-            <div class="card-row">
-            <div class="card">
-                <img src="bg/gambar2.jpeg" alt="card1">
-                <h2>Nama Penghargaan</h2>
-                <p>Detail</p>
-            </div>
-            <div class="card">
-                <img src="bg/gambar2.jpeg" alt="card1">
-                <h2>Nama Penghargaan</h2>
-                <p>Detail</p>
-            </div>
-            </div>
-            <div class="card-row">
-            <div class="card">
-                <img src="bg/gambar2.jpeg" alt="card1">
-                <h2>Nama Penghargaan</h2>
-                <p>Detail</p>
-            </div>
-            <div class="card">
-                <img src="bg/gambar2.jpeg" alt="card1">
-                <h2>Nama Penghargaan</h2>
-                <p>Detail</p>
-            </div>
-            </div>  
+            <div class="p qenghargaan1"><p>APRESIASI DAN PELATIHAN SERTA KUNJUNGAN <br> TAMU DARI BERBAGAI INSTANSI/LEMBAGA DAN DARI <br> BERBAGAI PIHAK, BAIK BERUPA MATERI MAUPUN <br> PENGAKUAN ADMINISTRATIF</p></div>
+            <<div class="row row-cols-1 row-cols-md-2 g-4">
+  <div class="col">
+    <div class="card">
+      <img src="bg/gambar2.jpeg" class="card-img-top" alt="bg/gambar2.jpeg">
+      <div class="card-body">
+        <h5 class="card-title">Nama Penghargaan</h5>
+        <p class="card-text">Detail</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="bg/gambar2.jpeg" class="card-img-top" alt="bg/gambar2.jpeg">
+      <div class="card-body">
+        <h5 class="card-title">Nama Penghargaan</h5>
+        <p class="card-text">Detail</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="bg/gambar2.jpeg" class="card-img-top" alt="bg/gambar2.jpeg">
+      <div class="card-body">
+        <h5 class="card-title">Nama Penghargaan</h5>
+        <p class="card-text">Detail</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="bg/gambar2.jpeg" class="card-img-top" alt="bg/gambar2.jpeg">
+      <div class="card-body">
+        <h5 class="card-title">Nama Penghargaan</h5>
+        <p class="card-text">Detail</p>
+      </div>
+    </div>
+  </div>
+</div>
         </section>
     </body>
 </html>
