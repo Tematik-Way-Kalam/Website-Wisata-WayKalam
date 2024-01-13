@@ -44,20 +44,18 @@
                 </div>
             </div>
         </nav>
+    </header>
 
-        <!-- Background Header -->
-        <div id="latar" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
-            <div id="latar" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active" data-bs-interval="2000">
-                        <img src="bg/gambar1.jpeg" class="d-block w-100" alt="bg1" style="background-size: cover; background-repeat: no-repeat;">
-                        <p id="judul" style="font-family: Big Shoulders Display, sans-serif; font-weight: 900;">DESA WISATA</p><br>
-                        <p id="judul1" style="font-family: Big Shoulders Display, sans-serif; font-weight: 900;">WAY KALAM</p>
-                    </div>
-                </div>
+    <!-- Background Header -->
+    <div id="latar">
+        <div id="latar">
+            <img src="bg/gambar1.jpeg" class="d-block w-100" alt="bg1" style="background-size: cover; background-repeat: no-repeat;">
+            <div class="d-flex justify-content-center">
+            <p id="judul" style="font-family: Big Shoulders Display, sans-serif; font-weight: 900;">DESA WISATA</p><br>
+            <p id="judul1" style="font-family: Big Shoulders Display, sans-serif; font-weight: 900;">WAY KALAM</p>
             </div>
         </div>
-    </header>
+    </div>
 
     <!-- Section Sejarah -->
     <section id="section-about">
@@ -174,4 +172,5 @@
 
     <!-- Footer -->
 </body>
+
 </html>

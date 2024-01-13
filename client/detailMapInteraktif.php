@@ -94,19 +94,19 @@
             <div class="mt-4">
                 <h2 class="">Fasilitas</h2>
                 <ul>
-                    <li class="list-unstyled"><i class="fa-brands fa-instagram"></i>Instagram</li>
-                    <li class="list-unstyled"><i class="fa-brands fa-instagram"></i>Instagram</li>
-                    <li class="list-unstyled"><i class="fa-brands fa-instagram"></i>Instagram</li>
-                    <li class="list-unstyled"><i class="fa-brands fa-instagram"></i>Instagram</li>
-                    <li class="list-unstyled"><i class="fa-brands fa-instagram"></i>Instagram</li>
+                    <li class="list-unstyled"><i class="fa-brands fa-instagram"></i><a href="" class="mx-2 text-black text-decoration-none">Instagram</a></li>
+                    <li class="list-unstyled"><i class="fa-brands fa-instagram"></i><a href="" class="mx-2 text-black text-decoration-none">Instagram</a></li>
+                    <li class="list-unstyled"><i class="fa-brands fa-instagram"></i><a href="" class="mx-2 text-black text-decoration-none">Instagram</a></li>
+                    <li class="list-unstyled"><i class="fa-brands fa-instagram"></i><a href="" class="mx-2 text-black text-decoration-none">Instagram</a></li>
+                    <li class="list-unstyled"><i class="fa-brands fa-instagram"></i><a href="" class="mx-2 text-black text-decoration-none">Instagram</a></li>
                 </ul>
             </div>
 
             <div class="mt-4">
                 <h2 class="">Kontak</h2>
                 <ul>
-                    <li class="list-unstyled"><i class="fa-brands fa-instagram"></i>Instagram</li>
-                    <li class="list-unstyled"><i class="fa-brands fa-instagram"></i>Instagram</li>
+                    <li class="list-unstyled"><i class="fa-brands fa-instagram"></i><a href="" class="mx-2 text-black text-decoration-none">Instagram</a></li>
+                    <li class="list-unstyled"><i class="fa-brands fa-instagram"></i><a href="" class="mx-2 text-black text-decoration-none">Instagram</a></li>
                 </ul>
             </div>
 
