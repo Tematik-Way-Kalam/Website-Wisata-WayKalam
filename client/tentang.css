@@ -58,6 +58,7 @@ nav {
   position: relative;
   background: url("../client/bg/Vector.png") no-repeat;
   background-position: left 40%;
+  position: inherit;
 }
 
 .container {
@@ -99,7 +100,8 @@ nav {
 
 /* Section Penghargaan */
 .section-penghargaan {
-  margin-top: 300px;
+  margin-top: 3em;
+  padding-top : 3em; 
   background: #EBFAFD;
 }
 
@@ -117,7 +119,7 @@ nav {
 
 .penghargaan1 {
   color: #132758;
-  font-size: 64px;
+  font-size: 50px;
   font-family: Big Shoulders Display;
   font-weight: 900;
   word-wrap: break-word;
@@ -174,6 +176,7 @@ footer {
   background-position: left 85% bottom -70%; /* Center the background image */
   background-attachment: fixed;
   background-repeat: no-repeat;
+  /* position : block; */
 }
 
 footer .banner {
@@ -184,6 +187,7 @@ footer .banner {
   display: flex;
   color: white;
   padding: 40px;
+  position : block;
   /* background-image: url("../client/bg/footerVector.png");
   background-position: 50% 0%; Center the background image */
 }

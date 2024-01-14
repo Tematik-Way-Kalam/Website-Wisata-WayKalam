@@ -241,44 +241,123 @@
             <p class="text-testimonial">TESTIMONIAL</p>
             <p class="text-katamereka">APA KATA MEREKA?</p>
         </div>
-        <div class="cardTestimoni custom-card">
-            <div class="card">
-                <div class="card-header" style="background-color: #fff;">
-                    <div class="card-profile">
-                        <img src="../client/bg/MoeraRamadhan.jpeg" class="card-img-top" alt="">
-                    </div>
-                    <div class="profile-info">
-                        <p>Moera Ramadhan</p>
-                        <span class = "">Mahasiswa</span>
-                        <span><i class="fa-solid fa-star" style="color: #D3E564;"></i><i class="fa-solid fa-star" style="color: #D3E564;"></i><i class="fa-solid fa-star" style="color: #D3E564;"></i><i class="fa-solid fa-star" style="color: #D3E564;"></i></span>
-                        <!-- rating star -->
-                    </div>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="cardTestimoni custom-card">
+                        <div class="card">
+                            <div class="card-header" style="background-color: #fff;">
+                                <div class="card-profile">
+                                    <img src="../client/bg/MoeraRamadhan.jpeg" class="card-img-top" alt="">
+                                </div>
+                                <div class="profile-info">
+                                    <p>Moera Ramadhan</p>
+                                    <span class = "">Mahasiswa</span>
+                                    <span><i class="fa-solid fa-star" style="color: #D3E564;"></i><i class="fa-solid fa-star" style="color: #D3E564;"></i><i class="fa-solid fa-star" style="color: #D3E564;"></i><i class="fa-solid fa-star" style="color: #D3E564;"></i></span>
+                                    <!-- rating star -->
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">Akses jalannya udah bagus, fasilitas juga lumayan, tempat parkir luas dan aman...yg bawa motor bisa parkir on the spot dan yg bawa mobil bisa parkir didepan bayar 15K masuk air terjun per orang bayar 7K, ada ojek juga bayarnya sukarela...harus siap stamina kalo mau keair terjun ini tapi bagus banget...beli duren dan pete juga murah</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" style="background-color: #fff;">
+                                <div class="card-profile">
+                                    <img src="../client/bg/MiftahulPutri.jpeg" class="card-img-top" alt="">
+                                </div>
+                                <div class="profile-info">
+                                    <p>Miftahul Putri</p>
+                                    <span class = "">Mahasiswa</span>
+                                    <span><i class="fa-solid fa-star" style="color: #D3E564;"></i><i class="fa-solid fa-star" style="color: #D3E564;"></i><i class="fa-solid fa-star" style="color: #D3E564;"></i><i class="fa-solid fa-star" style="color: #D3E564;"></i><i class="fa-solid fa-star" style="color: #D3E564;"></i></span>
+                                    <!-- rating star -->
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">Bagusss banget tempatnyaaa!Dan masih asri banget hutannya ❤️ akses nya juga gampang banget buat dicari, the best pokoknya mah</p>
+                            </div>
+                        </div>
+                    </div> 
                 </div>
-                <div class="card-body">
-                    <p class="card-text">Desa Wisata Way Kalam adalah salah satu dari sekian banyak desa wisata yang berkembang di wilayah Kabupaten Lampung Selatan. Berlokasi di kawasan lereng gunung Rajabasa.</p>
+                <div class="carousel-item">
+                    <div class="cardTestimoni custom-card">
+                        <div class="card">
+                            <div class="card-header" style="background-color: #fff;">
+                                <div class="card-profile">
+                                    <img src="../client/bg/MoeraRamadhan.jpeg" class="card-img-top" alt="">
+                                </div>
+                                <div class="profile-info">
+                                    <p>Abdurahman James</p>
+                                    <span class = "">Mahasiswa</span>
+                                    <span><i class="fa-solid fa-star" style="color: #D3E564;"></i><i class="fa-solid fa-star" style="color: #D3E564;"></i><i class="fa-solid fa-star" style="color: #D3E564;"></i><i class="fa-solid fa-star" style="color: #D3E564;"></i></span>
+                                    <!-- rating star -->
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">Aku cinta way kalam, karena di way kalam aku bisa healing. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quos aspernatur ducimus necessitatibus debitis dolores quidem quo alias! Esse a dolore quasi rerum error, optio commodi dicta non suscipit quis?</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" style="background-color: #fff;">
+                                <div class="card-profile">
+                                    <img src="../client/bg/MiftahulPutri.jpeg" class="card-img-top" alt="">
+                                </div>
+                                <div class="profile-info">
+                                    <p>Yeet Toby</p>
+                                    <span class = "">Mahasiswa</span>
+                                    <span><i class="fa-solid fa-star" style="color: #D3E564;"></i><i class="fa-solid fa-star" style="color: #D3E564;"></i><i class="fa-solid fa-star" style="color: #D3E564;"></i><i class="fa-solid fa-star" style="color: #D3E564;"></i><i class="fa-solid fa-star" style="color: #D3E564;"></i></span>
+                                    <!-- rating star -->
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos repellat necessitatibus quasi dolorem tempore illum mollitia saepe neque soluta impedit pariatur culpa libero omnis quisquam quibusdam accusamus ratione, nostrum modi?</p>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                <div class="carousel-item">
+                    <div class="cardTestimoni custom-card">
+                            <div class="card">
+                                <div class="card-header" style="background-color: #fff;">
+                                    <div class="card-profile">
+                                        <img src="../client/bg/MoeraRamadhan.jpeg" class="card-img-top" alt="">
+                                    </div>
+                                    <div class="profile-info">
+                                        <p>Husni Loki</p>
+                                        <span class = "">Mahasiswa</span>
+                                        <span><i class="fa-solid fa-star" style="color: #D3E564;"></i><i class="fa-solid fa-star" style="color: #D3E564;"></i><i class="fa-solid fa-star" style="color: #D3E564;"></i><i class="fa-solid fa-star" style="color: #D3E564;"></i></span>
+                                        <!-- rating star -->
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quos dignissimos voluptas id dolorum consequuntur labore ullam vitae adipisci, dolor placeat nemo harum quibusdam nam aperiam velit! Atque, quo molestiae.</p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" style="background-color: #fff;">
+                                    <div class="card-profile">
+                                        <img src="../client/bg/MiftahulPutri.jpeg" class="card-img-top" alt="">
+                                    </div>
+                                    <div class="profile-info">
+                                        <p>Yanto Man</p>
+                                        <span class = "">Mahasiswa</span>
+                                        <span><i class="fa-solid fa-star" style="color: #D3E564;"></i><i class="fa-solid fa-star" style="color: #D3E564;"></i><i class="fa-solid fa-star" style="color: #D3E564;"></i><i class="fa-solid fa-star" style="color: #D3E564;"></i><i class="fa-solid fa-star" style="color: #D3E564;"></i></span>
+                                        <!-- rating star -->
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text">Bagusss banget tempatnyaaa!Dan masih asri banget hutannya ❤️ akses nya juga gampang banget buat dicari, the best pokoknya mah</p>
+                                </div>
+                            </div>
+                    </div> 
                 </div>
             </div>
-            <div class="card">
-                <div class="card-header" style="background-color: #fff;">
-                    <div class="card-profile">
-                        <img src="../client/bg/MiftahulPutri.jpeg" class="card-img-top" alt="">
-                    </div>
-                    <div class="profile-info">
-                        <p>Miftahul Putri</p>
-                        <span class = "">Mahasiswa</span>
-                        <span><i class="fa-solid fa-star" style="color: #D3E564;"></i><i class="fa-solid fa-star" style="color: #D3E564;"></i><i class="fa-solid fa-star" style="color: #D3E564;"></i><i class="fa-solid fa-star" style="color: #D3E564;"></i><i class="fa-solid fa-star" style="color: #D3E564;"></i></span>
-                        <!-- rating star -->
-                    </div>
-                </div>
-                <div class="card-body">
-                    <p class="card-text">Desa Wisata Way Kalam adalah salah satu dari sekian banyak desa wisata yang berkembang di wilayah Kabupaten Lampung Selatan. Berlokasi di kawasan lereng gunung Rajabasa.</p>
-                </div>
             </div>
-        </div>
-        
-        <div style="display: flex; justify-content: center; align-items: center; padding: 43px 0px 148px 0px">
-            <svg xmlns="http://www.w3.org/2000/svg" width="74" height="14" viewBox="0 0 74 14" fill="none"> <circle cx="7.33304" cy="7.11722" r="6.83304" fill="#132758"/> <circle opacity="0.2" cx="37" cy="7.11722" r="6.83304" fill="#132758"/><circle opacity="0.2" cx="66.667" cy="7.11722" r="6.83304" fill="#132758"/></svg>
-        </div>
         
     </section>
 
@@ -286,11 +365,11 @@
     <section id="section5" class="archive">
         <div id="inner-section5">
             <div align="center" class="teks-map">
-                <p class=fs-> MAP INTERAKTIF</p>
-                <p> TEMUKAN LOKASI YANG KAMU <br> MAU DENGAN MUDAH</p>
+                <p class=fs-2> MAP INTERAKTIF</p>
+                <p> TAKUT NYASAR? TEMUKAN <br>PETANYA DISINI</p>
             </div>
             <div class="button-map">
-                <a type="button" class="nav-link" href="./mapInteraktif.php">Map Interaktif <i class="fa-solid fa-map" aria-hidden="true"></i>
+                <a type="button" class="nav-link" href="./mapInteraktif.php" style="">Map Interaktif <i class="fa-solid fa-map" aria-hidden="true"></i>
                 </a>
             </div>
         </div>

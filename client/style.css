@@ -549,6 +549,7 @@ hr.border-tebal {
 #section4 {
   background: #ebfafd;
   margin-bottom: 97px;
+  padding-bottom: 148px;
   flex-shrink: 0;
 }
 
@@ -593,6 +594,7 @@ hr.border-tebal {
 
 .cardTestimoni > .card {
   width: 35em;
+  height: 23em;
   padding: 51px 35px 15px 35px;
 }
 
@@ -615,14 +617,28 @@ hr.border-tebal {
   line-height: normal;
 }
 
+.card-body {
+  display: flex;
+  align-items: center;
+}
+
+#section4 > #carouselExampleIndicators > .carousel-indicators {
+  bottom: -60px; 
+}
+
+#section4 > #carouselExampleIndicators > .carousel-indicators button{
+  background-color: #132758;
+}
+
 .card-text {
   color: var(--secondary, #132758);
   font-family: "Plus Jakarta Sans", sans-serif;
-  font-size: 20px;
+  font-size: 1.1vw;
   font-style: normal;
   font-weight: 500;
   line-height: 32px; /* 160% */
   opacity: 0.7;
+  align-items: center;
 }
 
 .card-profile {
@@ -722,6 +738,7 @@ footer {
   background-position: left 85% bottom -70%; /* Center the background image */
   background-attachment: fixed;
   background-repeat: no-repeat;
+  position: relative;
 }
 
 footer .banner {
