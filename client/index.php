@@ -24,7 +24,6 @@
 
 <body style="font-family: 'Plus Jakarta Sans', sans-serif;">
     <header>
-
         <div id="latar" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
             <div id="latar" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
@@ -38,23 +37,23 @@
                 <div class="carousel-inner">
                     <div class="carousel-item active" data-bs-interval="2000">
                         <img src="bg/gambar1.jpeg" class="d-block w-100" alt="bg1" style="background-size: cover; background-repeat: no-repeat;">
-                        <h1 id="judul">AIR TERJUN <br> WAY KALAM</h1>
+                        <h1 id="judul" style="font-family: 'Big Shoulders Display', sans-serif; font-weight: 900;">AIR TERJUN <br> WAY KALAM</h1>
                     </div>
                     <div class="carousel-item" data-bs-interval="2000">
                         <img src="bg/gambar2.jpeg" class="d-block w-100" alt="bg2" style="background-size: cover; background-repeat: no-repeat;">
-                        <h1 id="judul">AIR TERJUN <br> INDUKAN</h1>
+                        <h1 id="judul" style="font-family: 'Big Shoulders Display', sans-serif; font-weight: 900;">AIR TERJUN <br> INDUKAN</h1>
                     </div>
                     <div class="carousel-item" data-bs-interval="2000">
                         <img src="bg/gambar3.jpeg" class="d-block w-100" alt="bg3" style="background-size: cover; background-repeat: no-repeat;">
-                        <h1 id="judul">AIR TERJUN <br> ANAKAN</h1>
+                        <h1 id="judul" style="font-family: 'Big Shoulders Display', sans-serif; font-weight: 900;">AIR TERJUN <br> ANAKAN</h1>
                     </div>
                     <div class="carousel-item" data-bs-interval="2000">
                         <img src="bg/gambar4.jpeg" class="d-block w-100" alt="bg4" style="background-size: cover; background-repeat: no-repeat;">
-                        <h1 id="judul">.......................</h1>
+                        <h1 id="judul" style="font-family: 'Big Shoulders Display', sans-serif; font-weight: 900;">.......................</h1>
                     </div>
                     <div class="carousel-item" data-bs-interval="2000">
                         <img src="bg/gambar5.jpg" class="d-block w-100" alt="bg" style="background-size: cover; background-repeat: no-repeat;" 5>
-                        <h1 id="judul">.......................</h1>
+                        <h1 id="judul" style="font-family: 'Big Shoulders Display', sans-serif; font-weight: 900;">.......................</h1>
                     </div>
                 </div>
 

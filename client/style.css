@@ -283,7 +283,7 @@ footer {
 }
 
 .wisata .ex2 {
-  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -295,7 +295,7 @@ footer {
 .teks-desc {
   /* typography teks-desc */
   color: var(--secondary, #132758);
-  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -305,14 +305,14 @@ footer {
   opacity: 0.5;
 }
 
-.cardboard{
+.cardboard {
   margin-top: 50px;
   transition: all 0.3s;
   display: flex;
   justify-content: center;
 }
 
-.card1{
+.card1 {
   margin: 10px;
   cursor: pointer;
   color: #fff;
@@ -321,40 +321,40 @@ footer {
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
-  transition: all 0.5s ease-in-out; 
+  transition: all 0.5s ease-in-out;
   width: 100%;
   width: 50vh;
   height: 60vh;
   filter: blur(3px);
 }
 
-.card1.active{
+.card1.active {
   width: 100%;
   width: 80vh;
   flex: 10;
   filter: blur(0px);
 }
 
-.card1.active .teksWisata2{
+.card1.active .teksWisata2 {
   opacity: 1;
   transition: opacity 0.3s ease-in 0.4s;
 }
 
-.card1:hover{
+.card1:hover {
   transform: scale(1.1);
 }
 
-#wisata1{
-  background-image: url('https://upload.wikimedia.org/wikipedia/commons/a/a5/Red_Kitten_01.jpg');
+#wisata1 {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/a/a5/Red_Kitten_01.jpg");
 }
-#wisata2{
-  background-image: url('https://upload.wikimedia.org/wikipedia/commons/a/a5/Red_Kitten_01.jpg');
+#wisata2 {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/a/a5/Red_Kitten_01.jpg");
 }
-#wisata3{
-  background-image: url('https://upload.wikimedia.org/wikipedia/commons/a/a5/Red_Kitten_01.jpg');
+#wisata3 {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/a/a5/Red_Kitten_01.jpg");
 }
 
-.teksWisata2{
+.teksWisata2 {
   position: absolute;
   bottom: 20px;
   left: 20px;
@@ -362,18 +362,19 @@ footer {
   margin: 0;
 }
 
-.teksWisata2 .buttonColor{
+.teksWisata2 .buttonColor {
   background-color: transparent;
   border: 2px solid #000; /* Warna border, dapat disesuaikan */
   color: #000; /* Warna teks, dapat disesuaikan */
   padding: 10px 20px;
   cursor: pointer;
-  transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+  transition: background-color 0.3s ease, border-color 0.3s ease,
+    color 0.3s ease;
 }
 
-.teksWisata2 .buttonColor:hover{
-  background-color: #00A693;
-  border-color: #00A693;
+.teksWisata2 .buttonColor:hover {
+  background-color: #00a693;
+  border-color: #00a693;
   color: #fff;
 }
 
@@ -424,7 +425,7 @@ footer {
   gap: 1em;
 }
 
-.card2{
+.card2 {
   background-position: center;
   background-size: cover;
   position: relative;
@@ -435,14 +436,14 @@ footer {
   border-radius: 10px;
 }
 
-#satu{
-  background-image: url('bg/kopi.png');
+#satu {
+  background-image: url("bg/kopi.png");
 }
-#dua{
-  background-image: url('bg/pisang.png');
+#dua {
+  background-image: url("bg/pisang.png");
 }
-#tiga{
-  background-image: url('bg/madu.png');
+#tiga {
+  background-image: url("bg/madu.png");
 }
 
 #section3 {
@@ -623,10 +624,10 @@ hr.border-tebal {
 }
 
 #section4 > #carouselExampleIndicators > .carousel-indicators {
-  bottom: -60px; 
+  bottom: -60px;
 }
 
-#section4 > #carouselExampleIndicators > .carousel-indicators button{
+#section4 > #carouselExampleIndicators > .carousel-indicators button {
   background-color: #132758;
 }
 
