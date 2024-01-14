@@ -451,10 +451,10 @@ footer {
   background-color: #fff;
   padding: 230px 105px 170px 105px;
   /* Piagam Background */
-  background: url("../client/bg/back.png") no-repeat;
-  background-position: right -3% bottom 10%;
+  /* background: url("../client/bg/back.png") no-repeat; */
+  /* background-position: right -3% bottom 10%;
   background-position: relative;
-  background-size: 35% 35% 40% 100%;
+  background-size: 35% 35% 40% 100%; */
 }
 
 .layer1 {
@@ -484,6 +484,7 @@ footer {
   display: flex;
   flex-direction: column;
   gap: 20px 30px;
+  z-index: 1;
 }
 
 .explain-text {

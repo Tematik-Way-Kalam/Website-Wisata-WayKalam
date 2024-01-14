@@ -170,8 +170,10 @@
 
     <section id="section3">
         <div class="layer1">
-            <div class="banner">
-                <img src="../client/bg/piagam1.jpeg" alt="contoh gambar">
+            <div class="banner" style="position:relative">
+                <img src="../client/bg/piagam1.jpeg" alt="contoh gambar" style="z-index: 2;">
+                <img src="../client/bg/back2.png" alt="piagam 1" style="position: absolute; top: -100px; left: -80px;z-index: 1;"/>
+                <img src="../client/bg/back2_1.png" alt="piagam 1" style="position: absolute; top: 287px; left: 370px;z-index: 3;">
             </div>
             <div class="explain">
                 <p class="main-heading">PENGHARGAAN</p>
@@ -183,11 +185,12 @@
         <div class="layer2">
             <div class="explain">
                 <p class="main-heading">PENGHARGAAN</p>
-                <p class="sub-heading">MASUK KEDALAM 300 DESA WISATA TERBAIK DI INDONESIA</p>
-                <p class="explain-text">Desa Wisata Way Kalam adalah salah satu dari sekian banyak desa wisata yang berkembang di wilayah Kabupaten Lampung Selatan.  Berlokasi di kawasan lereng gunung Rajabasa.</p>
+                <p class="sub-heading">300 Besar Anugerah Desa Wisata Indonesia 2022</p>
+                <p class="explain-text">Desa Way Kalam merupakan satu dari 300 besar Anugerah Desa Wisata Indonesia Tahun 2022. Tidak hanya tahun 2022, pada tahun 2021 Desa Way Kalam juga menerima penghargaan yang sama sebagai desa wisata yang berkualitas.</p>
             </div>
-            <div class="banner">
-                <img src="../client/bg/piagam2.jpeg" alt="piagam 2" />
+            <div class="banner" style="position: relative;">
+                <img src="../client/bg/piagam2.jpeg" alt="piagam 2" style="z-index: 2;"/>
+                <img src="../client/bg/back.png" alt="piagam 2" style="position:absolute; top: -140px; left: 0;z-index: 1;"/>
             </div>
         </div>
 
@@ -330,11 +333,11 @@
                     </div> 
                 </div>
             </div>
-            </div>
+        </div>
         
     </section>
 
-    <!--  Section 5 (Penghargaan) -->
+    <!--  Section 5 (Reminder Map Interaktif) -->
     <section id="section5" class="archive">
         <div id="inner-section5">
             <div align="center" class="teks-map">
@@ -370,8 +373,6 @@
         </div>
         
         <hr>
-        <!-- <svg xmlns="http://www.w3.org/2000/svg" width="fit-content" align-items="center" height="2" viewBox="0 0 1290 2" fill="none"><path d="M0 0.911133H1290" stroke="white"/></svg>
-        <hr class = "border-tebal"> -->
         <div>
             <div class="down">
                 <div class="connect">
