@@ -193,7 +193,7 @@
 
     <!-- Footer -->
     <footer>
-        <div class="banner">
+        <div class="banner" id="contact">
             <div class="container" style="padding: 0px">
                 <div class="contact-us">
                     <h4>CONTACT US</h4>
