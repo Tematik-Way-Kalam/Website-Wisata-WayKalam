@@ -8,9 +8,19 @@ header {
 }
 
 /* Navigation Item */
-nav {
-  font-family: "Plus Jakarta Sans", sans-serif;
-  background: transparent !important;
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 1rem;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: black;
+  color: #000000;
+  border : 2px solid white;
+  border-radius: 5px;
 }
 
 /* Logo Header */
@@ -33,9 +43,12 @@ nav {
   overflow: hidden;
 }
 
+
 #latar p {
   font-family: "Big Shoulders Display", sans-serif;
 }
+
+
 
 #judul {
   position: absolute;
