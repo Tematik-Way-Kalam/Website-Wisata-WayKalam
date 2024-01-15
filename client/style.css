@@ -379,10 +379,11 @@ footer {
 }
 
 .umkm {
-  display: flex;
+  /* display: flex; */
   padding-left: 71px;
   padding-top: 210px;
   padding-bottom: 161px;
+  gap: 10%;
 }
 
 .direction {
@@ -420,12 +421,21 @@ footer {
 }
 
 .cardumkm {
-  padding: 40px;
+  height: fit-content;
+  padding: 0%;
   display: flex;
   gap: 1em;
 }
 
 .card2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  /* typography */
+  color: white;
+
+  /* positioning */
   background-position: center;
   background-size: cover;
   position: relative;
@@ -434,6 +444,20 @@ footer {
   width: 20 rem;
   height: 40vh;
   border-radius: 10px;
+}
+
+.card2 > p {
+  /* positioning */
+  align-items: center;
+  vertical-align: bottom;
+  /* typography */
+  color: #FFF;
+  text-align: center;
+  font-family: Big Shoulders Display;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
 }
 
 #satu {

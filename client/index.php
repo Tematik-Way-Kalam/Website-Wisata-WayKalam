@@ -144,7 +144,7 @@
             </div>
         </div>
 
-        <div class="umkm" id="umkm">
+        <div class="umkm d-flex" id="umkm">
             <div class="direction">
                 <p class="teks-produk">PRODUK UKM DESA</p>
                 <p class="teks-dukungUMKM">DUKUNG UMKM <br> DESA WISATA <br> WAY KALAM</p>
@@ -156,13 +156,13 @@
             </div>
             <div class="cardumkm">
                 <div class="card2" id="satu">
-                    <h4>KOPI WAY KALAM</h4>
+                    <p>KOPI WAY KALAM</p>
                 </div>
                 <div class="card2" id="dua">
-                    <h4>ANEKA CAMILAN PISANG</h4>
+                    <p>ANEKA CAMILAN PISANG</p>
                 </div>
                 <div class="card2" id="tiga">
-                    <h4>PRODUKSI MADU KELULUT</h4>
+                    <p>PRODUKSI MADU KELULUT</p>
                 </div>
             </div>
         </div> 
