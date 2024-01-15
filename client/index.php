@@ -147,14 +147,14 @@
         <div class="umkm d-flex" id="umkm">
             <div class="direction">
                 <p class="teks-produk">PRODUK UKM DESA</p>
-                <p class="teks-dukungUMKM">DUKUNG UMKM <br> DESA WISATA <br> WAY KALAM</p>
+                <p class="teks-dukungUMKM">YUK, LIAT PRODUK <br> UMKM DESA WAY <br>KALAM!</p>
                 <div>
                 <a type="button" class="nav-link btn btn-primary p-2" href="#" style="background: var(--pu2, #00A693); color:white;">
                 Lihat Selengkapnya<svg xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 25" fill="none"> <path d="M12 22.4594C17.5228 22.4594 22 17.9822 22 12.4594C22 6.9365 17.5228 2.45935 12 2.45935C6.47715 2.45935 2 6.9365 2 12.4594C2 17.9822 6.47715 22.4594 12 22.4594Z" stroke="#F9FAFB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> <path d="M12 16.4594L16 12.4594L12 8.45935" stroke="#F9FAFB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> <path d="M8 12.4594H16" stroke="#F9FAFB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg> </a> 
                 </div>
                 
             </div>
-            <div class="cardumkm">
+            <ul class="cardumkm">
                 <div class="card2" id="satu">
                     <p>KOPI WAY KALAM</p>
                 </div>
@@ -164,7 +164,25 @@
                 <div class="card2" id="tiga">
                     <p>PRODUKSI MADU KELULUT</p>
                 </div>
-            </div>
+                <div class="card2" id="tiga">
+                    <p>PRODUKSI MADU KELULUT</p>
+                </div>
+                <div class="card2" id="tiga">
+                    <p>PRODUKSI MADU KELULUT</p>
+                </div>
+                <div class="card2" id="tiga">
+                    <p>PRODUKSI MADU KELULUT</p>
+                </div>
+                <div class="card2" id="tiga">
+                    <p>PRODUKSI MADU KELULUT</p>
+                </div>
+                <div class="card2" id="tiga">
+                    <p>PRODUKSI MADU KELULUT</p>
+                </div>
+                <div class="card2" id="tiga">
+                    <p>PRODUKSI MADU KELULUT</p>
+                </div>
+            </ul>
         </div> 
     </section>
 
@@ -412,6 +430,36 @@
                 })
             }
         }
+    </script>
+    <!-- script untuk card umkm -->
+    <script>
+        const slider = document.querySelector('.cardumkm');
+        let isDown = false;
+        let startX;
+        let scrollLeft;
+
+        slider.addEventListener('mousedown', e => {
+        isDown = true;
+        slider.classList.add('active');
+        startX = e.pageX - slider.offsetLeft;
+        scrollLeft = slider.scrollLeft;
+        });
+        slider.addEventListener('mouseleave', _ => {
+        isDown = false;
+        slider.classList.remove('active');
+        });
+        slider.addEventListener('mouseup', _ => {
+        isDown = false;
+        slider.classList.remove('active');
+        });
+        slider.addEventListener('mousemove', e => {
+        if (!isDown) return;
+        e.preventDefault();
+        const x = e.pageX - slider.offsetLeft;
+        const SCROLL_SPEED = 3;
+        const walk = (x - startX) * SCROLL_SPEED;
+        slider.scrollLeft = scrollLeft - walk;
+        });
     </script>
 </body>
 
