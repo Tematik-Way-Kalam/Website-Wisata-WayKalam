@@ -182,7 +182,7 @@
             </div>
             <div class="explain">
                 <p class="main-heading">PENGHARGAAN</p>
-                <p class="sub-heading">MASUK KEDALAM 300 DESA WISATA TERBAIK DI INDONESIA</p>
+                <p class="sub-heading">ANUGERAH DESA WISATA INDONESIA 2023</p>
                 <p class="explain-text">Desa Wisata Way Kalam adalah salah satu dari sekian banyak desa wisata yang berkembang di wilayah Kabupaten Lampung Selatan.  Berlokasi di kawasan lereng gunung Rajabasa.</p>
             </div>
         </div>
