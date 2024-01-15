@@ -8,9 +8,19 @@ header {
 }
 
 /* Navigation Item */
-nav {
-  font-family: "Plus Jakarta Sans", sans-serif;
-  background: transparent !important;
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 1rem;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: black;
+  color: #000000;
+  border : 2px solid white;
+  border-radius: 5px;
 }
 
 /* Logo Header */
@@ -33,9 +43,12 @@ nav {
   overflow: hidden;
 }
 
+
 #latar p {
   font-family: "Big Shoulders Display", sans-serif;
 }
+
+
 
 #judul {
   position: absolute;
@@ -48,7 +61,7 @@ nav {
 #judul1 {
   position: absolute;
   margin-top: 200px;
-  font-size: 200px;
+  font-size: 12em;
   top: 10px;
   color: #fff;
 }
@@ -105,6 +118,7 @@ nav {
   background: #EBFAFD;
 }
 
+/* Default styles for larger screens */
 .penghargaan {
   font-family: "Big Shoulders Display", sans-serif;
   font-size: 32px;
@@ -126,6 +140,18 @@ nav {
   text-align: center;
 }
 
+/* Media query for screens smaller than 600px */
+@media only screen and (max-width: 600px) {
+  .penghargaan {
+    font-size: 24px;
+  }
+
+  .penghargaan1 {
+    font-size: 40px;
+  }
+}
+
+/* Default styles for larger screens */
 .card-row {
   justify-content: center;
   display: flex;
@@ -166,6 +192,19 @@ nav {
   text-align: left;
 }
 
+@media only screen and (max-width: 600px) {
+  .card {
+    width: 80%; 
+    margin: 20px auto; 
+    height: auto; 
+  }
+
+  .card img {
+    width: 100%; 
+    height: auto; 
+  }
+}
+
 footer {
   background: var(--secondary, #132758);
   padding: 20px;
@@ -176,7 +215,6 @@ footer {
   background-position: left 85% bottom -70%; /* Center the background image */
   background-attachment: fixed;
   background-repeat: no-repeat;
-  /* position : block; */
 }
 
 footer .banner {
@@ -188,8 +226,6 @@ footer .banner {
   color: white;
   padding: 40px;
   position : block;
-  /* background-image: url("../client/bg/footerVector.png");
-  background-position: 50% 0%; Center the background image */
 }
 
 .icons {
@@ -216,20 +252,7 @@ hr {
   border: 3px solid white;
 }
 
-/* .unit {
-  margin-top: 100px;
-  background-color: white;
-  display: flex;
-  flex-direction: row;
-  gap: 30%;
-  padding: 20px 0px 0px 20px;
-  opacity: 1;
-} */
-
 .contact-us {
-  /* display: inline-block; */
-  /* margin-right: 100px; */
-
   font-family: "Big Shoulders Display", sans-serif;
   font-size: 32px;
   font-weight: 900;
@@ -245,24 +268,19 @@ hr {
 }
 
 .kunjungi-dan-rasakan {
-  /* display: inline-block; */
-
   font-family: "Big Shoulders Display", sans-serif;
   font-size: 64px;
   font-weight: 900;
   font-style: normal;
   line-height: normal;
-  /* letter-spacing: 0.05em; */
   text-align: left;
   font-variant: all-small-caps;
   color: linear-gradient(136.79deg, #ffffff 24.22%, #7cdbf0 105.58%);
 }
 
 .contact-info {
-  /* margin-right: 100px; */
   color: #fff;
   display: flex-start;
-  /* flex-direction: column; */
   align-items: flex;
 }
 .contact-info p {

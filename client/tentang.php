@@ -19,11 +19,31 @@
     <style>
         nav {
             font-family: "Plus Jakarta Sans", sans-serif;
-            background: transparent !important;
+            background: white !important;
         }
 
         nav a {
             color: #fff !important;
+        }
+
+        .navbar-toggler-icon:before{
+            background-color: transparent;
+        }
+
+        .navbar-toggler-icon:after {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 33px;
+        margin-left: -16px;
+        height: 2px;
+        border-radius: 1px;
+        background-color: #fff;
+        /* Change this to #000000 for black color */
+        opacity: 0;
+        transition: border-radius 0.2s, opacity 0.2s, background-color 0.2s;
         }
     </style>
 </head>
@@ -35,7 +55,7 @@
     <div id="latar">
         <div id="latar">
             <img src="bg/gambar1.jpeg" class="d-block w-100" alt="bg1" style="background-size: cover; background-repeat: no-repeat;">
-            <div class="d-flex justify-content-center">
+            <div class="d-flex justify-content-center" id = "resp-text ta">
                 <p id="judul" style="font-family: Big Shoulders Display, sans-serif; font-weight: 900;">DESA WISATA</p><br>
                 <p id="judul1" style="font-family: Big Shoulders Display, sans-serif; font-weight: 900;">WAY KALAM</p>
             </div>
@@ -193,7 +213,7 @@
 
     <!-- Footer -->
     <footer>
-        <div class="banner">
+        <div class="banner" id="contact">
             <div class="container" style="padding: 0px">
                 <div class="contact-us">
                     <h4>CONTACT US</h4>
