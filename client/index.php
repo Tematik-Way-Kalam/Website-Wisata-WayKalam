@@ -220,7 +220,7 @@
     <section id="section4">
         <div class="judultest" align="center">
             <p class="text-testimonial">TESTIMONIAL</p>
-            <p class="text-katamereka">APA KATA MEREKA?</p>
+            <p class="text-katamereka">AYO, BACA PENGALAMAN DAN CERITA SERU MEREKA</p>
         </div>
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
@@ -237,7 +237,7 @@
                                     <img src="../client/bg/MoeraRamadhan.jpeg" class="card-img-top" alt="">
                                 </div>
                                 <div class="profile-info">
-                                    <p>Moera Ramadhan</p>
+                                    <p>Wiwin Andayani</p>
                                     <span class = "">Mahasiswa</span>
                                     <span><i class="fa-solid fa-star" style="color: #D3E564;"></i><i class="fa-solid fa-star" style="color: #D3E564;"></i><i class="fa-solid fa-star" style="color: #D3E564;"></i><i class="fa-solid fa-star" style="color: #D3E564;"></i></span>
                                     <!-- rating star -->
@@ -253,14 +253,14 @@
                                     <img src="../client/bg/MiftahulPutri.jpeg" class="card-img-top" alt="">
                                 </div>
                                 <div class="profile-info">
-                                    <p>Miftahul Putri</p>
+                                    <p>Sinta Desna</p>
                                     <span class = "">Mahasiswa</span>
                                     <span><i class="fa-solid fa-star" style="color: #D3E564;"></i><i class="fa-solid fa-star" style="color: #D3E564;"></i><i class="fa-solid fa-star" style="color: #D3E564;"></i><i class="fa-solid fa-star" style="color: #D3E564;"></i><i class="fa-solid fa-star" style="color: #D3E564;"></i></span>
                                     <!-- rating star -->
                                 </div>
                             </div>
                             <div class="card-body">
-                                <p class="card-text">Bagusss banget tempatnyaaa!Dan masih asri banget hutannya ❤️ akses nya juga gampang banget buat dicari, the best pokoknya mah</p>
+                                <p class="card-text">Bagusss banget tempatnyaaa!<br>Dan masih asri banget hutannya ❤️ akses nya juga gampang banget buat dicari, the best pokoknya mah</p>
                             </div>
                         </div>
                     </div> 

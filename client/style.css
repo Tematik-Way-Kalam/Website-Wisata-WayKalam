@@ -597,7 +597,7 @@ hr.border-tebal {
 }
 
 .judultest {
-  padding: 171px 492.5px 40px 492.5px;
+  padding: 12vw 20vw 2vw 20vw;
 }
 
 .text-testimonial {
@@ -639,11 +639,13 @@ hr.border-tebal {
   width: 35em;
   height: 23em;
   padding: 51px 35px 15px 35px;
+  --bs-card-border-color: #fff;
 }
 
 .card-header {
   display: flex;
   flex-direction: row;
+  gap: 0.5vw;
 }
 
 .profile-info {
@@ -662,7 +664,6 @@ hr.border-tebal {
 
 .card-body {
   display: flex;
-  align-items: center;
 }
 
 #section4 > #carouselExampleIndicators > .carousel-indicators {
@@ -670,18 +671,30 @@ hr.border-tebal {
 }
 
 #section4 > #carouselExampleIndicators > .carousel-indicators button {
-  background-color: #132758;
+  /* background-color: #132758; */
+  background-color: #9e9c9c;
+  border: #9e9c9c;; 
+  border-radius: 50%; 
+  width: 10px; 
+  height: 10px; 
+  margin: 0 5px; 
+}
+
+#section4 > #carouselExampleIndicators > .carousel-indicators button.active {
+  background-color: #132758; 
+  border-color: #132758; 
 }
 
 .card-text {
   color: var(--secondary, #132758);
   font-family: "Plus Jakarta Sans", sans-serif;
-  font-size: 1.1vw;
+  font-size: 1vw;
   font-style: normal;
   font-weight: 500;
   line-height: 32px; /* 160% */
   opacity: 0.7;
   align-items: center;
+  vertical-align: top;
 }
 
 .card-profile {
