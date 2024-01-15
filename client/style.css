@@ -2,15 +2,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800 & display=swap");
 
 header {
-  height: 500px;
+  height: 100%;
+  width: 100%;
 }
 
 .carousel-indicators {
   display: inline-flex;
   padding: 10px;
   align-items: flex-start;
-  right: none;
   margin-left: 0%;
+}
+
+.carousel-inner img{
+  height: 830;
+  width: 100%;
+  object-fit: cover;
 }
 
 .navbar {
@@ -29,6 +35,11 @@ header {
 
 .carousel-indicators {
   float: left;
+}
+
+.carousel-inner{
+  width: 1440;
+  height: 829;
 }
 
 #latar {

@@ -36,32 +36,30 @@
 
                 <div class="carousel-inner">
                     <div class="carousel-item active" data-bs-interval="2000">
-                        <img src="bg/gambar1.jpeg" class="d-block w-100" alt="bg1" style="background-size: cover; background-repeat: no-repeat;">
+                        <img src="bg/gambarCard1.png" class="d-block w-100" alt="bg1" style="background-size: cover; background-repeat: no-repeat;">
                         <h1 id="judul" style="font-family: 'Big Shoulders Display', sans-serif; font-weight: 900;">AIR TERJUN <br> WAY KALAM</h1>
                     </div>
                     <div class="carousel-item" data-bs-interval="2000">
-                        <img src="bg/gambar2.jpeg" class="d-block w-100" alt="bg2" style="background-size: cover; background-repeat: no-repeat;">
+                        <img src="bg/gambarCard2.png" class="d-block w-100" alt="bg2" style="background-size: cover; background-repeat: no-repeat;">
                         <h1 id="judul" style="font-family: 'Big Shoulders Display', sans-serif; font-weight: 900;">AIR TERJUN <br> INDUKAN</h1>
                     </div>
                     <div class="carousel-item" data-bs-interval="2000">
-                        <img src="bg/gambar3.jpeg" class="d-block w-100" alt="bg3" style="background-size: cover; background-repeat: no-repeat;">
+                        <img src="bg/gambarCard3.png" class="d-block w-100" alt="bg3" style="background-size: cover; background-repeat: no-repeat;">
                         <h1 id="judul" style="font-family: 'Big Shoulders Display', sans-serif; font-weight: 900;">AIR TERJUN <br> ANAKAN</h1>
                     </div>
                     <div class="carousel-item" data-bs-interval="2000">
-                        <img src="bg/gambar4.jpeg" class="d-block w-100" alt="bg4" style="background-size: cover; background-repeat: no-repeat;">
+                        <img src="bg/gambarCard4.png" class="d-block w-100" alt="bg4" style="background-size: cover; background-repeat: no-repeat;">
                         <h1 id="judul" style="font-family: 'Big Shoulders Display', sans-serif; font-weight: 900;">.......................</h1>
                     </div>
                     <div class="carousel-item" data-bs-interval="2000">
-                        <img src="bg/gambar5.jpg" class="d-block w-100" alt="bg" style="background-size: cover; background-repeat: no-repeat;" 5>
+                        <img src="bg/gambarCard5.png" class="d-block w-100" alt="bg" style="background-size: cover; background-repeat: no-repeat;" 5>
                         <h1 id="judul" style="font-family: 'Big Shoulders Display', sans-serif; font-weight: 900;">.......................</h1>
                     </div>
                 </div>
 
                 <div class="text-header">
                     <p>
-                        Desa Wisata Way Kalam adalah salah satu dari sekian banyak desa wisata yang berkembang di wilayah
-                        Kabupaten Lampung Selatan. Berlokasi di kawasan lereng gunung Rajabasa (salah satu gunung yang
-                        terkenal di Kabupaten Lampung Selatan).
+                        Di sini, terbentang cerita petualangan, desa wisata memikat hati. Dari air terjun yang menjulang tinggi hingga berkemah di hutan alami. Rencanakan perjalananmu, temukan pengalaman dan kebahagiaan, di setiap klik halaman kami.
                     </p>
                 </div>
             </div>
