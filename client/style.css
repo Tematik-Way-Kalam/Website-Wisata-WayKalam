@@ -340,10 +340,6 @@ footer {
   transition: opacity 0.3s ease-in 0.4s;
 }
 
-.card1:hover {
-  transform: scale(1.1);
-}
-
 #wisata1 {
   background-image: url("https://upload.wikimedia.org/wikipedia/commons/a/a5/Red_Kitten_01.jpg");
 }
@@ -383,13 +379,14 @@ footer {
   padding-left: 71px;
   padding-top: 210px;
   padding-bottom: 161px;
-  gap: 10%;
+  gap: 5%;
 }
 
 .direction {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  width: 180rem;
 }
 
 .teks-produk {
@@ -418,22 +415,43 @@ footer {
   font-style: normal;
   font-weight: 900;
   line-height: 70px; /* 109.375% */
+  padding-bottom: 3rem;
 }
 
 .cardumkm {
-  height: fit-content;
+  /* height: fit-content;
   padding: 0%;
   display: flex;
-  gap: 1em;
+  gap: 1em; */
+  /* padding: 1rem; */
+  margin-bottom: 0;
+  display: grid;
+  grid-template-columns: repeat(9, 350px);
+  /* grid-template-rows: 10px; */
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  overflow: scroll;
+  scroll-snap-type: both mandatory;
+  /* scroll-padding: 1rem; */
+}
+
+.active {
+  scroll-snap-type: unset;
 }
 
 .card2 {
-  display: flex;
+  /* card animation style */
+  scroll-snap-align: center;
+  display: inline-block;
+  border-radius: 3px;
+  font-size: 0;
+
+  /* display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: flex-end; */
   /* typography */
-  color: white;
+  /* color: white; */
 
   /* positioning */
   background-position: center;
@@ -441,9 +459,7 @@ footer {
   position: relative;
   width: 100%;
   height: 100%;
-  width: 20 rem;
-  height: 40vh;
-  border-radius: 10px;
+  border-radius: 10px; 
 }
 
 .card2 > p {
