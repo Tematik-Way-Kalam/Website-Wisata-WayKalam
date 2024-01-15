@@ -340,10 +340,6 @@ footer {
   transition: opacity 0.3s ease-in 0.4s;
 }
 
-.card1:hover {
-  transform: scale(1.1);
-}
-
 #wisata1 {
   background-image: url("https://upload.wikimedia.org/wikipedia/commons/a/a5/Red_Kitten_01.jpg");
 }
