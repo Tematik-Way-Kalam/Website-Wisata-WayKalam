@@ -379,14 +379,16 @@ footer {
   padding-left: 71px;
   padding-top: 210px;
   padding-bottom: 161px;
-  gap: 5%;
+  gap: 1px;
 }
 
 .direction {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  width: 180rem;
+  gap: 3vw;
+  /* height: ; */
+  width: 55vw;
 }
 
 .teks-produk {
@@ -426,9 +428,9 @@ footer {
   /* padding: 1rem; */
   margin-bottom: 0;
   display: grid;
-  grid-template-columns: repeat(9, 350px);
+  grid-template-columns: repeat(4, 350px);
   /* grid-template-rows: 10px; */
-  grid-column-gap: 10px;
+  grid-column-gap: 3vw;
   grid-row-gap: 10px;
   overflow: scroll;
   scroll-snap-type: both mandatory;
@@ -445,15 +447,9 @@ footer {
   display: inline-block;
   border-radius: 3px;
   font-size: 0;
-
-  /* display: flex;
+  display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: flex-end; */
-  /* typography */
-  /* color: white; */
-
-  /* positioning */
+  justify-content: flex-end;
   background-position: center;
   background-size: cover;
   position: relative;
@@ -474,6 +470,11 @@ footer {
   font-style: normal;
   font-weight: 900;
   line-height: normal;
+}
+
+/* menghilangkan scrollbar secara visual */
+.cardumkm::-webkit-scrollbar {
+  width: 0; 
 }
 
 #satu {
