@@ -25,43 +25,43 @@
 <body style="font-family: 'Plus Jakarta Sans', sans-serif;">
     <header>
         <div id="latar" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
-            <div id="latar" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#latar" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#latar" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#latar" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                    <button type="button" data-bs-target="#latar" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                    <button type="button" data-bs-target="#latar" data-bs-slide-to="4" aria-label="Slide 5"></button>
-                </div>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#latar" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#latar" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#latar" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#latar" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#latar" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            </div>
 
-                <div class="carousel-inner">
-                    <div class="carousel-item active" data-bs-interval="2000">
-                        <img src="bg/gambarCard1.png" class="d-block w-100" alt="bg1" style="background-size: cover; background-repeat: no-repeat;">
-                        <h1 id="judul" style="font-family: 'Big Shoulders Display', sans-serif; font-weight: 900;">AIR TERJUN <br> WAY KALAM</h1>
-                    </div>
-                    <div class="carousel-item" data-bs-interval="2000">
-                        <img src="bg/gambarCard2.png" class="d-block w-100" alt="bg2" style="background-size: cover; background-repeat: no-repeat;">
-                        <h1 id="judul" style="font-family: 'Big Shoulders Display', sans-serif; font-weight: 900;">AIR TERJUN <br> INDUKAN</h1>
-                    </div>
-                    <div class="carousel-item" data-bs-interval="2000">
-                        <img src="bg/gambarCard3.png" class="d-block w-100" alt="bg3" style="background-size: cover; background-repeat: no-repeat;">
-                        <h1 id="judul" style="font-family: 'Big Shoulders Display', sans-serif; font-weight: 900;">AIR TERJUN <br> ANAKAN</h1>
-                    </div>
-                    <div class="carousel-item" data-bs-interval="2000">
-                        <img src="bg/gambarCard4.png" class="d-block w-100" alt="bg4" style="background-size: cover; background-repeat: no-repeat;">
-                        <h1 id="judul" style="font-family: 'Big Shoulders Display', sans-serif; font-weight: 900;">.......................</h1>
-                    </div>
-                    <div class="carousel-item" data-bs-interval="2000">
-                        <img src="bg/gambarCard5.png" class="d-block w-100" alt="bg" style="background-size: cover; background-repeat: no-repeat;" 5>
-                        <h1 id="judul" style="font-family: 'Big Shoulders Display', sans-serif; font-weight: 900;">.......................</h1>
-                    </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="2000">
+                    <img src="bg/gambarCard1.png" class="d-block w-100" alt="bg1" style="background-size: cover; background-repeat: no-repeat;">
+                    <h1 id="judul" style="font-family: 'Big Shoulders Display', sans-serif; font-weight: 900;">AIR TERJUN <br> WAY KALAM</h1>
                 </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="bg/gambarCard2.png" class="d-block w-100" alt="bg2" style="background-size: cover; background-repeat: no-repeat;">
+                    <h1 id="judul" style="font-family: 'Big Shoulders Display', sans-serif; font-weight: 900;">AIR TERJUN <br> ANAKAN</h1>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="bg/gambarCard3.png" class="d-block w-100" alt="bg3" style="background-size: cover; background-repeat: no-repeat;">
+                    <h1 id="judul" style="font-family: 'Big Shoulders Display', sans-serif; font-weight: 900;">CAMPING <br> GROUND</h1>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="bg/gambarCard4.png" class="d-block w-100" alt="bg4" style="background-size: cover; background-repeat: no-repeat;">
+                    <h1 id="judul" style="font-family: 'Big Shoulders Display', sans-serif; font-weight: 900;">MASUK KEDALAM 300 <br> DESA WISATA TERBAIK <br> DI INDONESIA</h1>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="bg/gambarCard5.png" class="d-block w-100" alt="bg" style="background-size: cover; background-repeat: no-repeat;" 5>
+                    <h1 id="judul" style="font-family: 'Big Shoulders Display', sans-serif; font-weight: 900;">AIR TERJUN <br> ANAKAN</h1>
+                </div>
+            </div>
 
-                <div class="text-header">
-                    <p>
-                        Di sini, terbentang cerita petualangan, desa wisata memikat hati. Dari air terjun yang menjulang tinggi hingga berkemah di hutan alami. Rencanakan perjalananmu, temukan pengalaman dan kebahagiaan, di setiap klik halaman kami.
-                    </p>
-                </div>
+            <div class="text-header">
+                <p>
+                    Desa Wisata Way Kalam adalah salah satu dari sekian banyak desa wisata yang berkembang di wilayah
+                    Kabupaten Lampung Selatan. Berlokasi di kawasan lereng gunung Rajabasa (salah satu gunung yang
+                    terkenal di Kabupaten Lampung Selatan).
+                </p>
             </div>
         </div>
     </header>
@@ -180,7 +180,7 @@
             </div>
             <div class="explain">
                 <p class="main-heading">PENGHARGAAN</p>
-                <p class="sub-heading">MASUK KEDALAM 300 DESA WISATA TERBAIK DI INDONESIA</p>
+                <p class="sub-heading">ANUGERAH DESA WISATA INDONESIA 2023</p>
                 <p class="explain-text">Desa Wisata Way Kalam adalah salah satu dari sekian banyak desa wisata yang berkembang di wilayah Kabupaten Lampung Selatan.  Berlokasi di kawasan lereng gunung Rajabasa.</p>
             </div>
         </div>
@@ -218,7 +218,7 @@
     <section id="section4">
         <div class="judultest" align="center">
             <p class="text-testimonial">TESTIMONIAL</p>
-            <p class="text-katamereka">APA KATA MEREKA?</p>
+            <p class="text-katamereka">AYO, BACA PENGALAMAN DAN CERITA SERU MEREKA</p>
         </div>
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
@@ -235,7 +235,7 @@
                                     <img src="../client/bg/MoeraRamadhan.jpeg" class="card-img-top" alt="">
                                 </div>
                                 <div class="profile-info">
-                                    <p>Moera Ramadhan</p>
+                                    <p>Wiwin Andayani</p>
                                     <span class = "">Mahasiswa</span>
                                     <span><i class="fa-solid fa-star" style="color: #D3E564;"></i><i class="fa-solid fa-star" style="color: #D3E564;"></i><i class="fa-solid fa-star" style="color: #D3E564;"></i><i class="fa-solid fa-star" style="color: #D3E564;"></i></span>
                                     <!-- rating star -->
@@ -251,14 +251,14 @@
                                     <img src="../client/bg/MiftahulPutri.jpeg" class="card-img-top" alt="">
                                 </div>
                                 <div class="profile-info">
-                                    <p>Miftahul Putri</p>
+                                    <p>Sinta Desna</p>
                                     <span class = "">Mahasiswa</span>
                                     <span><i class="fa-solid fa-star" style="color: #D3E564;"></i><i class="fa-solid fa-star" style="color: #D3E564;"></i><i class="fa-solid fa-star" style="color: #D3E564;"></i><i class="fa-solid fa-star" style="color: #D3E564;"></i><i class="fa-solid fa-star" style="color: #D3E564;"></i></span>
                                     <!-- rating star -->
                                 </div>
                             </div>
                             <div class="card-body">
-                                <p class="card-text">Bagusss banget tempatnyaaa!Dan masih asri banget hutannya ❤️ akses nya juga gampang banget buat dicari, the best pokoknya mah</p>
+                                <p class="card-text">Bagusss banget tempatnyaaa!<br>Dan masih asri banget hutannya ❤️ akses nya juga gampang banget buat dicari, the best pokoknya mah</p>
                             </div>
                         </div>
                     </div> 
