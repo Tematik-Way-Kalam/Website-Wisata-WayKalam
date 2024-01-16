@@ -1,0 +1,4 @@
+buat ngejalanin tailwindnya
+copy n paste text dibawah ke terminal, terus enter
+
+npx tailwindcss -i ./input.css -o ./output.css --watch
