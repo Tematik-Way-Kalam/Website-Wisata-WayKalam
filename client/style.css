@@ -108,14 +108,32 @@ header {
   padding-left: 50px;
   padding-bottom: 70px;
   justify-content: center;
+  vertical-align: top;
 }
 
-.td1 h2 {
-  font-family: "Plus Jakarta Sans", sans-serif;
+.td1 p {
+  /* styling */
+  background: var(--tp, linear-gradient(125deg, #00A693 4.14%, #132758 110.26%, #132758 110.26%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* typography */
+  font-family: Big Shoulders Display;
+  font-size: 32px;
+  font-style: normal;
   font-weight: 900;
+  /* placement */
+  line-height: normal;
+  vertical-align:top;
 }
 
 .td2 p {
+  color: var(--secondary, #132758);
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: 34px; 
   width: 90%;
   text-align: justify;
   padding-left: 20px;
@@ -211,7 +229,7 @@ footer {
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.05em;
-  text-align: right;
+  text-align: left;
   margin-bottom: 10px;
 }
 
@@ -233,6 +251,7 @@ footer {
 /* Section 2 (Model) */
 #section2 {
   background-color: #e2f6ff;
+  padding-top: 147px;
 }
 
 .wisata {
@@ -298,11 +317,11 @@ footer {
   font-family: "Plus Jakarta Sans", sans-serif;
   font-size: 20px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 200;
   line-height: 32px; /* 160% */
 
   /* style */
-  opacity: 0.5;
+  opacity: 0.7;
 }
 
 .cardboard {
@@ -536,6 +555,7 @@ footer {
   font-style: normal;
   font-weight: 200;
   line-height: 32px; /* 160% */
+  opacity: 0.7;
 }
 .moreopt {
   background-color: #132758;
@@ -549,7 +569,7 @@ footer {
 }
 
 .exp4 {
-  padding: 85px 58px 85.5px;
+  padding: 80px 58px 85.5px 75px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -577,7 +597,7 @@ footer {
   font-family: Plus Jakarta Sans, sans-serif;
   font-size: 20px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 200;
   line-height: 32px; /* 160% */
 
   /* style */
@@ -801,7 +821,7 @@ footer {
 footer .banner {
   display: flex;
   flex-direction: row;
-  align-items: flex-end;
+  align-items: flex-start;
   width: 100%;
   display: flex;
   color: white;
