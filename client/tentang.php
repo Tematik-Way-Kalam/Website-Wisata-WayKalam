@@ -19,23 +19,41 @@
     <style>
         nav {
             font-family: "Plus Jakarta Sans", sans-serif;
-            background: transparent !important;
+            background: white !important;
         }
 
         nav a {
             color: #fff !important;
         }
+
+        .navbar-toggler-icon:before{
+            background-color: transparent;
+        }
+
+        .navbar-toggler-icon:after {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 33px;
+        margin-left: -16px;
+        height: 2px;
+        border-radius: 1px;
+        background-color: #fff;
+        /* Change this to #000000 for black color */
+        opacity: 0;
+        transition: border-radius 0.2s, opacity 0.2s, background-color 0.2s;
+        }
     </style>
 </head>
 
 <body style="font-family: 'Plus Jakarta Sans', sans-serif;">
-
-
     <!-- Background Header -->
-    <div id="latar">
+    <div id="container-latar">
         <div id="latar">
-            <img src="bg/gambar1.jpeg" class="d-block w-100" alt="bg1" style="background-size: cover; background-repeat: no-repeat;">
-            <div class="d-flex justify-content-center">
+            <img src="bg/bgtentang.png" class="d-block w-100" alt="bg1" style="background-size: cover; background-repeat: no-repeat;">
+            <div class="d-flex justify-content-center" id = "resp-text ta">
                 <p id="judul" style="font-family: Big Shoulders Display, sans-serif; font-weight: 900;">DESA WISATA</p><br>
                 <p id="judul1" style="font-family: Big Shoulders Display, sans-serif; font-weight: 900;">WAY KALAM</p>
             </div>
@@ -50,10 +68,9 @@
             </div>
             <div class="articles">
                 <article>
-                    <p>Banyak hal menarik yang bisa anda temukan di Lampung Selatan. Kabupaten Serambi Sumatera ini memiliki sejuta potensi wisata yang siap untuk anda kunjungi</p>
-                    <p>Desa Wisata Way Kalam adalah salah satu dari sekian banyak desa wisata yang berkembang di wilayah Kabupaten Lampung Selatan. Berlokasi di kawasan lereng gunung Rajabasa (salah satu gunung yang terkenal di Kabupaten Lampung Selatan) Jarak tempuh 17 km dari pusat Kota Kalianda/Ibukota Kabupaten Lampung Selatan dengan jarak tempuh 26 Menit, serta berlokasi di ketinggian 372 m dpl.</p>
-                    <p>Mengangkat tema Desa Wisata Alam & Budaya, Desa Wisata Way Kalam menawarkan kegiatan wisata pengalaman berupa pembelajaran dan interaksi tentang alam, lingkungan hidup, pertanian, perkebunan, wirausaha, kehidupan sosial budaya, aneka seni tradisi dan kearifan lokal yang masih mengakar kuat di masyarakat dengan suasana khas pedesaan di lereng Gunung Rajabasa.</p>
-                    <p>Perjalanan Desa Wisata Way Kalam diawali pada tahun 1999 sebagai salah satu desa yang memiliki potensi banyak wisata ada di lereng gunung Rajabasa, namun belum dimanfaatkan oleh warga sekitar dengan baik, dengan semangat gotong royong dalam merawat alam, lingkungan hidup dan kearifan lokal yang diajarkan dan dilakukan oleh tokoh masyarakat generasi sebelumnya, telah membuahkan hasil dengan melimpahnya kekayaan alam, vegetasi, hasil bumi dan kehidupan sosial budaya masyarakat pedesaan yang tetap terjaga dengan baik hingga saat ini.</p>
+                    <p>Desa Way Kalam merupakan salah satu dari sekian banyak desa wisata yang ada di Lampung Selatan. Banyak hal menarik yang bisa kamu temukan di sini. Lokasi Desa Way Kalam tidak jauh dengan pusat Kota Kalianda, Berada di lereng Gunung Rajabasa dengan ketinggian 372 m dpl membuat jarak yang harus kamu tempuh untuk sampai di Desa Way Kalam yaitu 17 km atau sekitar 26 menit.</p>
+                    <p>Mengangkat tema Desa Wisata Alam & Budaya, kamu dapat merasakan pengalaman edukatif dan interaksi dengan alam, lingkungan hidup, petanian, perkebunan, wirausaha, kehidupan sosial budaya, aneka seni tradisi dan kearifan lokal masyarakat khas pedesaan di lereng Gunung Rajabasa.</p>
+                    <p>Tahun 1999 menjadi awal perjalanan dari Desa Wisata Way Kalam sebagai salah satu desa yang berpotensi pada sektor wisatanya, namun kekayaan dan keindahan alam tersebut belum dimanfaatkan dengan baik oleh masyarakat sekitar.</p>
                 </article>
             </div>
         </div>
@@ -64,11 +81,10 @@
             </div>
             <div class="articles">
                 <article>
-                    <p>Pada awal tahun 2015an kami Pemuda/I dan Masyarakat Desa Wat Kalam mulai bergerak membangun mimpi kami dengan mulai melangkah kecil dengan mimpi untuk memberi nilai tambah pada kehidupan sosial, ekonomi dan budaya masyarakat desa, namun dengan tetap mempertahankan tradisi, kearifan lokal dan budaya masyarakat. Dan harus berani membuka diri dan membangun interaksi positif dengan masyarakat dari luar.</p>
-                    <p>Dengan Segala keterbatasan dan hanya bermodal semangat dan dukungan berbagai pihak, Baik dari Pemerintah Desa, Daerah dan sebagainya kami Pemuda/I (Pokdarwis) memberanikan membangun desa wisata Way Kalam dengan harapan ingin maju sejajar dengan desa-desa lainnya yang ada di indonesia.</p>
-                    <p>Adapun latar belakang dalam mengembangkan desa wisata adalah kami menilai bahwa pendekatan dengan melalui desa wisata akan mampu memberikan efek yang luar biasa bagi masyarakat, karena dengan desa wisata akan dapat mengakomodasi semua komponen masyarakat untuk aktif bergerak sebagai pelaku utama (subyek) dan bukan hanya sebagai obyek. Selain itu kami juga akan dapat mengajak berbagai pihak lain, baik pemerintah, swasta maupun perguruan tinggi untuk berpartisipasi aktif dalam membangun desa wisata.</p>
-                    <p>Saat itu juga kami mulai menata diri, mengelola dan melestarikan lingkungan dan mengajak masyarakat bersama-sama untuk memiliki kebanggaan terhadap desanya sendiri. Mengawali kegiatan ini bukan hal yang mudah karena kami membangun tanpa bermodalkan materi dan adanya perubahan budaya petani menjadi penyedia jasa wisata. Namun dengan dukungan dan kepercayaan penuh dari masyarakat dan pemerintah dengan berbagai programnya, membuat masyarakat mampu merencanakan, melaksanakan dan mengawasi serta menikmati semua pembangunan yang dilakukan dari, oleh dan untuk masyarakat.</p>
-                    <p>Dengan jumlah penduduk 1184 jiwa (351 KK), desa wisata Way Kalam pada saat awal belum mampu mengandalkan desa wisata sebagai salah satu upaya mengangkat taraf ekonomi dan pendapatan masyarakat karena keterbatasan dalam kemampuan sumberdaya manusia, sarana dan prasarana pendukung, keterampilan maupun pembuatan paket wisata. Selain itu juga belum mampu memasarkan dengan baik paket wisata yang dibuat. Pada tahun 2015 belum terdapat sarana dan prasarana yang memadai sebagai salah satu pendukung pariwisata.  Saat itu hanya terdapat 5 homestay, lapangan seadanya sebagai tempat kemah dan out bond. Pemandu kegiatan dan atraksi belum percaya diri karena belum memiliki kemampuan dan identitas diri.  Pada tahun 2015 jumlah tamu yang berkunjung belum mencapai 1.000 orang.</p>
+                    <p>Pada awal tahun 2015, para pemuda-pemudi dan warga Way Kalam mulai bergerak mewujudkan mimpi mereka. Sebuah mimpi untuk memberi nilai tambah pada kehidupan sosial, ekonomi, dan budaya masyarakat desa. Warga Way Kalam mewujudkan itu semua dengan tetap mempertahankan tradisi, kearifan lokal dan budaya, serta harus berani membuka diri dan membangun interaksi positif dengan masyarakat luar</p>
+                    <p>Dengan segala keterbatasan yang ada, semangat dari berbagai pihak dan pemerintah lah yang membuat warga Way Kalam berani membangun desa dengan harapan ingin maju sejajar dengan desa-desa lainnya yang ada di Indonesia. Adapun latar belakang dari pengembangan Desa Way Kalam yaitu pendekatan melalui desa wisata merupakan pendekatan yang paling efektif. Desa wisata dinilai efektif karena desa wisata akan dapat mengakomodasi semua komponen masyarakat untuk aktif bergerak sebagai pelaku utama (subyek) dan bukan hanya sebagai obyek. Selain itu, pihak Way Kalam kemungkinan dapat mengajak berbagai pihak lain, baik pemerintah, swasta maupun perguruan tinggi untuk berpartisipasi aktif dalam membangun desa wisata.</p>
+                    <p>Mulai dari saat itu, warga Way Kalam mulai menata diri, mengelola, dan melestarikan lingkungan serta dapat mengajak masyarakat untuk berbangga diri atas Desa Way Kalam. Pengembangan ini bukanlah hal yang mudah bagi Desa Way Kalam, warga desa ini membangun tanpa bermodalkan materi dan memerlukan perubahan kebiasaan bertani menjadi mengurus wisata. Namun, berkat dukungan dari berbagai pihak untuk menjalankan program desa, masyarakat mampu merencanakan, melaksanakan dan mengawasi serta menikmati semua pembangunan yang dilakukan dari, oleh, dan untuk masyarakat.</p>
+                    <p>Dengan jumlah penduduk 1184 jiwa (351 KK), Desa Wisata Way Kalam pada saat awal belum mampu mengandalkan desa wisata sebagai salah satu upaya mengangkat taraf ekonomi dan pendapatan masyarakat karena keterbatasan dalam kemampuan sumber daya manusia, sarana dan prasarana pendukung, keterampilan, maupun pembuatan paket wisata. Selain itu, Desa Way Kalam belum mampu memasarkan dengan baik paket wisata yang dibuat. Pada tahun 2015 belum terdapat sarana dan prasarana yang memadai sebagai salah satu pendukung pariwisata. Saat itu hanya terdapat 5 homestay dan lapangan seadanya sebagai tempat kemah dan outbond. Pemandu kegiatan dan atraksi belum percaya diri karena belum memiliki kemampuan dan identitas diri. Pada tahun 2015 jumlah tamu yang berkunjung belum mencapai 1.000 orang.</p>
                 </article>
             </div>
         </div>
@@ -79,7 +95,7 @@
             </div>
             <div class="articles">
                 <article>
-                    <p>Pada tahun 2019 Desa Wisata Way Kalam mulai untuk berbenah mendapatkan pendampingan dari berbagai pihak yang memberikan program peningkatan sarana dan prasarana perkemahan seperti perbaikan aula, kamar mandi, lapangan parkir dan peningkatan akses jalan masuk yang ada.  Dengan adanya program tersebut maka tamu yang berkunjung mulai meningkat signifikan dan mencapai 3.000 orang dengan pemasukan yang cukup besar.</p>
+                    <p>Pada tahun 2019, Desa Wisata Way Kalam mulai mendapatkan pendampingan dari banyak pihak dan memberikan program peningkatan sarana dan prasarana perkemahan. Mulai dari perbaikan aula, kamar mandi, lapangan parkir dan peningkatan akses jalan. Adanya program tersebut mempengaruhi banyaknya wisatawan yang datang dan menapatkan pemasukan yang cukup besar.</p>
                 </article>
             </div>
         </div>
@@ -90,7 +106,7 @@
             </div>
             <div class="articles">
                 <article>
-                    <p>Tahun 2020 mendapatkan program dan bantuan digunakan untuk fasilitasi pelatihan SDM, seragam pemandu, penambahan sarana kesenian, kuliner dan cinderamata. Dengan Program Dana Desa ternyata mampu mempercepat upaya peningkatan sarana dan prasarana desa wisata, sehingga pada tahun 2020 kami telah memiliki homestay 30 rumah yang sudah bekerjasama dengan pihak OYYO, pemesanan sudah bisa melakukan pemesanan kamar homestay secara online , beraneka atraksi pertanian, seni budaya dan kuliner serta pelayanan yang mulai tertata baik.</p>
+                    <p>Di tahun ini, Desa Way Kalam mendapatkan program dan bantuan yang digunakan untuk memfasilitasi pelatihan SDM, seragam pemandu, penambahan sarana kesenian, kuliner, dan cinderamata. Dengan Program Dana Desa mampu mempercepat upaya peningkatan sarana dan prasarana desa wisata. Sehingga pada tahun 2020, kami telah memiliki homestay sejumlah 30 rumah yang sudah bekerjasama dengan pihak OYO sehingga pemesanan kamar homestay dapat dilakukan secara online. Selain itu, beraneka atraksi pertanian, seni budaya, dan kuliner serta pelayanan sudah tertata dengan baik.</p>
                 </article>
             </div>
         </div>
@@ -101,7 +117,7 @@
             </div>
             <div class="articles">
                 <article>
-                    <p>Pada tahun 2021 jumlah tamu mencapai < 3.000 orang dari target> 5.000 orang. Keterlibatan masyarakat yang demikian besar dalam kegiatan Desa wisata Way Kalam merupakan sebuah proses yang terbentuk secara alami dimana Desa wisata Way Kalam mampu memberikan manfaat bagi masyarakatnya. Keterlibatan kaum perempuan dan pemudanya merupakan modal yang sangat berharga bagi keberlangsungan dan keberlanjutan Dewi Peri dimasa mendatang.</p>
+                    <p>Jumlah wisatawan pada tahun 2021 mencapai 3.000 orang dari target 5.000 orang. Keterlibatan masyarakat yang sangat besar dalam kegiatan Desa Wisata Way Kalam merupakan sebuah proses yang terbentuk secara alami dimana Desa Wisata Way Kalam mampu memberikan manfaat bagi masyarakatnya. Terkhususnya kepada kaum perempuan dan pemudanya menjadikan modal yang sangat berharga bagi keberlangsungan dan keberlanjutan Desa Wisata Way Kalam dimasa mendatang.</p>
                 </article>
             </div>
         </div>
@@ -112,9 +128,8 @@
             </div>
             <div class="articles">
                 <article>
-                    <p>Pada tahun 2022, Desa wisata Way Kalam kami anggap telah mampu memberdayakan sebagian besar anggota masyarakat (> 70%), dengan berbagai kelompok yang terlibat, seperti homestay (50 homestay/120 kamar), atraksi seni dan budaya (25 orang), pemandu wisata lokal/pemuda (20 orang), kuliner lokal (20 orang), home industri (5 orang), warung kelontong (6 unit) dan tenaga keamanan/pendukung (30 orang). Kami juga mampu memanfaatkan lahan desa yang terlantar menjadi tempat untuk pembudidayaa Lebah madu Peternakan Kambing (1 ha) Dan Air Terjun Way Kalam yang menjadi Icon Wisata yang ada di Desa Way Kalam. Daerah Aliran Sungai (DAS) dari air terjun way kalam menjadi area petualangan/tracking yang menarik bagi tamu, Selain itu kami juga telah bekerjasama dengan beberapa pihak di dalam desa seperti kelompok tani pemuda, perkebunan, pertanian, wanita tani, dsb. Kerjasama dengan pihak luar seperti Pemerintah Desa dengan tanah kas desa, kelompok kesenian, kelompok peternak.</p>
-                    <p>Pada saat ini (tahun 2022/2023) setelah mendapatkan pendampingan, bantuan pengembangan SDM dan fasilitas pariwisata dari berbagai pihak tingkat kunjungan wisatawan sudah stabil pada jumlah sekitar 5.000 orang per tahun dan pendapatan rata-rata mencapai Rp. 2.000.000 - Rp. 5.000.000/bulan.</p>
-                    <p>Dengan visi dan misi upaya pemberdayakan ekonomi dan sosial budaya masyarakat dengan tetap menjaga kearifan lokal, ke depan pengembangan Air Terjun akan diarahkan pada upaya-upaya pelestarian alam dan lingkungan secara berkelanjutan dengan tetap menjaga nilai luhur kehidupan sosial budaya pedesaan yang mampu dijadikan tontonan dan tuntunan bagi masyarakat lokal dan masyarakat di wilayah lainnya.</p>
+                    <p>Pada tahun 2022, Desa Wisata Way Kalam telah mampu memberdayakan sebagian besar anggota masyarakat (> 70%), dengan berbagai kelompok yang terlibat, seperti homestay (50 homestay/120 kamar), atraksi seni dan budaya (25 orang), pemandu wisata lokal/pemuda (20 orang), kuliner lokal (20 orang), home industri (5 orang), warung kelontong (6 unit), dan tenaga keamanan/pendukung (30 orang). Kami juga mampu memanfaatkan lahan desa yang terlantar menjadi tempat untuk pembudidayaan Lebah Madu, peternakan kambing (1 ha), dan Air Terjun Way Kalam yang menjadi ikon wisata yang ada di Desa Way Kalam. Daerah Aliran Sungai (DAS) dari air terjun Way Kalam menjadi area petualangan/tracking yang menarik bagi tamu. Selain itu, kami juga telah bekerjasama dengan beberapa pihak di dalam desa seperti kelompok tani pemuda, perkebunan, pertanian, wanita tani, dsb. Kerjasama dengan pihak luar seperti pemerintah desa dengan tanah kas desa, kelompok kesenian, dan kelompok peternak.</p>
+                    <p>Pada saat ini (tahun 2022/2023) setelah mendapatkan pendampingan, bantuan pengembangan SDM, dan fasilitas pariwisata dari berbagai pihak. Tingkat kunjungan wisatawan sudah stabil pada jumlah sekitar 5.000 orang per tahun dan pendapatan rata-rata mencapai Rp. 2.000.000–Rp. 5.000.000/bulan. Berdasar pada visi dan misi upaya pemberdayakan ekonomi dan sosial budaya masyarakat dengan tetap menjaga kearifan lokal, kedepannya pengembangan Air Terjun akan diarahkan pada upaya-upaya pelestarian alam dan lingkungan secara berkelanjutan dengan tetap menjaga nilai luhur kehidupan sosial budaya pedesaan yang mampu dijadikan tontonan dan tuntunan bagi masyarakat lokal dan masyarakat di wilayah lainnya.</p>
                     <p>Dalam kurun waktu 8 tahun ini banyak pencapaian impian yang sudah terwujud, dimana kami mampu memberikan peluang pada masyarakat untuk mendapatkan tambahan pendapatan dan peningkatan ekonomi tanpa keluar dari desa, tanpa harus merusak lingkungan, mampu mencegah arus urbaninsasi bagi generasi muda, memberdayakan kelompok perempuan dan tumbuhnya berbagai kegiatan ekonomi produktif serta terpeliharanya budaya masyarakat setempat.</p>
                 </article>
             </div>
@@ -193,7 +208,7 @@
 
     <!-- Footer -->
     <footer>
-        <div class="banner">
+        <div class="banner" id="contact">
             <div class="container" style="padding: 0px">
                 <div class="contact-us">
                     <h4>CONTACT US</h4>
