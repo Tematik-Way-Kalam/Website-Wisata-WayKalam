@@ -15,9 +15,6 @@
 
     <!-- FONT -->
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
-    <title>Landing Page</title>
-
-    <link rel="stylesheet" href="font-awesome/css/all.css">
     <title>Way Kalam | Beranda</title>
 
 </head>

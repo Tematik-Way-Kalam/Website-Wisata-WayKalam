@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800 & display=swap");
 
+body {
+  overflow-x: hidden;
+}
+
 header {
   height: 500px;
 }
@@ -798,4 +802,10 @@ hr {
   text-decoration: none;
   color: white;
   font-weight: 400;
+}
+
+@media (max-width: 376px;) {
+  .carousel-inner {
+    height: 100%;
+  }
 }
