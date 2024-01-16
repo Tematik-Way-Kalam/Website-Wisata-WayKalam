@@ -159,9 +159,16 @@ header {
   background-color: #fff;
 }
 
+iframe{
+  width: 800;
+  height: 457;
+}
+
 #visitor p {
   /* layout */
   background: var(--p2, linear-gradient(137deg, #fff 24.22%, #7cdbf0 105.58%));
+  max-width: 100%;
+  width: 100%;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -346,7 +353,7 @@ footer {
   width: 100%;
   width: 50vh;
   height: 60vh;
-  filter: blur(3px);
+  filter: blur(1px);
 }
 
 .card1.active {
@@ -362,13 +369,13 @@ footer {
 }
 
 #wisata1 {
-  background-image: url("https://upload.wikimedia.org/wikipedia/commons/a/a5/Red_Kitten_01.jpg");
+  background-image: url("bg/gambarCard1.png");
 }
 #wisata2 {
-  background-image: url("https://upload.wikimedia.org/wikipedia/commons/a/a5/Red_Kitten_01.jpg");
+  background-image: url("bg/gambarCard2.png");
 }
 #wisata3 {
-  background-image: url("https://upload.wikimedia.org/wikipedia/commons/a/a5/Red_Kitten_01.jpg");
+  background-image: url("bg/gambarCard3.png");
 }
 
 .teksWisata2 {
@@ -709,7 +716,7 @@ hr.border-tebal {
 }
 
 .card-text {
-  color: var(--secondary, #132758);
+  color: var(--secondary, #fff);
   font-family: "Plus Jakarta Sans", sans-serif;
   font-size: 1vw;
   font-style: normal;

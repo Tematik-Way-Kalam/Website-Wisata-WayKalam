@@ -80,7 +80,7 @@
         <table class="table2 d-flex justify-content-center align-items-center py-5">
             <tr class="d-flex align-items-center gap-5 mt-5">
                 <td class="d-flex align-items-center">
-                <iframe src="https://drive.google.com/file/d/1AVUQN7lWLPwGtA1c-EjdJjRkD_9u4etG/preview" width="810" height="457" class="rounded-5" allowfullscreen allow='autoplay'></iframe>
+                    <iframe width="100%" height="100%" src="https://drive.google.com/file/d/1AVUQN7lWLPwGtA1c-EjdJjRkD_9u4etG/preview" class="rounded-5" allowfullscreen allow='autoplay'></iframe>
                 </td>
                 <td id="visitor" class="text-white d-flex flex-column justify-content-center align-items-center rounded-5" style="background-color: #132758; background-image: url(./bg/visit.png); background-repeat: no-repeat; background-size: cover; min-width: 457px; min-height: 457px;">
                     <div class="d-flex justify-content-center flex-column align-items-center">
@@ -114,25 +114,25 @@
             <!-- Card 1 -->
             <div class="card1 active" id = "wisata1">
                 <div class="teksWisata2">
-                    <h5 class="card-title">Air Terjun Way Indukan Way Kalam</h5>
-                    <p class="card-text">Infokan animasi yang bagus</p>
-                    <a href="#" class="btn buttonColor">Disini ya!</a>
+                    <h5 class="card-title">Air Terjun Way Kalam</h5>
+                    <p class="card-text">Desa Wisata Way Kalam adalah salah satu dari sekian banyak desa wisata yang berkembang di wilayah Kabupaten Lampung Selatan.  Berlokasi di kawasan lereng gunung Rajabasa.</p>
+                    <a href="#" class="btn buttonColor">Lihat Selengkapnya </a>
                 </div>
             </div>
             <!-- Card 2 -->
             <div class="card1" id = "wisata2">
                 <div class="teksWisata2">
-                    <h5 class="card-title">Air Terjun Way Anakan Way Kalam</h5>
-                    <p class="card-text">Infokan animasi yang bagus</p>
-                    <a href="#" class="btn buttonColor">Disini ya!</a>
+                    <h5 class="card-title">Air Terjun Anakan Way Kalam</h5>
+                    <p class="card-text">Desa Wisata Way Kalam adalah salah satu dari sekian banyak desa wisata yang berkembang di wilayah Kabupaten Lampung Selatan.  Berlokasi di kawasan lereng gunung Rajabasa.</p>
+                    <a href="#" class="btn buttonColor">Lihat Selengkapnya </a>
                 </div>
             </div>
             <!-- Card 3 -->
             <div class="card1" id = "wisata3">
                 <div class="teksWisata2">
                     <h5 class="card-title">Camping Ground Air Terjun Way Kalam</h5>
-                    <p class="card-text">Infokan animasi yang bagus</p>
-                    <a href="#" class="btn buttonColor">Disini ya!</a>
+                    <p class="card-text">Desa Wisata Way Kalam adalah salah satu dari sekian banyak desa wisata yang berkembang di wilayah Kabupaten Lampung Selatan.  Berlokasi di kawasan lereng gunung Rajabasa.</p>
+                    <a href="#" class="btn buttonColor">Lihat Selengkapnya </a>
                 </div>
             </div>
         </div>
