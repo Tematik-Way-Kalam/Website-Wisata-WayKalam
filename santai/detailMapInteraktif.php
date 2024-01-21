@@ -26,6 +26,7 @@ include "navbar.php";
         nav #nav-menu {
             color: black !important;
         }
+
         #navbar-default a.active {
             color: #132758;
             background-color: #00A693 !important;
@@ -33,18 +34,18 @@ include "navbar.php";
     </style>
 </head>
 
-<body class="bg-slate-100 overflow-x-hidden">
-    <section class="flex pt-28 md:pt-16 flex-col-reverse md:flex-row">
-        <div class="md:max-w-96 bg-[#EBFAFD] p-6">
+<body class="bg-[#ACC4FF] overflow-x-hidden">
+    <section class="flex pt-28 md:pt-14 flex-col-reverse md:flex-row">
+        <div class="md:max-w-96 bg-[#D6F2FF] p-6">
             <form class="pt-6 md:pt-16">
                 <div class="flex">
                     <div class="relative w-full">
-                        <input type="search" id="search-dropdown" class="block py-3 px-6 w-full z-20 text-gray-900 bg-white rounded-lg shadow-md shadow-gray-200 focus:ring-blue-500 focus:border-blue-500" placeholder="Cari Tujuan ..." required>
+                        <input type="search" id="search-dropdown" class="block py-3 px-6 w-full z-20 text-gray-900 bg-white rounded-lg shadow-md shadow-gray-200 focus:ring-blue-500 focus:border-blue-500 font-plusJakarta" placeholder="Cari Tujuan ..." required>
                         <button type="submit" class="absolute top-0 end-0 py-3 px-6 font-medium h-full text-[#132758] rounded-r-lg overflow-hidden hover:bg-[#132758] hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300">
                             <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
                                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z" />
                             </svg>
-                            <span class="sr-only">Search</span>
+                            <span class="sr-only">Cari</span>
                         </button>
                     </div>
                 </div>
@@ -64,17 +65,17 @@ include "navbar.php";
                     <img src="./images/gambar1.png" class="w-full" />
                 </div>
             </div>
-            <div class="flex justify-center w-full py-2 gap-4">
+            <!-- <div class="flex justify-center w-full py-2 gap-4">
                 <a href="#item1" class="btn btn-xs">1</a>
                 <a href="#item2" class="btn btn-xs">2</a>
                 <a href="#item3" class="btn btn-xs">3</a>
                 <a href="#item4" class="btn btn-xs">4</a>
-            </div>
+            </div> -->
 
             <div class="pt-6">
                 <div class="">
-                    <h2 class="font-bigShoulders text-[16px] md:text-[16px] font-black bg-gradient-to-br from-[#00A693] via-[#00A693] to-[#132758] inline-block text-transparent bg-clip-text py-3">Nama Wisata</h2>
-                    <div class="text-justify">
+                    <h2 class="font-bigShoulders text-[16px] md:text-[16px] font-black bg-gradient-to-br from-[#00A693] via-[#00A693] to-[#132758] inline-block text-transparent bg-clip-text py-3">Air Terjun Indukan</h2>
+                    <div class="text-justify font-plusJakarta text-black">
                         <p>Desa Wisata Way Kalam adalah salah satu dari sekian banyak desa wisata yang berkembang di wilayah Kabupaten Lampung Selatan. Berlokasi di kawasan lereng gunung Rajabasa (salah satu gunung yang terkenal di Kabupaten Lampung Selatan) Desa Wisata Way Kalam adalah salah satu dari sekian banyak desa wisata yang berkembang di wilayah Kabupaten Lampung Selatan. Berlokasi di kawasan lereng gunung Rajabasa (salah satu gunung yang terkenal di Kabupaten Lampung Selatan)</p>
                     </div>
                 </div>
@@ -87,23 +88,23 @@ include "navbar.php";
                         <ul class="w-full space-y-2">
                             <li class="flex items-center space-x-2">
                                 <i class="fa-regular fa-circle-check" style="color: #00A693;"></i>
-                                <a href="" class="hover:underline">Instagram</a>
+                                <a href="" class="hover:underline font-plusJakarta text-black">Instagram</a>
                             </li>
                             <li class="flex items-center space-x-2">
                                 <i class="fa-regular fa-circle-check" style="color: #00A693;"></i>
-                                <a href="" class="hover:underline">Instagram</a>
+                                <a href="" class="hover:underline font-plusJakarta text-black">Instagram</a>
                             </li>
                             <li class="flex items-center space-x-2">
                                 <i class="fa-regular fa-circle-check" style="color: #00A693;"></i>
-                                <a href="" class="hover:underline">Instagram</a>
+                                <a href="" class="hover:underline font-plusJakarta text-black">Instagram</a>
                             </li>
                             <li class="flex items-center space-x-2">
                                 <i class="fa-regular fa-circle-check" style="color: #00A693;"></i>
-                                <a href="" class="hover:underline">Instagram</a>
+                                <a href="" class="hover:underline font-plusJakarta text-black">Instagram</a>
                             </li>
                             <li class="flex items-center space-x-2">
                                 <i class="fa-regular fa-circle-check" style="color: #00A693;"></i>
-                                <a href="" class="hover:underline">Instagram</a>
+                                <a href="" class="hover:underline font-plusJakarta text-black">Instagram</a>
                             </li>
                         </ul>
                     </div>
@@ -117,11 +118,11 @@ include "navbar.php";
                         <ul class="w-full space-y-2">
                             <li class="flex items-center space-x-2">
                                 <i class="fa-regular fa-circle-check" style="color: #00A693;"></i>
-                                <a href="" class="hover:underline">Instagram</a>
+                                <a href="" class="hover:underline font-plusJakarta text-black">Instagram</a>
                             </li>
                             <li class="flex items-center space-x-2">
                                 <i class="fa-regular fa-circle-check" style="color: #00A693;"></i>
-                                <a href="" class="hover:underline">Instagram</a>
+                                <a href="" class="hover:underline font-plusJakarta text-black">Instagram</a>
                             </li>
                         </ul>
                     </div>
@@ -131,25 +132,43 @@ include "navbar.php";
             <div class="pt-6">
                 <div class="">
                     <h2 class="font-bigShoulders text-[16px] md:text-[16px] font-black bg-gradient-to-br from-[#00A693] via-[#00A693] to-[#132758] inline-block text-transparent bg-clip-text py-3">Wisata</h2>
-                    <div class="carousel space-x-4 mt-3">
-                        <div class="carousel-item h-[16rem] md:h-[16rem]">
-                            <img class="rounded-lg" src="./images/umkm1.png" alt="Banana" />
+                    <div class="space-x-4 mt-3 flex overflow-auto">
+                        <div class="bg-white rounded-lg px-8 py-4">
+                            <div class="flex flex-col justify-around items-center">
+                                <div class="overflow-hidden rounded-md h-[12rem] w-[8rem]">
+                                    <img src="./images/wisata/indukan.svg" alt="indukan" class="h-full w-full object-cover" />
+                                </div>
+                                <div class="items-center text-center">
+                                    <p class="uppercase font-bigShoulders font-bold text-black md:text-[14px]">Air Terjun Indukan</p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="carousel-item h-[16rem] md:h-[16rem]">
-                            <img class="rounded-lg" src="./images/umkm1.png" alt="Banana" />
+                        <div class="bg-white rounded-lg px-6 py-3">
+                            <div class="flex flex-col justify-around items-center">
+                                <div class="overflow-hidden rounded-md h-[12rem] w-[8rem]">
+                                    <img src="./images/wisata/anakan.svg" alt="anakan" class="h-full w-full object-cover" />
+                                </div>
+                                <div class="items-center text-center">
+                                    <p class="uppercase font-bigShoulders font-bold text-black md:text-[14px]">Air Terjun Anakan</p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="carousel-item h-[16rem] md:h-[16rem]">
-                            <img class="rounded-lg" src="./images/umkm1.png" alt="Banana" />
-                        </div>
-                        <div class="carousel-item h-[16rem] md:h-[16rem]">
-                            <img class="rounded-lg md:mr-6" src="./images/umkm1.png" alt="Banana" />
+                        <div class="bg-white rounded-lg px-6 py-3">
+                            <div class="flex flex-col justify-around items-center">
+                                <div class="overflow-hidden rounded-md h-[12rem] w-[8rem]">
+                                    <img src="./images/wisata/camping.svg" alt="camping" class="h-full w-full object-cover" />
+                                </div>
+                                <div class="items-center text-center">
+                                    <p class="uppercase font-bigShoulders font-bold text-black md:text-[14px]">Camping Ground</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="w-full">
-            <img src="./images/map.png" alt="" class="w-full">
+        <div class="w-full md:pt-14">
+            <img src="./images/map.svg" alt="" class="w-full">
         </div>
     </section>
 

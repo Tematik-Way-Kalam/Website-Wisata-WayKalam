@@ -5,6 +5,7 @@ module.exports = {
     extend: {},
     fontFamily: {
       bigShoulders: ["Big Shoulders Display", "sans-serif"],
+      plusJakarta: ["Plus Jakarta Sans", "sans-serif"],
     },
   },
   plugins: [require("daisyui")],

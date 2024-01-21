@@ -33,18 +33,18 @@ include "navbar.php";
     </style>
 </head>
 
-<body class="bg-slate-100 overflow-x-hidden">
-    <section class="flex pt-28 md:pt-16 flex-col-reverse md:flex-row">
-        <div class="md:max-w-96 bg-[#EBFAFD] p-6">
+<body class="bg-[#ACC4FF] overflow-x-hidden">
+    <section class="flex pt-28 md:pt-14 flex-col-reverse md:flex-row">
+        <div class="md:max-w-96 bg-[#D6F2FF] p-6">
             <form class="pt-6 md:pt-16">
                 <div class="flex">
                     <div class="relative w-full">
-                        <input type="search" id="search-dropdown" class="block py-3 px-6 w-full z-20 text-gray-900 bg-white rounded-lg shadow-md shadow-gray-200 focus:ring-blue-500 focus:border-blue-500" placeholder="Cari Tujuan ..." required>
+                        <input type="search" id="search-dropdown" class="block py-3 px-6 w-full z-20 text-gray-900 bg-white rounded-lg shadow-md shadow-gray-200 focus:ring-blue-500 focus:border-blue-500 font-plusJakarta" placeholder="Cari Tujuan ..." required>
                         <button type="submit" class="absolute top-0 end-0 py-3 px-6 font-medium h-full text-[#132758] rounded-r-lg overflow-hidden hover:bg-[#132758] hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300">
                             <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
                                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z" />
                             </svg>
-                            <span class="sr-only">Search</span>
+                            <span class="sr-only">Cari</span>
                         </button>
                     </div>
                 </div>
@@ -53,36 +53,36 @@ include "navbar.php";
                 <div class="p-6 flex justify-between">
                     <div class="max-w-12 flex items-center flex-col justify-end">
                         <img src="./images/icon-semua.svg" alt="">
-                        <p>Semua</p>
+                        <p class="font-plusJakarta">Semua</p>
                     </div>
                     <div class="max-w-12 flex items-center flex-col justify-end">
                         <img src="./images/icon-wisata.svg" alt="">
-                        <p>Wisata</p>
+                        <p class="font-plusJakarta">Wisata</p>
                     </div>
                     <div class="max-w-12 flex items-center flex-col justify-end">
                         <img src="./images/icon-umkm.svg" alt="">
-                        <p>UMKM</p>
+                        <p class="font-plusJakarta">UMKM</p>
                     </div>
                 </div>
                 <div class="p-6 flex justify-between">
                     <div class="max-w-12 flex items-center flex-col justify-end">
                         <img src="./images/icon-homestay.svg" alt="">
-                        <p>Homestay</p>
+                        <p class="font-plusJakarta">Homestay</p>
                     </div>
                     <div class="max-w-12 flex items-center flex-col justify-end">
                         <img src="./images/icon-peternakan.svg" alt="">
-                        <p>Peternakan</p>
+                        <p class="font-plusJakarta">Peternakan</p>
                     </div>
                     <div class="max-w-12 flex items-center flex-col justify-end">
                         <img src="./images/icon-warung.svg" alt="">
-                        <p>Warung</p>
+                        <p class="font-plusJakarta">Warung</p>
                     </div>
                 </div>
             </div>
 
             <div class="py-6">
                 <a href="" class="flex items-center justify-center py-4 px-8 text-white bg-[#7CDBF0] rounded-lg md:p-y-3 md:px-6">
-                    <p class="flex items-center space-x-2 text-[#132758] font-bold">Filter Aktif: Wisata</p>
+                    <p class="flex items-center space-x-2 text-[#132758] font-bold font-plusJakarta">Filter Aktif: Wisata</p>
                     <img src="./images/icon-wisata.svg" alt="wisata" class="h-5 px-2 filter invert-1">
                 </a>
             </div>
@@ -94,8 +94,8 @@ include "navbar.php";
                         <img src="./images/gambar1.png" alt="Air Terjun Way Kalam" class="h-full object-cover" />
                     </div>
                     <div class="p-3 w-96 flex flex-col items-start justify-around">
-                        <h2 class="text-[14px] font-bold">Air Terjun Way Kalam</h2>
-                        <p>Wisata</p>
+                        <h2 class="text-[14px] font-bold font-plusJakarta text-black">Air Terjun Way Kalam</h2>
+                        <p class="font-plusJakarta">Wisata</p>
                         <div class="space-x-2">
                             <i class="fa-solid fa-star" style="color: #D3E564;"></i>
                             <i class="fa-solid fa-star" style="color: #D3E564;"></i>
@@ -110,8 +110,8 @@ include "navbar.php";
                         <img src="./images/gambar1.png" alt="Air Terjun Way Kalam" class="h-full object-cover" />
                     </div>
                     <div class="p-3 w-96 flex flex-col items-start justify-around">
-                        <h2 class="text-[14px] font-bold">Air Terjun Way Kalam</h2>
-                        <p>Wisata</p>
+                        <h2 class="text-[14px] font-bold font-plusJakarta text-black">Air Terjun Way Kalam</h2>
+                        <p class="font-plusJakarta">Wisata</p>
                         <div class="space-x-2">
                             <i class="fa-solid fa-star" style="color: #D3E564;"></i>
                             <i class="fa-solid fa-star" style="color: #D3E564;"></i>
@@ -126,8 +126,8 @@ include "navbar.php";
                         <img src="./images/gambar1.png" alt="Air Terjun Way Kalam" class="h-full object-cover" />
                     </div>
                     <div class="p-3 w-96 flex flex-col items-start justify-around">
-                        <h2 class="text-[14px] font-bold">Air Terjun Way Kalam</h2>
-                        <p>Wisata</p>
+                        <h2 class="text-[14px] font-bold font-plusJakarta text-black">Air Terjun Way Kalam</h2>
+                        <p class="font-plusJakarta">Wisata</p>
                         <div class="space-x-2">
                             <i class="fa-solid fa-star" style="color: #D3E564;"></i>
                             <i class="fa-solid fa-star" style="color: #D3E564;"></i>
@@ -141,8 +141,8 @@ include "navbar.php";
 
 
         </div>
-        <div class="w-full">
-            <img src="./images/map.png" alt="" class="w-full">
+        <div class="w-full md:pt-14">
+            <img src="./images/map.svg" alt="" class="w-full">
         </div>
     </section>
 

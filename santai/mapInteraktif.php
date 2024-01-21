@@ -15,6 +15,7 @@ include "navbar.php";
     <link href="https://cdn.jsdelivr.net/npm/daisyui@0.0.6/dist/full.css" rel="stylesheet">
 
     <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
 
     <title>Map Interaktif | Way Kalam</title>
 
@@ -26,6 +27,7 @@ include "navbar.php";
         nav #nav-menu {
             color: black !important;
         }
+
         #navbar-default a.active {
             color: #132758;
             background-color: #00A693 !important;
@@ -33,18 +35,18 @@ include "navbar.php";
     </style>
 </head>
 
-<body class="bg-slate-100 overflow-x-hidden">
-    <section class="flex pt-28 md:pt-16 flex-col-reverse md:flex-row">
-        <div class="md:max-w-96 bg-[#EBFAFD] p-6">
+<body class="bg-[#ACC4FF] overflow-x-hidden">
+    <section class="flex pt-28 md:pt-14 flex-col-reverse md:flex-row">
+        <div class="md:max-w-96 bg-[#D6F2FF] p-6">
             <form class="pt-6 md:pt-16">
                 <div class="flex">
                     <div class="relative w-full">
-                        <input type="search" id="search-dropdown" class="block py-3 px-6 w-full z-20 text-gray-900 bg-white rounded-lg shadow-md shadow-gray-200 focus:ring-blue-500 focus:border-blue-500" placeholder="Cari Tujuan ..." required>
+                        <input type="search" id="search-dropdown" class="block py-3 px-6 w-full z-20 text-gray-900 bg-white rounded-lg shadow-md shadow-gray-200 focus:ring-blue-500 focus:border-blue-500 font-plusJakarta" placeholder="Cari Tujuan ..." required>
                         <button type="submit" class="absolute top-0 end-0 py-3 px-6 font-medium h-full text-[#132758] rounded-r-lg overflow-hidden hover:bg-[#132758] hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300">
                             <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
                                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z" />
                             </svg>
-                            <span class="sr-only">Search</span>
+                            <span class="sr-only">Cari</span>
                         </button>
                     </div>
                 </div>
@@ -53,108 +55,221 @@ include "navbar.php";
                 <div class="p-6 flex justify-between">
                     <div class="max-w-12 flex items-center flex-col justify-end">
                         <img src="./images/icon-semua.svg" alt="">
-                        <p>Semua</p>
+                        <p class="font-plusJakarta">Semua</p>
                     </div>
                     <div class="max-w-12 flex items-center flex-col justify-end">
                         <img src="./images/icon-wisata.svg" alt="">
-                        <p>Wisata</p>
+                        <p class="font-plusJakarta">Wisata</p>
                     </div>
                     <div class="max-w-12 flex items-center flex-col justify-end">
                         <img src="./images/icon-umkm.svg" alt="">
-                        <p>UMKM</p>
+                        <p class="font-plusJakarta">UMKM</p>
                     </div>
                 </div>
                 <div class="p-6 flex justify-between">
                     <div class="max-w-12 flex items-center flex-col justify-end">
                         <img src="./images/icon-homestay.svg" alt="">
-                        <p>Homestay</p>
+                        <p class="font-plusJakarta">Homestay</p>
                     </div>
                     <div class="max-w-12 flex items-center flex-col justify-end">
                         <img src="./images/icon-peternakan.svg" alt="">
-                        <p>Peternakan</p>
+                        <p class="font-plusJakarta">Peternakan</p>
                     </div>
                     <div class="max-w-12 flex items-center flex-col justify-end">
                         <img src="./images/icon-warung.svg" alt="">
-                        <p>Warung</p>
+                        <p class="font-plusJakarta">Warung</p>
                     </div>
                 </div>
+            </div>
 
+            <div>
+                <h2 class="font-plusJakarta text-[16px] md:text-[16px] font-black bg-gradient-to-br from-[#00A693] via-[#00A693] to-[#132758] inline-block text-transparent bg-clip-text">Wisata</h2>
+                <div class="space-x-4 mt-3 flex overflow-auto">
+                    <a href="./detailMapInteraktif.php" class="bg-white rounded-lg px-8 py-4">
+                        <div class="flex flex-col justify-around items-center">
+                            <div class="overflow-hidden rounded-md h-[12rem] w-[8rem]">
+                                <img src="./images/wisata/indukan.svg" alt="indukan" class="h-full w-full object-cover" />
+                            </div>
+                            <div class="items-center text-center">
+                                <p class="uppercase font-bigShoulders font-bold text-black md:text-[14px]">Air Terjun Indukan</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="./detailMapInteraktif.php" class="bg-white rounded-lg px-6 py-3">
+                        <div class="flex flex-col justify-around items-center">
+                            <div class="overflow-hidden rounded-md h-[12rem] w-[8rem]">
+                                <img src="./images/wisata/anakan.svg" alt="anakan" class="h-full w-full object-cover" />
+                            </div>
+                            <div class="items-center text-center">
+                                <p class="uppercase font-bigShoulders font-bold text-black md:text-[14px]">Air Terjun Anakan</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="./detailMapInteraktif.php" class="bg-white rounded-lg px-6 py-3">
+                        <div class="flex flex-col justify-around items-center">
+                            <div class="overflow-hidden rounded-md h-[12rem] w-[8rem]">
+                                <img src="./images/wisata/camping.svg" alt="camping" class="h-full w-full object-cover" />
+                            </div>
+                            <div class="items-center text-center">
+                                <p class="uppercase font-bigShoulders font-bold text-black md:text-[14px]">Camping Ground</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
 
-                <div class="p-6">
-                    <h2 class="font-bigShoulders text-[16px] md:text-[16px] font-black bg-gradient-to-br from-[#00A693] via-[#00A693] to-[#132758] inline-block text-transparent bg-clip-text">Wisata</h2>
-                    <div class="carousel space-x-4 mt-3">
-                        <div class="carousel-item h-[16rem] md:h-[16rem]">
-                            <img class="rounded-lg" src="./images/umkm1.png" alt="Banana" />
+            <div class="pt-6 md:pt-12">
+                <h2 class="font-plusJakarta text-[16px] md:text-[16px] font-black bg-gradient-to-br from-[#00A693] via-[#00A693] to-[#132758] inline-block text-transparent bg-clip-text">UMKM</h2>
+                <div class="space-x-4 mt-3 flex overflow-auto">
+                    <div class="bg-white rounded-lg px-8 py-4">
+                        <div class="flex flex-col justify-around items-center">
+                            <div class="overflow-hidden rounded-md h-[12rem] w-[8rem]">
+                                <img src="./images/umkm/mawar.svg" alt="mawar" class="h-full w-full object-cover" />
+                            </div>
+                            <div class="items-center text-center">
+                                <p class="uppercase font-bigShoulders font-bold text-black md:text-[14px]">KUPS MAWAR BODAS</p>
+                            </div>
                         </div>
-                        <div class="carousel-item h-[16rem] md:h-[16rem]">
-                            <img class="rounded-lg" src="./images/umkm1.png" alt="Banana" />
+                    </div>
+                    <div class="bg-white rounded-lg px-6 py-3">
+                        <div class="flex flex-col justify-around items-center">
+                            <div class="overflow-hidden rounded-md h-[12rem] w-[8rem]">
+                                <img src="./images/umkm/gulaaren.svg" alt="gula aren" class="h-full w-full object-cover" />
+                            </div>
+                            <div class="items-center text-center">
+                                <p class="uppercase font-bigShoulders font-bold text-black md:text-[14px]">kups gula aren</p>
+                            </div>
                         </div>
-                        <div class="carousel-item h-[16rem] md:h-[16rem]">
-                            <img class="rounded-lg" src="./images/umkm1.png" alt="Banana" />
+                    </div>
+                    <div class="bg-white rounded-lg px-6 py-3">
+                        <div class="flex flex-col justify-around items-center">
+                            <div class="overflow-hidden rounded-md h-[12rem] w-[8rem]">
+                                <img src="./images/umkm/siruppala.svg" alt="sirup pala" class="h-full w-full object-cover" />
+                            </div>
+                            <div class="items-center text-center">
+                                <p class="uppercase font-bigShoulders font-bold text-black md:text-[14px]">kups sirup pala</p>
+                            </div>
                         </div>
-                        <div class="carousel-item h-[16rem] md:h-[16rem]">
-                            <img class="rounded-lg md:mr-6" src="./images/umkm1.png" alt="Banana" />
+                    </div>
+                    <div class="bg-white rounded-lg px-6 py-3">
+                        <div class="flex flex-col justify-around items-center">
+                            <div class="overflow-hidden rounded-md h-[12rem] w-[8rem]">
+                                <img src="./images/umkm/madu.svg" alt="madu" class="h-full w-full object-cover" />
+                            </div>
+                            <div class="items-center text-center">
+                                <p class="uppercase font-bigShoulders font-bold text-black md:text-[14px]">madu</p>
+                            </div>
                         </div>
                     </div>
                 </div>
+            </div>
 
-                <div class="p-6">
-                    <h2 class="font-bigShoulders text-[16px] md:text-[16px] font-black bg-gradient-to-br from-[#00A693] via-[#00A693] to-[#132758] inline-block text-transparent bg-clip-text">UMKM</h2>
-                    <div class="carousel space-x-4 mt-3">
-                        <div class="carousel-item h-[16rem] md:h-[16rem]">
-                            <img class="rounded-lg" src="./images/umkm1.png" alt="Banana" />
+            <div class="pt-6 md:pt-12">
+                <h2 class="font-plusJakarta text-[16px] md:text-[16px] font-black bg-gradient-to-br from-[#00A693] via-[#00A693] to-[#132758] inline-block text-transparent bg-clip-text">Homestay</h2>
+                <div class="space-x-4 mt-3 flex overflow-auto">
+                    <div class="bg-white rounded-lg px-8 py-4">
+                        <div class="flex flex-col justify-around items-center">
+                            <div class="overflow-hidden rounded-md h-[12rem] w-[8rem]">
+                                <img src="./images/homestay/hs1.svg" alt="homestay" class="h-full w-full object-cover" />
+                            </div>
+                            <div class="items-center text-center">
+                                <p class="uppercase font-bigShoulders font-bold text-black md:text-[14px]">Homestay</p>
+                            </div>
                         </div>
-                        <div class="carousel-item h-[16rem] md:h-[16rem]">
-                            <img class="rounded-lg" src="./images/umkm1.png" alt="Banana" />
+                    </div>
+                    <div class="bg-white rounded-lg px-8 py-4">
+                        <div class="flex flex-col justify-around items-center">
+                            <div class="overflow-hidden rounded-md h-[12rem] w-[8rem]">
+                                <img src="./images/homestay/hs1.svg" alt="homestay" class="h-full w-full object-cover" />
+                            </div>
+                            <div class="items-center text-center">
+                                <p class="uppercase font-bigShoulders font-bold text-black md:text-[14px]">Homestay</p>
+                            </div>
                         </div>
-                        <div class="carousel-item h-[16rem] md:h-[16rem]">
-                            <img class="rounded-lg" src="./images/umkm1.png" alt="Banana" />
-                        </div>
-                        <div class="carousel-item h-[16rem] md:h-[16rem]">
-                            <img class="rounded-lg md:mr-6" src="./images/umkm1.png" alt="Banana" />
+                    </div>
+                    <div class="bg-white rounded-lg px-8 py-4">
+                        <div class="flex flex-col justify-around items-center">
+                            <div class="overflow-hidden rounded-md h-[12rem] w-[8rem]">
+                                <img src="./images/homestay/hs1.svg" alt="homestay" class="h-full w-full object-cover" />
+                            </div>
+                            <div class="items-center text-center">
+                                <p class="uppercase font-bigShoulders font-bold text-black md:text-[14px]">Homestay</p>
+                            </div>
                         </div>
                     </div>
                 </div>
+            </div>
 
-                <div class="p-6">
-                    <h2 class="font-bigShoulders text-[16px] md:text-[16px] font-black bg-gradient-to-br from-[#00A693] via-[#00A693] to-[#132758] inline-block text-transparent bg-clip-text">Homestay</h2>
-                    <div class="carousel space-x-4 mt-3">
-                        <div class="carousel-item h-[16rem] md:h-[16rem]">
-                            <img class="rounded-lg" src="./images/umkm1.png" alt="Banana" />
+            <div class="pt-6 md:pt-12">
+                <h2 class="font-plusJakarta text-[16px] md:text-[16px] font-black bg-gradient-to-br from-[#00A693] via-[#00A693] to-[#132758] inline-block text-transparent bg-clip-text">Warung/Toko</h2>
+                <div class="space-x-4 mt-3 flex overflow-auto">
+                    <div class="bg-white rounded-lg px-8 py-4">
+                        <div class="flex flex-col justify-around items-center">
+                            <div class="overflow-hidden rounded-md h-[12rem] w-[8rem]">
+                                <img src="./images/warung/wr1.svg" alt="warung" class="h-full w-full object-cover" />
+                            </div>
+                            <div class="items-center text-center">
+                                <p class="uppercase font-bigShoulders font-bold text-black md:text-[14px]">Warung Teh Ayu</p>
+                            </div>
                         </div>
-                        <div class="carousel-item h-[16rem] md:h-[16rem]">
-                            <img class="rounded-lg" src="./images/umkm1.png" alt="Banana" />
+                    </div>
+                    <div class="bg-white rounded-lg px-8 py-4">
+                        <div class="flex flex-col justify-around items-center">
+                            <div class="overflow-hidden rounded-md h-[12rem] w-[8rem]">
+                                <img src="./images/warung/wr1.svg" alt="warung" class="h-full w-full object-cover" />
+                            </div>
+                            <div class="items-center text-center">
+                                <p class="uppercase font-bigShoulders font-bold text-black md:text-[14px]">Warung Teh Ayu</p>
+                            </div>
                         </div>
-                        <div class="carousel-item h-[16rem] md:h-[16rem]">
-                            <img class="rounded-lg" src="./images/umkm1.png" alt="Banana" />
-                        </div>
-                        <div class="carousel-item h-[16rem] md:h-[16rem]">
-                            <img class="rounded-lg md:mr-6" src="./images/umkm1.png" alt="Banana" />
+                    </div>
+                    <div class="bg-white rounded-lg px-8 py-4">
+                        <div class="flex flex-col justify-around items-center">
+                            <div class="overflow-hidden rounded-md h-[12rem] w-[8rem]">
+                                <img src="./images/warung/wr1.svg" alt="warung" class="h-full w-full object-cover" />
+                            </div>
+                            <div class="items-center text-center">
+                                <p class="uppercase font-bigShoulders font-bold text-black md:text-[14px]">Warung Teh Ayu</p>
+                            </div>
                         </div>
                     </div>
                 </div>
+            </div>
 
-                <div class="p-6">
-                    <h2 class="font-bigShoulders text-[16px] md:text-[16px] font-black bg-gradient-to-br from-[#00A693] via-[#00A693] to-[#132758] inline-block text-transparent bg-clip-text">Warung/Toko</h2>
-                    <div class="carousel space-x-4 mt-3">
-                        <div class="carousel-item h-[16rem] md:h-[16rem]">
-                            <img class="rounded-lg" src="./images/umkm1.png" alt="Banana" />
+            <div class="pt-6 md:pt-12">
+                <h2 class="font-plusJakarta text-[16px] md:text-[16px] font-black bg-gradient-to-br from-[#00A693] via-[#00A693] to-[#132758] inline-block text-transparent bg-clip-text">Peternakan</h2>
+                <div class="space-x-4 mt-3 flex overflow-auto">
+                    <div class="bg-white rounded-lg px-8 py-4">
+                        <div class="flex flex-col justify-around items-center">
+                            <div class="overflow-hidden rounded-md h-[12rem] w-[8rem]">
+                                <img src="./images/peternakan/pt.svg" alt="peternakan" class="h-full w-full object-cover" />
+                            </div>
+                            <div class="items-center text-center">
+                                <p class="uppercase font-bigShoulders font-bold text-black md:text-[14px]">Kups sumber rezeki</p>
+                            </div>
                         </div>
-                        <div class="carousel-item h-[16rem] md:h-[16rem]">
-                            <img class="rounded-lg" src="./images/umkm1.png" alt="Banana" />
-                        </div>
-                        <div class="carousel-item h-[16rem] md:h-[16rem]">
-                            <img class="rounded-lg" src="./images/umkm1.png" alt="Banana" />
-                        </div>
-                        <div class="carousel-item h-[16rem] md:h-[16rem]">
-                            <img class="rounded-lg md:mr-6" src="./images/umkm1.png" alt="Banana" />
+                    </div>
+                </div>
+            </div>
+
+            <div class="pt-6 md:pt-12">
+                <h2 class="font-plusJakarta text-[16px] md:text-[16px] font-black bg-gradient-to-br from-[#00A693] via-[#00A693] to-[#132758] inline-block text-transparent bg-clip-text">Tempat Ibadah</h2>
+                <div class="space-x-4 mt-3 flex overflow-auto">
+                    <div class="bg-white rounded-lg px-8 py-4">
+                        <div class="flex flex-col justify-around items-center">
+                            <div class="overflow-hidden rounded-md h-[12rem] w-[8rem]">
+                                <img src="./images/ibadah/masjid.svg" alt="masjid" class="h-full w-full object-cover" />
+                            </div>
+                            <div class="items-center text-center">
+                                <p class="uppercase font-bigShoulders font-bold text-black md:text-[14px]">masjid</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="w-full">
-            <img src="./images/map.png" alt="" class="w-full">
+        <div class="w-full md:pt-14">
+            <img src="./images/map.svg" alt="" class="w-full">
         </div>
     </section>
 
