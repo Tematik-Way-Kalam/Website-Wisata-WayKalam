@@ -8661,6 +8661,10 @@ details.collapse summary::-webkit-details-marker {
   height: 2.5rem;
 }
 
+.h-12 {
+  height: 3rem;
+}
+
 .h-16 {
   height: 4rem;
 }
@@ -8685,8 +8689,8 @@ details.collapse summary::-webkit-details-marker {
   height: 100%;
 }
 
-.h-\[16rem\] {
-  height: 16rem;
+.h-\[12rem\] {
+  height: 12rem;
 }
 
 .h-\[25rem\] {
@@ -8703,14 +8707,6 @@ details.collapse summary::-webkit-details-marker {
 
 .h-screen {
   height: 100vh;
-}
-
-.h-6 {
-  height: 1.5rem;
-}
-
-.h-12 {
-  height: 3rem;
 }
 
 .max-h-32 {
@@ -8755,6 +8751,10 @@ details.collapse summary::-webkit-details-marker {
 
 .w-\[80\%\] {
   width: 80%;
+}
+
+.w-\[8rem\] {
+  width: 8rem;
 }
 
 .w-\[this-is\\\\\] {
@@ -9891,6 +9891,16 @@ details.collapse summary::-webkit-details-marker {
   background-color: rgb(124 219 240 / var(--tw-bg-opacity));
 }
 
+.bg-\[\#9ae9fa\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(154 233 250 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#ACC4FF\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(172 196 255 / var(--tw-bg-opacity));
+}
+
 .bg-\[\#E2F6FF\] {
   --tw-bg-opacity: 1;
   background-color: rgb(226 246 255 / var(--tw-bg-opacity));
@@ -9918,6 +9928,11 @@ details.collapse summary::-webkit-details-marker {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#D6F2FF\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(214 242 255 / var(--tw-bg-opacity));
 }
 
 .bg-\[url\(\.\/images\/gambar1\.png\)\] {
@@ -10266,6 +10281,10 @@ details.collapse summary::-webkit-details-marker {
   font-family: Big Shoulders Display, sans-serif;
 }
 
+.font-plusJakarta {
+  font-family: Plus Jakarta Sans, sans-serif;
+}
+
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -10412,6 +10431,11 @@ details.collapse summary::-webkit-details-marker {
 
 .text-\[\#336699\]\/\[\.35\] {
   color: rgb(51 102 153 / .35);
+}
+
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
 .text-blue-500 {
@@ -11024,10 +11048,6 @@ details.collapse summary::-webkit-details-marker {
     margin-right: 6rem;
   }
 
-  .md\:mr-6 {
-    margin-right: 1.5rem;
-  }
-
   .md\:ms-20 {
     margin-inline-start: 5rem;
   }
@@ -11050,10 +11070,6 @@ details.collapse summary::-webkit-details-marker {
 
   .md\:hidden {
     display: none;
-  }
-
-  .md\:h-\[16rem\] {
-    height: 16rem;
   }
 
   .md\:h-\[457px\] {
@@ -11226,6 +11242,14 @@ details.collapse summary::-webkit-details-marker {
 
   .md\:pt-0 {
     padding-top: 0px;
+  }
+
+  .md\:pt-12 {
+    padding-top: 3rem;
+  }
+
+  .md\:pt-14 {
+    padding-top: 3.5rem;
   }
 
   .md\:pt-16 {

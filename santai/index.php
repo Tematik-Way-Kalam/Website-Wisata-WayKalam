@@ -129,7 +129,7 @@ include "navbar.php"
               <h2 class="mb-6 block text-[32px] font-black font-bigShoulders leading-[1.5] tracking-normal text-white antialiased">
                 AIR TERJUN WAY KALAM
               </h2>
-              <h5 class="block mb-4 text-base md:text-xl antialiased font-normal leading-snug tracking-normal text-white">
+              <h5 class="block mb-4 text-base md:text-xl antialiased font-normal leading-snug tracking-normal text-white font-plusJakarta">
                 Desa Wisata Way Kalam adalah salah satu dari sekian banyak desa wisata yang berkembang di wilayah Kabupaten Lampung Selatan. Berlokasi di kawasan lereng gunung Rajabasa.
               </h5>
               <a href="#" class="block py-4 px-8 text-center text-white bg-[#00A693] rounded-lg hover:bg-gray-100 md:hover:bg-[#132758] md:border-0 md:p-y-3 md:px-6"><span class="me-2">Lihat Selengkapnya</span><i class="fa-solid fa-arrow-right"></i></a>
@@ -143,7 +143,7 @@ include "navbar.php"
               <h2 class="mb-6 block text-[32px] font-black font-bigShoulders leading-[1.5] tracking-normal text-white antialiased">
                 AIR TERJUN ANAKAN
               </h2>
-              <h5 class="block mb-4 text-base md:text-xl antialiased font-normal leading-snug tracking-normal text-white">
+              <h5 class="block mb-4 text-base md:text-xl antialiased font-normal leading-snug tracking-normal text-white font-plusJakarta">
                 Desa Wisata Way Kalam adalah salah satu dari sekian banyak desa wisata yang berkembang di wilayah Kabupaten Lampung Selatan. Berlokasi di kawasan lereng gunung Rajabasa.
               </h5>
               <a href="#" class="block py-4 px-8 text-center text-white border-2 border-[#EBFAFD] rounded-lg hover:bg-gray-100 md:hover:bg-[#132758] md:border-2 border-spacing-2 md:p-y-3 md:px-6"><span class="me-2">Lihat Selengkapnya</span><i class="fa-solid fa-arrow-right"></i></a>
@@ -157,7 +157,7 @@ include "navbar.php"
               <h2 class="mb-6 block text-[32px] font-black font-bigShoulders leading-[1.5] tracking-normal text-white antialiased">
                 CAMPING GROUND
               </h2>
-              <h5 class="block mb-4 text-base md:text-xl antialiased font-normal leading-snug tracking-normal text-white">
+              <h5 class="block mb-4 text-base md:text-xl antialiased font-normal leading-snug tracking-normal text-white font-plusJakarta">
                 Desa Wisata Way Kalam adalah salah satu dari sekian banyak desa wisata yang berkembang di wilayah Kabupaten Lampung Selatan. Berlokasi di kawasan lereng gunung Rajabasa.
               </h5>
               <a href="#" class="block py-4 px-8 text-center text-white border-2 border-[#EBFAFD] rounded-lg hover:bg-gray-100 md:hover:bg-[#132758] md:border-2 border-spacing-2 md:p-y-3 md:px-6"><span class="me-2">Lihat Selengkapnya</span><i class="fa-solid fa-arrow-right"></i></a>
