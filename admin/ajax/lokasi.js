@@ -9,6 +9,24 @@ $(document).ready(function(){
     app.show()
 })
 
+function tambah(){
+    var formData = new FormData($( "#lokasitambah" )[0]);
+    $.ajax({
+        type: 'POST',
+        url: "lokasi_set.php?type=tambah",
+        data: formData,
+        async: false,  
+        cache: false,  
+        contentType: false,  
+        processData: false,
+        success: function() {
+            $("tbody").load('lokasi_set.php', {type: 'view'}, function(response){
+                $("tbody").html(response);
+            })	
+        }
+    });
+}
+
 function form_edit(id){
     app = {
         show: function(){  
@@ -40,4 +58,19 @@ function edit(){
         }
     });
     
+}
+
+function form_delete(id){
+    if(confirm("Yakin Akan Hapus Data ?")){
+        $.ajax({
+            type: 'GET',
+            url: "lokasi_set.php?hapus="+id,
+            data: id,
+            success: function() {
+                $("tbody").load('lokasi_set.php', {type: 'view'}, function(response){
+                    $("tbody").html(response);
+                })	
+            }
+        });
+    }
 }

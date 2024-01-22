@@ -1,1 +1,1 @@
-<link rel="icon" href="../icon.jpeg">
+<link rel="icon" href="../logo.svg">

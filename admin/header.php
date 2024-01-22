@@ -4,7 +4,6 @@
   if(empty($_SESSION['status'])){
      ?>
      <script>
-      alert("Anda Belum Login ...");
       window.location.href = "index.php";
      </script>
      <?php
@@ -15,7 +14,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Halaman Admin OO!see</title>
+  <!-- <link rel="icon" href="dist/img/lamsel.png" type="image/x-icon"> -->
+  <title>Halaman Admin | Wisata Way Kalam</title>
   <?php include "icon.php"; ?>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
   <!-- <link rel="stylesheet" href="jquery.mobile-1.4.5.min.css" /> -->

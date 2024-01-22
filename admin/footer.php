@@ -1,5 +1,16 @@
+<?php
+session_start();
+include "koneksi.php";
+if(empty($_SESSION['status'])){
+    ?>
+    <script>
+      window.location.href = "index.php";
+    </script>
+    <?php
+}
+?>
 <footer class="main-footer">
-    <strong>Copyright &copy; 2024-2029 <a>OO!see</a>.</strong>
+    <strong>Copyright &copy; 2024-2029 <a>Wisata Way Kalam</a>.</strong>
 </footer>
 <aside class="control-sidebar control-sidebar-dark">
     <!-- Control sidebar content goes here -->

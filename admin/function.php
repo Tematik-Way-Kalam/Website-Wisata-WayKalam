@@ -1,4 +1,13 @@
 <?php
+session_start();
+include "koneksi.php";
+if(empty($_SESSION['status'])){
+    ?>
+    <script>
+      window.location.href = "index.php";
+    </script>
+    <?php
+}
 function form($label, $type, $name, $id, $pl, $vl, $clas, $br, $req){
     $form = '<div class="form-group">
                 <label>'.$label.'</label>'.$br.'
@@ -38,7 +47,7 @@ function header_content($judul, $link){
           </div>
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
-              <li class="breadcrumb-item"><a href="halaman_admin.php">Home</a></li>
+              <li class="breadcrumb-item"><a href="halaman_admin.php">Dashboard</a></li>
               <li class="breadcrumb-item active"><a href="'.$link.'">'.$judul.'</a></li>
             </ol>
           </div>
@@ -47,10 +56,14 @@ function header_content($judul, $link){
     </section>';
 }
 
-function table($label){
+function table($label, $t){
     echo '<table class="table table-bordered table-striped table-responsive-sm" id="dataTable" width="100%" cellspacing="0">
-    <thead>
-      <tr><th>No</th>';
+    <thead>';
+    if($t == TRUE){
+        echo '<tr><th>No</th>';
+    }else{
+        echo '<tr>';
+    }
     foreach($label as $lb){
         echo '<th>'.$lb.'</th>';
     }    
@@ -60,7 +73,7 @@ function table($label){
         </table>';
 }
 
-function content($target, $tambah, $table){
+function content($target, $tambah, $table, $t=TRUE){
     echo '<section class="content">
         <div class="container-fluid">
             <div class="row">
@@ -74,7 +87,7 @@ function content($target, $tambah, $table){
             </div>';
     }        
     echo  '<div class="card-body">';
-    echo table($table); 
+    echo table($table, $t); 
     echo  '</div>
             </div></div>
             </div></div>
@@ -138,14 +151,14 @@ function modal_edit($idmodal, $judl, $id, $editid){
     </div>';
 }
 
-function js_table(){
-    echo '<script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js" crossorigin="anonymous"></script>
-    <script src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js" crossorigin="anonymous"></script>
-    <script>
-      $(document).ready(function() {
-    $("#dataTable").DataTable();
-    });
-    </script>';
-}
+// function js_table(){
+//     echo '<script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js" crossorigin="anonymous"></script>
+//     <script src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js" crossorigin="anonymous"></script>
+//     <script>
+//       $(document).ready(function() {
+//     $("#dataTable").DataTable();
+//     });
+//     </script>';
+// }
 
 ?>

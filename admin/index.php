@@ -11,6 +11,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <?php include "icon.php"; ?>
     <link rel="stylesheet" href="/style.css" type="text/css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
     <title>Admin</title>
@@ -27,11 +28,11 @@
             <form class="card-body cardbody-color p-lg-5" action="login.php" method="POST">
               <!-- Pemetaan pada gambar -->
               <div class="text-center">
-                <img src="dist/img/lamsel.png" class="img-fluid profile-image-pic my-5" width="30%" height="30%" alt="Logo" />
+                <img src="../images/logo.svg" class="img-fluid profile-image-pic my-5" width="30%" height="30%" alt="Logo" />
               </div>
               <!-- Pemteaan pada kolom email, password dan tombol submit -->
               <div class="mb-3">
-                <input type="text" name="username" class="form-control" id="Username" aria-describedby="emailHelp" placeholder="nama@example.com" required/>
+                <input type="text" name="username" class="form-control" id="Username" aria-describedby="emailHelp" placeholder="Username" required/>
               </div>
               <div class="mb-3">
                 <input type="password" name="password" class="form-control" id="password" placeholder="Password" required/>
