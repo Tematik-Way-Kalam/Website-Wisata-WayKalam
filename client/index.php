@@ -111,25 +111,25 @@
             <!-- Card 1 -->
             <div class="card1 active" id = "wisata1">
                 <div class="teksWisata2">
-                    <h5 class="card-title">Air Terjun Way Kalam</h5>
-                    <p class="card-text">Desa Wisata Way Kalam adalah salah satu dari sekian banyak desa wisata yang berkembang di wilayah Kabupaten Lampung Selatan.  Berlokasi di kawasan lereng gunung Rajabasa.</p>
-                    <a href="#" class="btn buttonColor">Lihat Selengkapnya </a>
+                    <h5 class="card-title font-plusJakarta">Air Terjun Way Kalam</h5>
+                    <p class="card-text font-plusJakarta">Desa Wisata Way Kalam adalah salah satu dari sekian banyak desa wisata yang berkembang di wilayah Kabupaten Lampung Selatan.  Berlokasi di kawasan lereng gunung Rajabasa.</p>
+                    <a href="#" class="btn buttonColor font-plusJakarta">Lihat Selengkapnya </a>
                 </div>
             </div>
             <!-- Card 2 -->
             <div class="card1" id = "wisata2">
                 <div class="teksWisata2">
-                    <h5 class="card-title">Air Terjun Anakan Way Kalam</h5>
-                    <p class="card-text">Desa Wisata Way Kalam adalah salah satu dari sekian banyak desa wisata yang berkembang di wilayah Kabupaten Lampung Selatan.  Berlokasi di kawasan lereng gunung Rajabasa.</p>
-                    <a href="#" class="btn buttonColor">Lihat Selengkapnya </a>
+                    <h5 class="card-title font-plusJakarta">Air Terjun Anakan Way Kalam</h5>
+                    <p class="card-text font-plusJakarta">Desa Wisata Way Kalam adalah salah satu dari sekian banyak desa wisata yang berkembang di wilayah Kabupaten Lampung Selatan.  Berlokasi di kawasan lereng gunung Rajabasa.</p>
+                    <a href="#" class="btn buttonColor font-plusJakarta">Lihat Selengkapnya </a>
                 </div>
             </div>
             <!-- Card 3 -->
             <div class="card1" id = "wisata3">
                 <div class="teksWisata2">
-                    <h5 class="card-title">Camping Ground Air Terjun Way Kalam</h5>
-                    <p class="card-text">Desa Wisata Way Kalam adalah salah satu dari sekian banyak desa wisata yang berkembang di wilayah Kabupaten Lampung Selatan.  Berlokasi di kawasan lereng gunung Rajabasa.</p>
-                    <a href="#" class="btn buttonColor">Lihat Selengkapnya </a>
+                    <h5 class="card-title font-plusJakarta">Camping Ground Air Terjun Way Kalam</h5>
+                    <p class="card-text font-plusJakarta">Desa Wisata Way Kalam adalah salah satu dari sekian banyak desa wisata yang berkembang di wilayah Kabupaten Lampung Selatan.  Berlokasi di kawasan lereng gunung Rajabasa.</p>
+                    <a href="#" class="btn buttonColor font-plusJakarta">Lihat Selengkapnya </a>
                 </div>
             </div>
         </div>
